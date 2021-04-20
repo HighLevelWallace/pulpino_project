@@ -1,2 +1,3 @@
 *.db
-uart_to_mem/
+*.log
+/pulpino_zeroriscy/simulation
