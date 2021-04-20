@@ -1,0 +1,813 @@
+; Copyright 1991-2009 Mentor Graphics Corporation
+;
+; All Rights Reserved.
+;
+; THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION WHICH IS THE PROPERTY OF 
+; MENTOR GRAPHICS CORPORATION OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+;   
+
+[Library]
+std = $MODEL_TECH/../std
+ieee = $MODEL_TECH/../ieee
+verilog = $MODEL_TECH/../verilog
+vital2000 = $MODEL_TECH/../vital2000
+std_developerskit = $MODEL_TECH/../std_developerskit
+synopsys = $MODEL_TECH/../synopsys
+modelsim_lib = $MODEL_TECH/../modelsim_lib
+sv_std = $MODEL_TECH/../sv_std
+
+; Altera Primitive libraries
+;
+; VHDL Section
+;
+altera_mf = $MODEL_TECH/../altera/vhdl/altera_mf
+altera = $MODEL_TECH/../altera/vhdl/altera
+altera_lnsim = $MODEL_TECH/../altera/vhdl/altera_lnsim
+lpm = $MODEL_TECH/../altera/vhdl/220model
+220model = $MODEL_TECH/../altera/vhdl/220model
+maxii = $MODEL_TECH/../altera/vhdl/maxii
+maxv = $MODEL_TECH/../altera/vhdl/maxv
+fiftyfivenm = $MODEL_TECH/../altera/vhdl/fiftyfivenm
+sgate = $MODEL_TECH/../altera/vhdl/sgate
+arriaii = $MODEL_TECH/../altera/vhdl/arriaii
+arriaii_hssi = $MODEL_TECH/../altera/vhdl/arriaii_hssi
+arriaii_pcie_hip = $MODEL_TECH/../altera/vhdl/arriaii_pcie_hip
+arriaiigz = $MODEL_TECH/../altera/vhdl/arriaiigz
+arriaiigz_hssi = $MODEL_TECH/../altera/vhdl/arriaiigz_hssi
+arriaiigz_pcie_hip = $MODEL_TECH/../altera/vhdl/arriaiigz_pcie_hip
+stratixiv = $MODEL_TECH/../altera/vhdl/stratixiv
+stratixiv_hssi = $MODEL_TECH/../altera/vhdl/stratixiv_hssi
+stratixiv_pcie_hip = $MODEL_TECH/../altera/vhdl/stratixiv_pcie_hip
+cycloneiv = $MODEL_TECH/../altera/vhdl/cycloneiv
+cycloneiv_hssi = $MODEL_TECH/../altera/vhdl/cycloneiv_hssi
+cycloneiv_pcie_hip = $MODEL_TECH/../altera/vhdl/cycloneiv_pcie_hip
+cycloneive = $MODEL_TECH/../altera/vhdl/cycloneive
+stratixv = $MODEL_TECH/../altera/vhdl/stratixv
+stratixv_hssi = $MODEL_TECH/../altera/vhdl/stratixv_hssi
+stratixv_pcie_hip = $MODEL_TECH/../altera/vhdl/stratixv_pcie_hip
+arriavgz = $MODEL_TECH/../altera/vhdl/arriavgz
+arriavgz_hssi = $MODEL_TECH/../altera/vhdl/arriavgz_hssi
+arriavgz_pcie_hip = $MODEL_TECH/../altera/vhdl/arriavgz_pcie_hip
+arriav = $MODEL_TECH/../altera/vhdl/arriav
+cyclonev = $MODEL_TECH/../altera/vhdl/cyclonev
+twentynm = $MODEL_TECH/../altera/vhdl/twentynm
+twentynm_hssi = $MODEL_TECH/../altera/vhdl/twentynm_hssi
+twentynm_hip = $MODEL_TECH/../altera/vhdl/twentynm_hip
+cyclone10lp = $MODEL_TECH/../altera/vhdl/cyclone10lp
+;
+; Verilog Section
+;
+altera_mf_ver = $MODEL_TECH/../altera/verilog/altera_mf
+altera_ver = $MODEL_TECH/../altera/verilog/altera
+altera_lnsim_ver = $MODEL_TECH/../altera/verilog/altera_lnsim
+lpm_ver = $MODEL_TECH/../altera/verilog/220model
+220model_ver = $MODEL_TECH/../altera/verilog/220model
+maxii_ver = $MODEL_TECH/../altera/verilog/maxii
+maxv_ver = $MODEL_TECH/../altera/verilog/maxv
+fiftyfivenm_ver = $MODEL_TECH/../altera/verilog/fiftyfivenm
+sgate_ver = $MODEL_TECH/../altera/verilog/sgate
+arriaii_ver = $MODEL_TECH/../altera/verilog/arriaii
+arriaii_hssi_ver = $MODEL_TECH/../altera/verilog/arriaii_hssi
+arriaii_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriaii_pcie_hip
+arriaiigz_ver = $MODEL_TECH/../altera/verilog/arriaiigz
+arriaiigz_hssi_ver = $MODEL_TECH/../altera/verilog/arriaiigz_hssi
+arriaiigz_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriaiigz_pcie_hip
+stratixiv_ver = $MODEL_TECH/../altera/verilog/stratixiv
+stratixiv_hssi_ver = $MODEL_TECH/../altera/verilog/stratixiv_hssi
+stratixiv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/stratixiv_pcie_hip
+stratixv_ver = $MODEL_TECH/../altera/verilog/stratixv
+stratixv_hssi_ver = $MODEL_TECH/../altera/verilog/stratixv_hssi
+stratixv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/stratixv_pcie_hip
+arriavgz_ver = $MODEL_TECH/../altera/verilog/arriavgz
+arriavgz_hssi_ver = $MODEL_TECH/../altera/verilog/arriavgz_hssi
+arriavgz_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriavgz_pcie_hip
+arriav_ver = $MODEL_TECH/../altera/verilog/arriav
+arriav_hssi_ver = $MODEL_TECH/../altera/verilog/arriav_hssi
+arriav_pcie_hip_ver = $MODEL_TECH/../altera/verilog/arriav_pcie_hip
+cyclonev_ver = $MODEL_TECH/../altera/verilog/cyclonev
+cyclonev_hssi_ver = $MODEL_TECH/../altera/verilog/cyclonev_hssi
+cyclonev_pcie_hip_ver = $MODEL_TECH/../altera/verilog/cyclonev_pcie_hip
+cycloneiv_ver = $MODEL_TECH/../altera/verilog/cycloneiv
+cycloneiv_hssi_ver = $MODEL_TECH/../altera/verilog/cycloneiv_hssi
+cycloneiv_pcie_hip_ver = $MODEL_TECH/../altera/verilog/cycloneiv_pcie_hip
+cycloneive_ver = $MODEL_TECH/../altera/verilog/cycloneive
+twentynm_ver = $MODEL_TECH/../altera/verilog/twentynm
+twentynm_hssi_ver = $MODEL_TECH/../altera/verilog/twentynm_hssi
+twentynm_hip_ver = $MODEL_TECH/../altera/verilog/twentynm_hip
+cyclone10lp_ver = $MODEL_TECH/../altera/verilog/cyclone10lp
+
+work = work
+[vcom]
+; VHDL93 variable selects language version as the default. 
+; Default is VHDL-2002.
+; Value of 0 or 1987 for VHDL-1987.
+; Value of 1 or 1993 for VHDL-1993.
+; Default or value of 2 or 2002 for VHDL-2002.
+; Default or value of 3 or 2008 for VHDL-2008.
+VHDL93 = 2002
+
+; Show source line containing error. Default is off.
+; Show_source = 1
+
+; Turn off unbound-component warnings. Default is on.
+; Show_Warning1 = 0
+
+; Turn off process-without-a-wait-statement warnings. Default is on.
+; Show_Warning2 = 0
+
+; Turn off null-range warnings. Default is on.
+; Show_Warning3 = 0
+
+; Turn off no-space-in-time-literal warnings. Default is on.
+; Show_Warning4 = 0
+
+; Turn off multiple-drivers-on-unresolved-signal warnings. Default is on.
+; Show_Warning5 = 0
+
+; Turn off optimization for IEEE std_logic_1164 package. Default is on.
+; Optimize_1164 = 0
+
+; Turn on resolving of ambiguous function overloading in favor of the
+; "explicit" function declaration (not the one automatically created by
+; the compiler for each type declaration). Default is off.
+; The .ini file has Explicit enabled so that std_logic_signed/unsigned
+; will match the behavior of synthesis tools.
+Explicit = 1
+
+; Turn off acceleration of the VITAL packages. Default is to accelerate.
+; NoVital = 1
+
+; Turn off VITAL compliance checking. Default is checking on.
+; NoVitalCheck = 1
+
+; Ignore VITAL compliance checking errors. Default is to not ignore.
+; IgnoreVitalErrors = 1
+
+; Turn off VITAL compliance checking warnings. Default is to show warnings.
+; Show_VitalChecksWarnings = 0
+
+; Keep silent about case statement static warnings.
+; Default is to give a warning.
+; NoCaseStaticError = 1
+
+; Keep silent about warnings caused by aggregates that are not locally static.
+; Default is to give a warning.
+; NoOthersStaticError = 1
+
+; Turn off inclusion of debugging info within design units.
+; Default is to include debugging info.
+; NoDebug = 1
+
+; Turn off "Loading..." messages. Default is messages on.
+; Quiet = 1
+
+; Turn on some limited synthesis rule compliance checking. Checks only:
+;    -- signals used (read) by a process must be in the sensitivity list
+; CheckSynthesis = 1
+
+; Activate optimizations on expressions that do not involve signals,
+; waits, or function/procedure/task invocations. Default is off.
+; ScalarOpts = 1
+
+; Require the user to specify a configuration for all bindings,
+; and do not generate a compile time default binding for the
+; component. This will result in an elaboration error of
+; 'component not bound' if the user fails to do so. Avoids the rare
+; issue of a false dependency upon the unused default binding.
+; RequireConfigForAllDefaultBinding = 1
+
+; Inhibit range checking on subscripts of arrays. Range checking on
+; scalars defined with subtypes is inhibited by default.
+; NoIndexCheck = 1
+
+; Inhibit range checks on all (implicit and explicit) assignments to
+; scalar objects defined with subtypes.
+; NoRangeCheck = 1
+
+[vlog]
+
+; Turn off inclusion of debugging info within design units.
+; Default is to include debugging info.
+; NoDebug = 1
+
+; Turn off "loading..." messages. Default is messages on.
+; Quiet = 1
+
+; Turn on Verilog hazard checking (order-dependent accessing of global vars).
+; Default is off.
+; Hazard = 1
+
+; Turn on converting regular Verilog identifiers to uppercase. Allows case
+; insensitivity for module names. Default is no conversion.
+; UpCase = 1
+
+; Turn on incremental compilation of modules. Default is off.
+; Incremental = 1
+
+; Turns on lint-style checking.
+; Show_Lint = 1
+
+[vsim]
+; Simulator resolution
+; Set to fs, ps, ns, us, ms, or sec with optional prefix of 1, 10, or 100.
+Resolution = ps
+
+; User time unit for run commands
+; Set to default, fs, ps, ns, us, ms, or sec. The default is to use the
+; unit specified for Resolution. For example, if Resolution is 100ps,
+; then UserTimeUnit defaults to ps.
+; Should generally be set to default.
+UserTimeUnit = default
+
+; Default run length
+RunLength = 5300 us
+
+; Maximum iterations that can be run without advancing simulation time
+IterationLimit = 10000000
+
+; Directive to license manager:
+; vhdl          Immediately reserve a VHDL license
+; vlog          Immediately reserve a Verilog license
+; plus          Immediately reserve a VHDL and Verilog license
+; nomgc         Do not look for Mentor Graphics Licenses
+; nomti         Do not look for Model Technology Licenses
+; noqueue       Do not wait in the license queue when a license isn't available
+; viewsim	Try for viewer license but accept simulator license(s) instead
+;		of queuing for viewer license
+; License = plus
+
+; Stop the simulator after a VHDL/Verilog assertion message
+; 0 = Note  1 = Warning  2 = Error  3 = Failure  4 = Fatal
+BreakOnAssertion = 4
+
+; Assertion Message Format
+; %S - Severity Level 
+; %R - Report Message
+; %T - Time of assertion
+; %D - Delta
+; %I - Instance or Region pathname (if available)
+; %% - print '%' character
+; AssertionFormat = "** %S: %R\n   Time: %T  Iteration: %D%I\n"
+
+; Assertion File - alternate file for storing VHDL/Verilog assertion messages
+; AssertFile = assert.log
+
+; Default radix for all windows and commands...
+; Set to symbolic, ascii, binary, octal, decimal, hex, unsigned
+DefaultRadix = symbolic
+
+; VSIM Startup command
+; Startup = do startup.do
+
+; File for saving command transcript
+TranscriptFile = transcript
+
+; File for saving command history
+; CommandHistory = cmdhist.log
+
+; Specify whether paths in simulator commands should be described
+; in VHDL or Verilog format.
+; For VHDL, PathSeparator = /
+; For Verilog, PathSeparator = .
+; Must not be the same character as DatasetSeparator.
+PathSeparator = /
+
+; Specify the dataset separator for fully rooted contexts.
+; The default is ':'. For example, sim:/top
+; Must not be the same character as PathSeparator.
+DatasetSeparator = :
+
+; Disable VHDL assertion messages
+; IgnoreNote = 1
+; IgnoreWarning = 1
+; IgnoreError = 1
+; IgnoreFailure = 1
+
+; Default force kind. May be freeze, drive, deposit, or default
+; or in other terms, fixed, wired, or charged.
+; A value of "default" will use the signal kind to determine the
+; force kind, drive for resolved signals, freeze for unresolved signals
+; DefaultForceKind = freeze
+
+; If zero, open files when elaborated; otherwise, open files on
+; first read or write.  Default is 0.
+; DelayFileOpen = 1
+
+; Control VHDL files opened for write.
+;   0 = Buffered, 1 = Unbuffered
+UnbufferedOutput = 0
+
+; Control the number of VHDL files open concurrently.
+; This number should always be less than the current ulimit
+; setting for max file descriptors.
+;   0 = unlimited
+ConcurrentFileLimit = 40
+
+; Control the number of hierarchical regions displayed as
+; part of a signal name shown in the Wave window.
+; A value of zero tells VSIM to display the full name.
+; The default is 0.
+; WaveSignalNameWidth = 0
+
+; Turn off warnings from the std_logic_arith, std_logic_unsigned
+; and std_logic_signed packages.
+; StdArithNoWarnings = 1
+
+; Turn off warnings from the IEEE numeric_std and numeric_bit packages.
+; NumericStdNoWarnings = 1
+
+; Control the format of the (VHDL) FOR generate statement label
+; for each iteration.  Do not quote it.
+; The format string here must contain the conversion codes %s and %d,
+; in that order, and no other conversion codes.  The %s represents
+; the generate_label; the %d represents the generate parameter value
+; at a particular generate iteration (this is the position number if
+; the generate parameter is of an enumeration type).  Embedded whitespace
+; is allowed (but discouraged); leading and trailing whitespace is ignored.
+; Application of the format must result in a unique scope name over all
+; such names in the design so that name lookup can function properly.
+; GenerateFormat = %s__%d
+
+; Specify whether checkpoint files should be compressed.
+; The default is 1 (compressed).
+; CheckpointCompressMode = 0
+
+; List of dynamically loaded objects for Verilog PLI applications
+; Veriuser = veriuser.sl
+
+; Specify default options for the restart command. Options can be one
+; or more of: -force -nobreakpoint -nolist -nolog -nowave
+; DefaultRestartOptions = -force
+
+; HP-UX 10.20 ONLY - Enable memory locking to speed up large designs
+; (> 500 megabyte memory footprint). Default is disabled.
+; Specify number of megabytes to lock.
+; LockedMemory = 1000
+
+; Turn on (1) or off (0) WLF file compression.
+; The default is 1 (compress WLF file).
+; WLFCompress = 0
+
+; Specify whether to save all design hierarchy (1) in the WLF file
+; or only regions containing logged signals (0).
+; The default is 0 (save only regions with logged signals).
+; WLFSaveAllRegions = 1
+
+; WLF file time limit.  Limit WLF file by time, as closely as possible,
+; to the specified amount of simulation time.  When the limit is exceeded
+; the earliest times get truncated from the file.
+; If both time and size limits are specified the most restrictive is used.
+; UserTimeUnits are used if time units are not specified.
+; The default is 0 (no limit).  Example: WLFTimeLimit = {100 ms}
+; WLFTimeLimit = 0
+
+; WLF file size limit.  Limit WLF file size, as closely as possible,
+; to the specified number of megabytes.  If both time and size limits
+; are specified then the most restrictive is used.
+; The default is 0 (no limit).
+; WLFSizeLimit = 1000
+
+; Specify whether or not a WLF file should be deleted when the
+; simulation ends.  A value of 1 will cause the WLF file to be deleted.
+; The default is 0 (do not delete WLF file when simulation ends).
+; WLFDeleteOnQuit = 1
+
+; Automatic SDF compilation
+; Disables automatic compilation of SDF files in flows that support it.
+; Default is on, uncomment to turn off.
+; NoAutoSDFCompile = 1
+
+DelayFileOpen = 1
+[lmc]
+
+[msg_system]
+; Change a message severity or suppress a message.
+; The format is: <msg directive> = <msg number>[,<msg number>...]
+; Examples:
+;   note = 3009
+;   warning = 3033
+;   error = 3010,3016
+;   fatal = 3016,3033
+;   suppress = 3009,3016,3043
+; The command verror <msg number> can be used to get the complete
+; description of a message.
+
+; Control transcripting of elaboration/runtime messages.
+; The default is to have messages appear in the transcript and 
+; recorded in the wlf file (messages that are recorded in the
+; wlf file can be viewed in the MsgViewer).  The other settings
+; are to send messages only to the transcript or only to the 
+; wlf file.  The valid values are
+;    both  {default}
+;    tran  {transcript only}
+;    wlf   {wlf file only}
+; msgmode = both
+[Project]
+** Warning: ; Warning -- Do not edit the project properties directly.
+;            Property names are dynamic in nature and property
+;            values have special syntax.  Changing property data directly
+;            can result in a corrupt MPF file.  All project properties
+;            can be modified through project window dialogs.
+Project_Version = 6
+Project_DefaultLib = work
+Project_SortMethod = unused
+Project_Files_Count = 175
+Project_File_0 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv
+Project_File_P_0 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 31 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_1 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv
+Project_File_P_1 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 51 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_2 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv
+Project_File_P_2 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 106 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_3 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv
+Project_File_P_3 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469670 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 150 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_4 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv
+Project_File_P_4 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 151 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_5 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv
+Project_File_P_5 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 35 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_6 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv
+Project_File_P_6 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 23 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_7 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/debug_bus.sv
+Project_File_P_7 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 120 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_8 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv
+Project_File_P_8 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 70 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_9 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv
+Project_File_P_9 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 72 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_10 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v
+Project_File_P_10 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 105 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_11 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file.sv
+Project_File_P_11 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469697 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 166 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_12 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v
+Project_File_P_12 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1616154782 cover_fsm 0 cover_branch 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 5 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_13 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv
+Project_File_P_13 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 39 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_14 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv
+Project_File_P_14 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 112 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_15 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv
+Project_File_P_15 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 122 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_16 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv
+Project_File_P_16 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 22 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_17 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv
+Project_File_P_17 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 73 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_18 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv
+Project_File_P_18 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 59 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_19 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v
+Project_File_P_19 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1617094577 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 9 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_20 = C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v
+Project_File_P_20 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991998 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 171 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_21 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv
+Project_File_P_21 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 101 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_22 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv
+Project_File_P_22 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 29 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_23 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv
+Project_File_P_23 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 38 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_24 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv
+Project_File_P_24 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 57 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_25 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v
+Project_File_P_25 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 last_compile 1589804868 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 140 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_26 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd
+Project_File_P_26 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 81 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_27 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd
+Project_File_P_27 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 76 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_28 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv
+Project_File_P_28 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 52 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_29 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv
+Project_File_P_29 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 36 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_30 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv
+Project_File_P_30 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 125 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_31 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/ssram.v
+Project_File_P_31 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 114 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_32 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv
+Project_File_P_32 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 17 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_33 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv
+Project_File_P_33 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 139 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_34 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv
+Project_File_P_34 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1617099942 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 138 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_35 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v
+Project_File_P_35 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1617103666 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 174 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_36 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv
+Project_File_P_36 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 128 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_37 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv
+Project_File_P_37 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 93 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_38 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v
+Project_File_P_38 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 63 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_39 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv
+Project_File_P_39 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469681 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 159 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_40 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv
+Project_File_P_40 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 144 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_41 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv
+Project_File_P_41 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1617102941 cover_fsm 0 cover_branch 0 vlog_noload 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 130 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_42 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv
+Project_File_P_42 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 110 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_43 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv
+Project_File_P_43 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 95 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_44 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv
+Project_File_P_44 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 58 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_45 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv
+Project_File_P_45 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 50 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_46 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_gpio.sv
+Project_File_P_46 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1615523417 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 13 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_47 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv
+Project_File_P_47 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 18 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_48 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv
+Project_File_P_48 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 47 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_49 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv
+Project_File_P_49 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 68 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_50 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv
+Project_File_P_50 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 85 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_51 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv
+Project_File_P_51 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 11 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_52 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv
+Project_File_P_52 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1617078365 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 132 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_53 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd
+Project_File_P_53 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 80 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_54 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/axi_bus.sv
+Project_File_P_54 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 118 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_55 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv
+Project_File_P_55 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 82 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_56 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rbl.v
+Project_File_P_56 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 111 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_57 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv
+Project_File_P_57 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 124 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_58 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv
+Project_File_P_58 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 134 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_59 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv
+Project_File_P_59 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 86 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_60 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv
+Project_File_P_60 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1617103713 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 16 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_61 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv
+Project_File_P_61 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 15 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_62 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv
+Project_File_P_62 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 54 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_63 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv
+Project_File_P_63 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 87 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_64 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd
+Project_File_P_64 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 97 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_65 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv
+Project_File_P_65 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 163 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_66 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv
+Project_File_P_66 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 19 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_67 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv
+Project_File_P_67 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 60 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_68 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv
+Project_File_P_68 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 131 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_69 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv
+Project_File_P_69 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1615981966 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 135 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_70 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv
+Project_File_P_70 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 37 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_71 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv
+Project_File_P_71 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 33 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_72 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv
+Project_File_P_72 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 61 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_73 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v
+Project_File_P_73 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 last_compile 1617100871 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 3 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_74 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv
+Project_File_P_74 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469692 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 156 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_75 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv
+Project_File_P_75 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 161 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_76 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv
+Project_File_P_76 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 108 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_77 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv
+Project_File_P_77 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 133 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_78 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv
+Project_File_P_78 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469676 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 167 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_79 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv
+Project_File_P_79 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 14 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_80 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv
+Project_File_P_80 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1617094805 cover_fsm 0 cover_branch 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 0 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 141 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_81 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv
+Project_File_P_81 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 62 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_82 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd
+Project_File_P_82 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 100 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_83 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv
+Project_File_P_83 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 149 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_84 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv
+Project_File_P_84 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1616212042 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 153 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_85 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv
+Project_File_P_85 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 164 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_86 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v
+Project_File_P_86 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1616997847 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 0 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_87 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv
+Project_File_P_87 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469732 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 160 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_88 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv
+Project_File_P_88 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 165 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_89 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv
+Project_File_P_89 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 42 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_90 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv
+Project_File_P_90 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 127 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_91 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv
+Project_File_P_91 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469713 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 162 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_92 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv
+Project_File_P_92 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 32 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_93 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv
+Project_File_P_93 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 25 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_94 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv
+Project_File_P_94 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 146 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_95 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv
+Project_File_P_95 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 26 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_96 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v
+Project_File_P_96 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 last_compile 1617099997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 2 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_97 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv
+Project_File_P_97 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 71 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_98 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv
+Project_File_P_98 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 92 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_99 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv
+Project_File_P_99 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 24 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_100 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv
+Project_File_P_100 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 91 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_101 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v
+Project_File_P_101 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 115 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_102 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0.v
+Project_File_P_102 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1616734156 cover_fsm 0 cover_branch 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 7 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_103 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv
+Project_File_P_103 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 74 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_104 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv
+Project_File_P_104 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 90 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_105 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd
+Project_File_P_105 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 98 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_106 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/config.sv
+Project_File_P_106 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 119 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_107 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv
+Project_File_P_107 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 142 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_108 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_config.sv
+Project_File_P_108 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 147 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_109 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv
+Project_File_P_109 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 34 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_110 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv
+Project_File_P_110 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 103 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_111 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v
+Project_File_P_111 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 104 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_112 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v
+Project_File_P_112 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 65 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_113 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv
+Project_File_P_113 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 69 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_114 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv
+Project_File_P_114 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 46 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_115 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv
+Project_File_P_115 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 27 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_116 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv
+Project_File_P_116 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1616832823 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 152 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_117 = C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv
+Project_File_P_117 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 170 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_118 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv
+Project_File_P_118 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 41 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_119 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv
+Project_File_P_119 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 28 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_120 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv
+Project_File_P_120 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 102 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_121 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv
+Project_File_P_121 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 126 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_122 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv
+Project_File_P_122 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 12 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_123 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v
+Project_File_P_123 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1616038291 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 1 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_124 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/apu_defines.sv
+Project_File_P_124 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 117 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_125 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv
+Project_File_P_125 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 40 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_126 = C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v
+Project_File_P_126 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991998 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 173 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_127 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v
+Project_File_P_127 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1616734157 cover_fsm 0 cover_branch 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 8 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_128 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd
+Project_File_P_128 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 75 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_129 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v
+Project_File_P_129 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 107 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_130 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv
+Project_File_P_130 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469727 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 168 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_131 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv
+Project_File_P_131 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 44 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_132 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_wrap.sv
+Project_File_P_132 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 55 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_133 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv
+Project_File_P_133 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 84 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_134 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv
+Project_File_P_134 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 43 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_135 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv
+Project_File_P_135 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 109 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_136 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv
+Project_File_P_136 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 121 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_137 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv
+Project_File_P_137 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 48 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_138 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv
+Project_File_P_138 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 89 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_139 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv
+Project_File_P_139 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615965131 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 155 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_140 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd
+Project_File_P_140 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 20 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_141 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv
+Project_File_P_141 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 56 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_142 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd
+Project_File_P_142 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 77 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_143 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv
+Project_File_P_143 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 129 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_144 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv
+Project_File_P_144 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 137 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_145 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv
+Project_File_P_145 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 143 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_146 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv
+Project_File_P_146 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 30 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_147 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv
+Project_File_P_147 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 53 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_148 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v
+Project_File_P_148 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 67 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_149 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv
+Project_File_P_149 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1606239158 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 148 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_150 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv
+Project_File_P_150 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 49 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_151 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv
+Project_File_P_151 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 83 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_152 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv
+Project_File_P_152 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 136 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_153 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv
+Project_File_P_153 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 94 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_154 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv
+Project_File_P_154 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1612157128 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 145 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_155 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv
+Project_File_P_155 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 45 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_156 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv
+Project_File_P_156 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 21 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_157 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen.v
+Project_File_P_157 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1616154781 cover_fsm 0 cover_branch 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 4 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_158 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv
+Project_File_P_158 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1617093918 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 0 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 113 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_159 = C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv
+Project_File_P_159 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1616987077 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 169 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_160 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv
+Project_File_P_160 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 123 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_161 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv
+Project_File_P_161 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469723 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 154 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_162 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv
+Project_File_P_162 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469718 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 158 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_163 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd
+Project_File_P_163 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 78 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_164 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv
+Project_File_P_164 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 88 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_165 = C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv
+Project_File_P_165 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_fsm 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991998 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 172 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_166 = C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv
+Project_File_P_166 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 vlog_noload 0 folder {Top Level} last_compile 1616834517 cover_fsm 0 cover_branch 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 6 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_167 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd
+Project_File_P_167 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 79 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_168 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/apb_bus.sv
+Project_File_P_168 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 cover_branch 0 vlog_noload 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 116 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_169 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv
+Project_File_P_169 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1615469709 cover_fsm 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 157 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_170 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v
+Project_File_P_170 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 66 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_171 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/include/defines_event_unit.sv
+Project_File_P_171 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 folder {Top Level} last_compile 1595991996 cover_fsm 0 cover_branch 0 vlog_noload 0 cover_excludedefault 0 vlog_enable0In 0 vlog_disableopt 0 cover_covercells 0 voptflow 1 vlog_showsource 0 vlog_hazard 0 cover_optlevel 3 toggle - vlog_0InOptions {} ood 1 cover_noshort 0 vlog_upper 0 compile_to work vlog_options {} compile_order 10 cover_expr 0 dont_compile 0 cover_stmt 0
+Project_File_172 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v
+Project_File_P_172 = cover_toggle 0 file_type verilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat 0 vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 64 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_173 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv
+Project_File_P_173 = cover_toggle 0 file_type systemverilog group_id 0 cover_exttoggle 0 cover_nofec 0 cover_cond 0 vlog_1995compat SV vlog_nodebug 0 cover_branch 0 vlog_noload 0 folder {Top Level} last_compile 1595991997 cover_fsm 0 vlog_enable0In 0 cover_excludedefault 0 vlog_disableopt 0 cover_covercells 0 cover_optlevel 3 vlog_hazard 0 vlog_showsource 0 voptflow 1 ood 1 vlog_0InOptions {} toggle - vlog_options {} compile_to work vlog_upper 0 cover_noshort 0 compile_order 96 dont_compile 0 cover_expr 0 cover_stmt 0
+Project_File_174 = C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd
+Project_File_P_174 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1595991997 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 99 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_Sim_Count = 0
+Project_Folder_Count = 0
+Echo_Compile_Output = 0
+Save_Compile_Report = 1
+Project_Opt_Count = 0
+ForceSoftPaths = 0
+ProjectStatusDelay = 5000
+VERILOG_DoubleClick = Edit
+VERILOG_CustomDoubleClick = 
+SYSTEMVERILOG_DoubleClick = Edit
+SYSTEMVERILOG_CustomDoubleClick = 
+VHDL_DoubleClick = Edit
+VHDL_CustomDoubleClick = 
+PSL_DoubleClick = Edit
+PSL_CustomDoubleClick = 
+TEXT_DoubleClick = Edit
+TEXT_CustomDoubleClick = 
+SYSTEMC_DoubleClick = Edit
+SYSTEMC_CustomDoubleClick = 
+TCL_DoubleClick = Edit
+TCL_CustomDoubleClick = 
+MACRO_DoubleClick = Edit
+MACRO_CustomDoubleClick = 
+VCD_DoubleClick = Edit
+VCD_CustomDoubleClick = 
+SDF_DoubleClick = Edit
+SDF_CustomDoubleClick = 
+XML_DoubleClick = Edit
+XML_CustomDoubleClick = 
+LOGFILE_DoubleClick = Edit
+LOGFILE_CustomDoubleClick = 
+UCDB_DoubleClick = Edit
+UCDB_CustomDoubleClick = 
+TDB_DoubleClick = Edit
+TDB_CustomDoubleClick = 
+UPF_DoubleClick = Edit
+UPF_CustomDoubleClick = 
+PCF_DoubleClick = Edit
+PCF_CustomDoubleClick = 
+PROJECT_DoubleClick = Edit
+PROJECT_CustomDoubleClick = 
+VRM_DoubleClick = Edit
+VRM_CustomDoubleClick = 
+DEBUGDATABASE_DoubleClick = Edit
+DEBUGDATABASE_CustomDoubleClick = 
+DEBUGARCHIVE_DoubleClick = Edit
+DEBUGARCHIVE_CustomDoubleClick = 
+Project_Major_Version = 2020
+Project_Minor_Version = 1

@@ -1,0 +1,466 @@
+eagle_s20
+13 23 856 36108 1000000000 0 5958
+18.140 -2.831 pulp_soc eagle_s20 BG256 Detail 8 1
+clock: clk_pll0
+13 1000000000 36108 4
+Setup check
+23 3
+Endpoint: pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+23 18.140000 2019570 3
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+25 18.140000 52.032000 33.892000 22 28
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[1]
+pulpino_i/core_region_i/_al_u4314_o pulpino_i/core_region_i/_al_u4664|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/aw_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b68.d[1]
+pulpino_i/core_region_i/_al_u4664_o pulpino_i/core_region_i/_al_u4666|pulpino_i/core_region_i/data_mem/reg5_b10_hfnopt2_1.a[1]
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/n5 pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018.ceb
+
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+116 18.140000 52.032000 33.892000 22 28
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[1]
+pulpino_i/core_region_i/_al_u4314_o pulpino_i/core_region_i/_al_u4664|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/aw_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b68.d[1]
+pulpino_i/core_region_i/_al_u4664_o pulpino_i/core_region_i/_al_u4666|pulpino_i/core_region_i/data_mem/reg5_b10_hfnopt2_1.a[1]
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/n5 pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018.ceb
+
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+207 18.140000 52.032000 33.892000 22 28
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[1]
+pulpino_i/core_region_i/_al_u4314_o pulpino_i/core_region_i/_al_u4664|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/aw_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b68.d[1]
+pulpino_i/core_region_i/_al_u4664_o pulpino_i/core_region_i/_al_u4666|pulpino_i/core_region_i/data_mem/reg5_b10_hfnopt2_1.a[1]
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/n5 pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018.ceb
+
+
+Endpoint: pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+298 18.140000 2019584 3
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+300 18.140000 52.032000 33.892000 22 28
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[1]
+pulpino_i/core_region_i/_al_u4314_o pulpino_i/core_region_i/_al_u4664|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/aw_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b68.d[1]
+pulpino_i/core_region_i/_al_u4664_o pulpino_i/core_region_i/_al_u4666|pulpino_i/core_region_i/data_mem/reg5_b10_hfnopt2_1.a[1]
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/n5 pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018.cea
+
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+391 18.140000 52.032000 33.892000 22 28
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[1]
+pulpino_i/core_region_i/_al_u4314_o pulpino_i/core_region_i/_al_u4664|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/aw_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b68.d[1]
+pulpino_i/core_region_i/_al_u4664_o pulpino_i/core_region_i/_al_u4666|pulpino_i/core_region_i/data_mem/reg5_b10_hfnopt2_1.a[1]
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/n5 pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018.cea
+
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018
+482 18.140000 52.032000 33.892000 22 28
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[1]
+pulpino_i/core_region_i/_al_u4314_o pulpino_i/core_region_i/_al_u4664|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/aw_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b68.d[1]
+pulpino_i/core_region_i/_al_u4664_o pulpino_i/core_region_i/_al_u4666|pulpino_i/core_region_i/data_mem/reg5_b10_hfnopt2_1.a[1]
+pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/n5 pulpino_i/core_region_i/data_mem/[14]$sp_ram_i/RAM/inst_256x32_sub_000000_018.cea
+
+
+Endpoint: pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+573 18.226000 7342915 3
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+575 18.226000 52.085000 33.859000 24 29
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[0]
+pulpino_i/core_region_i/data_mem/n5 pulpino_i/core_region_i/_al_u4370|pulpino_i/core_region_i/_al_u2836.d[1]
+pulpino_i/core_region_i/_al_u4370_o pulpino_i/core_region_i/_al_u4390|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/READ_CTRL/reg1_b7.d[1]
+pulpino_i/core_region_i/_al_u4390_o pulpino_i/core_region_i/_al_u4455|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/READ_CTRL/reg1_b1.d[1]
+pulpino_i/core_region_i/_al_u4455_o pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5.e[1]
+
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+668 18.226000 52.085000 33.859000 24 29
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[0]
+pulpino_i/core_region_i/data_mem/n5 pulpino_i/core_region_i/_al_u4370|pulpino_i/core_region_i/_al_u2836.d[1]
+pulpino_i/core_region_i/_al_u4370_o pulpino_i/core_region_i/_al_u4390|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/READ_CTRL/reg1_b7.d[1]
+pulpino_i/core_region_i/_al_u4390_o pulpino_i/core_region_i/_al_u4455|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/READ_CTRL/reg1_b1.d[1]
+pulpino_i/core_region_i/_al_u4455_o pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5.e[1]
+
+Timing path: pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk->pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/illegal_c_insn_id_o_reg|pulpino_i/core_region_i/CORE$RISCV_CORE/if_stage_i/reg0_b29.clk
+pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5
+761 18.226000 52.085000 33.859000 24 29
+pulpino_i/core_region_i/CORE$RISCV_CORE/instr_rdata_id[29] pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2483.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2444_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u3791.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2769_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2772_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2773_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2799.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2800_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2730.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2801_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2806|pulpino_i/core_region_i/CORE$RISCV_CORE/id_stage_i/decoder_i/mux0_b0_rom0.a[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/alu_operator_ex[4]_neg_lutinv pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5202.d[1]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4938_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2815|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940.d[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4940_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u2839|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941.b[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4941_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5058|pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u5097.a[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/adder_in_b[4] pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u3_al_u5759.e[0]
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c7 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u7_al_u5760.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c11 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u11_al_u5761.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c15 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u15_al_u5762.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c19 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u19_al_u5763.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c23 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u23_al_u5764.fci
+pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/c27 pulpino_i/core_region_i/CORE$RISCV_CORE/ex_block_i/alu_i/add0/u27_al_u5765.fci
+pulpino_i/core_region_i/core_lsu_addr[29] pulpino_i/core_region_i/_al_u2684|pulpino_i/core_region_i/data_mem/reg5_b10.c[1]
+pulpino_i/core_region_i/_al_u2684_o pulpino_i/core_region_i/CORE$RISCV_CORE/_al_u4070|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b98.a[0]
+pulpino_i/core_region_i/_al_u4068_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b9.d[1]
+pulpino_i/core_region_i/data_ram_mux_i/n16[1] pulpino_i/core_region_i/data_ram_mux_i/reg0_b1|pulpino_i/core_region_i/data_ram_mux_i/reg0_b0.c[1]
+pulpino_i/core_region_i/data_ram_mux_i/next_state[1] pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b22|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24.d[1]
+pulpino_i/core_region_i/_al_u4074_o pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b92|pulpino_i/core_region_i/axi_slice_core2axi/i_axi_slice/ar_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b84.a[0]
+pulpino_i/core_region_i/_al_u4307_o pulpino_i/core_region_i/_al_u4314|pulpino_i/core_region_i/data_mem/is_reg_q_reg.a[0]
+pulpino_i/core_region_i/data_mem/n5 pulpino_i/core_region_i/_al_u4370|pulpino_i/core_region_i/_al_u2836.d[1]
+pulpino_i/core_region_i/_al_u4370_o pulpino_i/core_region_i/_al_u4390|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/READ_CTRL/reg1_b7.d[1]
+pulpino_i/core_region_i/_al_u4390_o pulpino_i/core_region_i/_al_u4455|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/READ_CTRL/reg1_b1.d[1]
+pulpino_i/core_region_i/_al_u4455_o pulpino_i/core_region_i/data_mem/reg1_b10|pulpino_i/core_region_i/data_mem/reg1_b5.e[1]
+
+
+
+Hold check
+854 3
+Endpoint: pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+856 -2.831000 3070 3
+Timing path: pulpino_i/peripherals_i/_al_u1995|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/AW_ADDR_DEC/reg0_b0.clk->pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+pulpino_i/peripherals_i/_al_u1995|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/AW_ADDR_DEC/reg0_b0.clk
+pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+858 -2.831000 6.301000 3.470000 2 2
+pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/AW_ADDR_DEC/CS[0] pulpino_i/axi_interconnect_i/axi_node_i/_al_u913|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg2_b1.c[1]
+pulpino_i/masters[2]$aw_ready pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1.c[1]
+
+Timing path: pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/AW_ADDR_DEC/reg0_b1|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/BW_ALLOC/reg1_b0.clk->pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/AW_ADDR_DEC/reg0_b1|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/BW_ALLOC/reg1_b0.clk
+pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+897 -2.128000 6.301000 4.173000 2 2
+pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/AW_ADDR_DEC/CS[1] pulpino_i/axi_interconnect_i/axi_node_i/_al_u913|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg2_b1.d[1]
+pulpino_i/masters[2]$aw_ready pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1.c[1]
+
+Timing path: pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg1_b3|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg1_b0.clk->pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg1_b3|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg1_b0.clk
+pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1
+936 -2.100000 6.301000 4.201000 3 3
+pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/status_cnt_q[3] pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg2_b11|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg2_b10.d[1]
+pulpino_i/axi_interconnect_i/axi_node_i/_al_u445_o pulpino_i/axi_interconnect_i/axi_node_i/_al_u913|pulpino_i/axi_interconnect_i/axi_node_i/_RESP_BLOCK_GEN[2]$RESP_BLOCK/DW_ADDR_DEC/MASTER_ID_FIFO/i_fifo_v3/reg2_b1.b[1]
+pulpino_i/masters[2]$aw_ready pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b0|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg5_b1.c[1]
+
+
+Endpoint: pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+977 -2.826000 1486 3
+Timing path: pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b20|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b26.clk->pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b20|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b26.clk
+pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+979 -2.826000 6.075000 3.249000 2 2
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/mem_q[0][26] pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25.b[0]
+pulpino_i/peripherals_i/s_apb_bus$pwdata[25] pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57.c[0]
+
+Timing path: pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b64|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b65.clk->pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b64|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b65.clk
+pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+1018 -2.427000 6.075000 3.648000 2 2
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/mem_q[1][26] pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25.c[0]
+pulpino_i/peripherals_i/s_apb_bus$pwdata[25] pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57.c[0]
+
+Timing path: pulpino_i/core_region_i/_al_u3543|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/read_pointer_q_reg[0].clk->pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+pulpino_i/core_region_i/_al_u3543|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/read_pointer_q_reg[0].clk
+pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57
+1057 -1.445000 6.075000 4.630000 2 2
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/read_pointer_q[0] pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b24|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b25.d[0]
+pulpino_i/peripherals_i/s_apb_bus$pwdata[25] pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b56|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b57.c[0]
+
+
+Endpoint: pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+1096 -2.818000 1486 3
+Timing path: pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b1|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b17.clk->pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b1|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b17.clk
+pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+1098 -2.818000 6.075000 3.257000 2 2
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/mem_q[0][1] pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b23|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b3.c[0]
+pulpino_i/peripherals_i/s_apb_bus$pwdata[0] pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32.c[0]
+
+Timing path: pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b39|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b57.clk->pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b39|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b57.clk
+pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+1137 -2.303000 6.075000 3.772000 2 2
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/mem_q[1][1] pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b23|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b3.b[0]
+pulpino_i/peripherals_i/s_apb_bus$pwdata[0] pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32.c[0]
+
+Timing path: pulpino_i/core_region_i/_al_u3543|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/read_pointer_q_reg[0].clk->pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+pulpino_i/core_region_i/_al_u3543|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/read_pointer_q_reg[0].clk
+pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32
+1176 -1.150000 6.075000 4.925000 2 2
+pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/read_pointer_q[0] pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b23|pulpino_i/peripherals_i/axi2apb_i/axi2apb_i/slave_w_buffer_i/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg1_b3.d[0]
+pulpino_i/peripherals_i/s_apb_bus$pwdata[0] pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b60|pulpino_i/peripherals_i/apb_event_unit_i/i_interrupt_unit/reg1_b32.c[0]
+
+
+
+Recovery check
+1215 3
+Endpoint: pulpino_i/peripherals_i/apb_pulpino_i/reg0_b148|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b145
+1217 45.733000 1 1
+Timing path: pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_12.clk->pulpino_i/peripherals_i/apb_pulpino_i/reg0_b148|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b145
+pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_12.clk
+pulpino_i/peripherals_i/apb_pulpino_i/reg0_b148|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b145
+1219 45.733000 51.982000 6.249000 0 1
+pulpino_i/p_rstn_w_hfnopt2_12 pulpino_i/peripherals_i/apb_pulpino_i/reg0_b148|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b145.sr
+
+
+Endpoint: pulpino_i/peripherals_i/apb_pulpino_i/reg0_b168|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b169
+1252 45.733000 1 1
+Timing path: pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_12.clk->pulpino_i/peripherals_i/apb_pulpino_i/reg0_b168|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b169
+pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_12.clk
+pulpino_i/peripherals_i/apb_pulpino_i/reg0_b168|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b169
+1254 45.733000 51.982000 6.249000 0 1
+pulpino_i/p_rstn_w_hfnopt2_12 pulpino_i/peripherals_i/apb_pulpino_i/reg0_b168|pulpino_i/peripherals_i/apb_pulpino_i/reg0_b169.sr
+
+
+Endpoint: pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b148|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b150
+1287 45.987000 1 1
+Timing path: pulpino_i/rst_gen_i/c_rst_n_reg|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_6.clk->pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b148|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b150
+pulpino_i/rst_gen_i/c_rst_n_reg|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_6.clk
+pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b148|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b150
+1289 45.987000 51.901000 5.914000 0 1
+pulpino_i/c_rstn_w pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b148|pulpino_i/core_region_i/data_mem_axi_if/axi_mem_if_SP_i/Slave_aw_buffer_LP/i_axi_single_slice/i_fifo/impl/i_fifo_v3/reg2_b150.sr
+
+
+
+Removal check
+1322 3
+Endpoint: pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b20|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b19
+1324 -3.902000 1 1
+Timing path: pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_33|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_30.clk->pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b20|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b19
+pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_33|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_30.clk
+pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b20|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b19
+1326 -3.902000 6.527000 2.625000 0 1
+pulpino_i/p_rstn_w_hfnopt2_30 pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b20|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b19.sr
+
+
+Endpoint: pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b10|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b3
+1363 -3.902000 1 1
+Timing path: pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_33|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_30.clk->pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b10|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b3
+pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_33|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_30.clk
+pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b10|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b3
+1365 -3.902000 6.527000 2.625000 0 1
+pulpino_i/p_rstn_w_hfnopt2_30 pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b10|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b3.sr
+
+
+Endpoint: pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b16|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b15
+1402 -3.892000 1 1
+Timing path: pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_33|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_30.clk->pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b16|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b15
+pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_33|pulpino_i/rst_gen_i/p_rst_n_reg_hfnopt2_30.clk
+pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b16|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b15
+1404 -3.892000 6.527000 2.635000 0 1
+pulpino_i/p_rstn_w_hfnopt2_30 pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b16|pulpino_i/peripherals_i/axi_spi_slave_i/axi_spi_slave_i/u_axiplug/reg3_b15.sr
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  clk_pll0 (20.000MHz)                          31.860ns      31.387MHz        4.395ns      5678        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 2 clock net(s): 
+	clk_pad
+	clk_real_pad
+

@@ -1,0 +1,15 @@
+vsim -L D:/modeltech64_2019.2/Anlogic/EG4_ver -L D:/modeltech64_2019.2/Anlogic/src/eg/EG4_ver work.mem_tb
+# vsim -L D:/modeltech64_2019.2/Anlogic/EG4_ver -L D:/modeltech64_2019.2/Anlogic/src/eg/EG4_ver work.mem_tb 
+# Start time: 13:46:45 on Mar 25,2021
+# Loading sv_std.std
+# Loading work.mem_tb
+# Loading work.mem_blk
+# ** Error (suppressible): (vlog-12110) The -novopt option has no effect on this product. -novopt option is now deprecated and will be removed in future releases.
+# ** Error: in Protected Region: subinvocation of vlog failed; return status = 1.
+# ** Error: (vsim-3171) Could not find machine code for 'D:/modeltech64_2019.2/Anlogic/EG4_ver.EG_LOGIC_BRAM'.
+# Operation not permitted. (errno = EPERM)
+# Error loading design
+# End time: 13:46:46 on Mar 25,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# Load canceled
+cd D:/intelFPGA/20.1/modelsim_ase/AnLogic

@@ -1,0 +1,45 @@
+standard
+***Report Model: pulp_soc***
+
+IO Statistics
+#IO                        31
+  #input                    4
+  #output                  19
+  #inout                    8
+
+LUT Statistics
+#Total_luts             14109
+  #lut4                  9498
+  #lut5                  2415
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b            2196
+
+Utilization Statistics
+#lut                    14109   out of  19600   71.98%
+#reg                     7840   out of  19600   40.00%
+#le                         0
+#dsp                        1   out of     29    3.45%
+#bram                      40   out of     64   62.50%
+  #bram9k                  40
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#pad                       31   out of    188   16.49%
+  #ireg                     2
+  #oreg                     1
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance               |Module                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |lut    |ripple |seq    |bram   |dsp    |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                    |pulp_soc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |11913  |2196   |7843   |56     |1      |
+|  pulpino_i            |pulpino_top                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |11874  |2183   |7814   |56     |1      |
+|    axi_interconnect_i |axi_node_intf_wrap(NB_MASTER=3,NB_SLAVE=3,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1,slave=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1)_Slave,master=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=4,AXI_USER_WIDTH=1)_Master)                                                                                                                                                                                                                                               |737    |697    |208    |0      |0      |
+|      axi_node_i       |axi_node(AXI_DATA_W=32,AXI_USER_W=1,N_MASTER_PORT=3,N_SLAVE_PORT=3,AXI_ID_IN=2,N_REGION=1)                                                                                                                                                                                                                                                                                                                                                                                                                   |737    |697    |208    |0      |0      |
+|    core_region_i      |core_region(AXI_DATA_WIDTH=32,AXI_ID_MASTER_WIDTH=2,AXI_ID_SLAVE_WIDTH=4,AXI_USER_WIDTH=1,core_master=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1)_Master,dbg_master=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1)_Master,data_slave=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=4,AXI_USER_WIDTH=1)_Slave,instr_slave=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=4,AXI_USER_WIDTH=1)_Slave,debug=DEBUG_BUS_Slave) |6681   |464    |3641   |56     |1      |
+|      CORE$RISCV_CORE  |zeroriscy_core                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |3943   |164    |1535   |0      |1      |
+|    peripherals_i      |peripherals(AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_SLAVE_ID_WIDTH=4,AXI_MASTER_ID_WIDTH=2,axi_spi_master=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1)_Master,debug=DEBUG_BUS_Master,slave=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=4,AXI_USER_WIDTH=1)_Slave)                                                                                                                                                                                                |4451   |1022   |3955   |0      |0      |
+|      apb_gpio_i       |apb_gpio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |347    |0      |352    |0      |0      |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

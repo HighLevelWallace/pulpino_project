@@ -1,0 +1,69 @@
+standard
+***Report Model: pulp_soc***
+
+IO Statistics
+#IO                        31
+  #input                    4
+  #output                  19
+  #inout                    8
+
+Utilization Statistics
+#lut                    14334   out of  19600   73.13%
+#reg                     7648   out of  19600   39.02%
+#le                     14695
+  #lut only              7047   out of  14695   47.96%
+  #reg only               361   out of  14695    2.46%
+  #lut&reg               7287   out of  14695   49.59%
+#dsp                        1   out of     29    3.45%
+#bram                      40   out of     64   62.50%
+  #bram9k                  40
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#pad                       31   out of    188   16.49%
+  #ireg                     2
+  #oreg                     1
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+
+Detailed IO Report
+
+       Name         Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+       clk            INPUT        K14        LVCMOS25          N/A           NONE       NONE    
+      rst_n           INPUT         T4        LVCMOS25          N/A           NONE       NONE    
+  spi_master_sdi      INPUT        K11        LVCMOS25          N/A           NONE       IREG    
+     uart_rx          INPUT        F16        LVCMOS25          N/A           NONE       IREG    
+      an[3]          OUTPUT         F3        LVCMOS25           8            NONE       NONE    
+      an[2]          OUTPUT         C2        LVCMOS25           8            NONE       NONE    
+      an[1]          OUTPUT         C3        LVCMOS25           8            NONE       NONE    
+      an[0]          OUTPUT         B1        LVCMOS25           8            NONE       NONE    
+     clk_real        OUTPUT        P15        LVCMOS25           8            NONE       NONE    
+    clk_real_n       OUTPUT        N16        LVCMOS25           8            NONE       NONE    
+      moving         OUTPUT        P16        LVCMOS25           8            NONE       NONE    
+  spi_master_sck     OUTPUT         H4        LVCMOS25           8            NONE       NONE    
+  spi_master_scs     OUTPUT        P14        LVCMOS25           8            NONE       NONE    
+  spi_master_sdo     OUTPUT        M13        LVCMOS25           8            NONE       NONE    
+     sseg[7]         OUTPUT         A2        LVCMOS25           8            NONE       NONE    
+     sseg[6]         OUTPUT         E3        LVCMOS25           8            NONE       NONE    
+     sseg[5]         OUTPUT         B3        LVCMOS25           8            NONE       NONE    
+     sseg[4]         OUTPUT         F4        LVCMOS25           8            NONE       NONE    
+     sseg[3]         OUTPUT         E4        LVCMOS25           8            NONE       NONE    
+     sseg[2]         OUTPUT         F5        LVCMOS25           8            NONE       NONE    
+     sseg[1]         OUTPUT         D3        LVCMOS25           8            NONE       NONE    
+     sseg[0]         OUTPUT         B2        LVCMOS25           8            NONE       NONE    
+     uart_tx         OUTPUT        E16        LVCMOS25           8            NONE       OREG    
+     gpio[7]          INOUT         P5        LVCMOS25           8            NONE       NONE    
+     gpio[6]          INOUT         N5        LVCMOS25           8            NONE       NONE    
+     gpio[5]          INOUT         P4        LVCMOS25           8            NONE       NONE    
+     gpio[4]          INOUT         M5        LVCMOS25           8            NONE       NONE    
+     gpio[3]          INOUT         N4        LVCMOS25           8            NONE       NONE    
+     gpio[2]          INOUT         N3        LVCMOS25           8            NONE       NONE    
+     gpio[1]          INOUT         M4        LVCMOS25           8            NONE       NONE    
+     gpio[0]          INOUT         M3        LVCMOS25           8            NONE       NONE    
+
+Report Hierarchy Area:
++------------------------------------------------------------------+
+|Instance |Module   |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------+
+|top      |pulp_soc |14695 |13381  |953    |7651   |56     |1      |
++------------------------------------------------------------------+

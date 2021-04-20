@@ -1,0 +1,43 @@
+set_pin_assignment	{ an[0] }	{ LOCATION = B1; }
+set_pin_assignment	{ an[1] }	{ LOCATION = C3; }
+set_pin_assignment	{ an[2] }	{ LOCATION = C2; }
+set_pin_assignment	{ an[3] }	{ LOCATION = F3; }
+set_pin_assignment	{ clk }	{ LOCATION = K14; PULLTYPE = NONE; }
+set_pin_assignment	{ clk_real }	{ LOCATION = P15; }
+set_pin_assignment	{ clk_real_n }	{ LOCATION = N16; }
+set_pin_assignment	{ gpio[0] }	{ LOCATION = M3; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[1] }	{ LOCATION = M4; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[2] }	{ LOCATION = N3; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[3] }	{ LOCATION = N4; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[4] }	{ LOCATION = M5; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[5] }	{ LOCATION = P4; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[6] }	{ LOCATION = N5; PULLTYPE = NONE; }
+set_pin_assignment	{ gpio[7] }	{ LOCATION = P5; PULLTYPE = NONE; }
+set_pin_assignment	{ moving }	{ LOCATION = P16; }
+set_pin_assignment	{ rst_n }	{ LOCATION = T4; PULLTYPE = NONE; }
+set_pin_assignment	{ spi_master_sck }	{ LOCATION = H4; }
+set_pin_assignment	{ spi_master_scs }	{ LOCATION = P14; }
+set_pin_assignment	{ spi_master_sdi }	{ LOCATION = K11; PULLTYPE = NONE; }
+set_pin_assignment	{ spi_master_sdo }	{ LOCATION = M13; }
+set_pin_assignment	{ sseg[0] }	{ LOCATION = B2; }
+set_pin_assignment	{ sseg[1] }	{ LOCATION = D3; }
+set_pin_assignment	{ sseg[2] }	{ LOCATION = F5; }
+set_pin_assignment	{ sseg[3] }	{ LOCATION = E4; }
+set_pin_assignment	{ sseg[4] }	{ LOCATION = F4; }
+set_pin_assignment	{ sseg[5] }	{ LOCATION = B3; }
+set_pin_assignment	{ sseg[6] }	{ LOCATION = E3; }
+set_pin_assignment	{ sseg[7] }	{ LOCATION = A2; }
+set_pin_assignment	{ uart_rx }	{ LOCATION = F16; PULLTYPE = NONE; }
+set_pin_assignment	{ uart_tx }	{ LOCATION = E16; }
+
+
+
+
+
+
+
+
+
+
+
+

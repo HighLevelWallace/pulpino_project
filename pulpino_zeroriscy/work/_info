@@ -1,0 +1,445 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modeltech64_2019.2/Anlogic
+T_opt
+!s110 1616379688
+V=CL6]aTZN3j8Hn=D23OLV1
+04 6 4 work mem_tb fast 0
+=1-181deae7e27b-6057ff27-335-6214
+o-quiet +acc -auto_acc_if_foreign -work work -L D:/modeltech64_2019.2/Anlogic/EG4_ver
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+R0
+vadd_pu32_pu32_o32
+Z2 !s110 1616682171
+!i10b 1
+!s100 `>o2>1EV`KC_Z^jY<Obo@1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4=YQ_b9GKIO[B231Nb8lK0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy
+Z6 w1616653173
+Z7 8C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/clk_test_rtl_sim.v
+Z8 FC:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/clk_test_rtl_sim.v
+!i122 16
+L0 990 430
+Z9 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1616682171.000000
+Z11 !s107 C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/clk_test_rtl_sim.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/clk_test_rtl_sim.v|
+!i113 1
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vadd_pu8_pu8_o8
+R2
+!i10b 1
+!s100 R;bYQF_[dHMhf]a@4VhOQ2
+R3
+I0kN2SfO:4?fz=21W22nYk1
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 820 118
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+vaddr_gen
+R2
+!i10b 1
+!s100 2E3060`agY5az`kkIYD^70
+R3
+Io=mLFh4<PBJoOAkUlULl40
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 246 91
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+vAL_DFF
+R2
+!i10b 1
+!s100 U2ZB7kZcic`gF__TlKh8T1
+R3
+I<iA1MiD9zK@6O4AdQ<[_^0
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 1785 34
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+n@a@l_@d@f@f
+vAL_DFF_0
+R2
+!i10b 1
+!s100 AKZCLP1Z`8Z=X0N>YCV:C1
+R3
+Ia2<cRFnP_oG`9CFQJzCIN3
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 939 50
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+n@a@l_@d@f@f_0
+vAL_FADD
+R2
+!i10b 1
+!s100 TS3Q]=m10dKC:E97NndE:1
+R3
+I>A;FJB_70^^4V5[;=VMJc0
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 1762 22
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+n@a@l_@f@a@d@d
+vAL_MUX
+R2
+!i10b 1
+!s100 k_YEf6cJ2o@5XRa]5JO4J1
+R3
+IVbm4:H3o>=<0RKR>`Kdgn0
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 1746 15
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+n@a@l_@m@u@x
+vbinary_mux_s1_w1
+R2
+!i10b 1
+!s100 kP:9;Y@QaiOhZIQzVSVAN1
+R3
+I`WcgHnHc=3anRA;MKSMU:3
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 224 21
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+vbram
+Z14 !s110 1616682170
+!i10b 1
+!s100 SzHTNXHM_ajOaCEUWfIHZ0
+R3
+Il1HZPSO;8KK;=2hYm9e3P1
+R4
+R5
+w1616149801
+8C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram_sim.v
+FC:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram_sim.v
+!i122 8
+L0 5 182
+R9
+r1
+!s85 0
+31
+Z15 !s108 1616682170.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram_sim.v|
+!i113 1
+R13
+R1
+vclk_div
+R2
+!i10b 1
+!s100 :2O=1T?mXRc[HG[ohP_7j3
+R3
+I1V4c[[UKnONJc3<zVf3731
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 338 385
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+vlt_u32_u32
+R2
+!i10b 1
+!s100 H3U;RWlV_9dIPCRjzYi5j0
+R3
+I8N:6dZMEWMEkTTR0Y;TKS2
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 1421 324
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+vmem_blk
+Z16 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z17 !s110 1616652662
+!i10b 1
+!s100 mR]oh`A?7QbCeinSZ9M:L3
+R3
+IIC6fBHCI=5=7SV3ZRTSeM1
+R4
+S1
+R5
+w1616652653
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.sv
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.sv
+!i122 4
+L0 14 79
+R9
+r1
+!s85 0
+31
+Z18 !s108 1616652662.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.sv|
+!i113 1
+Z19 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmem_clk
+R17
+!i10b 1
+!s100 2IB8VHnC>j`JmAaCT>5Qh2
+R3
+IRdNj>DjMD?=]oDc^[`mWj3
+R4
+R5
+w1615982445
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk_sim.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk_sim.v
+!i122 5
+L0 5 172
+R9
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk_sim.v|
+!i113 1
+R13
+R1
+vmem_tb
+R16
+R17
+!i10b 1
+!s100 @82zI8PU3<=kHX7?GGjdI0
+R3
+I:DZ;@^Jh;ZO;UCih`h=nO0
+R4
+S1
+R5
+w1616379629
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv
+!i122 6
+L0 2 34
+R9
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv|
+!i113 1
+R19
+R1
+vOSC
+R14
+!i10b 1
+!s100 <S8Nk><c:HCcNMRDMDW7X1
+R3
+I^Je8cEf39FZd4@Rg^d5?]0
+R4
+R5
+w1616083084
+8C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC_sim.v
+FC:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC_sim.v
+!i122 10
+L0 5 23
+R9
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC_sim.v|
+!i113 1
+R13
+R1
+n@o@s@c
+vPLL
+R2
+!i10b 1
+!s100 Y;AZ[=79b]2TJMiM`FRcl3
+R3
+Izn29S[=TJV<[k?@FF3G@?3
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 724 95
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+n@p@l@l
+vtop
+R2
+!i10b 1
+!s100 >MzaMJ25VKzME2m2zj[T:3
+R3
+IH_9jlmLb;1TBQg]kg02kc0
+R4
+R5
+R6
+R7
+R8
+!i122 16
+L0 5 218
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+R1
+vtop_tb
+!s110 1616682220
+!i10b 1
+!s100 S2AP2m<czcMbTOLjWMS`S3
+R3
+IV_>KZ:9aBdHB][ak>?OK?2
+R4
+R5
+w1616682207
+8C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/top_tb.v
+FC:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/top_tb.v
+!i122 17
+L0 6 32
+R9
+r1
+!s85 0
+31
+!s108 1616682220.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/top_tb.v|
+!i113 1
+R13
+R1

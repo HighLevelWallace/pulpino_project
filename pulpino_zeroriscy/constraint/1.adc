@@ -1,0 +1,24 @@
+set_pin_assignment	{ clk }	{ LOCATION = P34; PULLTYPE = NONE; }
+##set_pin_assignment	{ gpio[5] }	{ LOCATION = P4; PULLTYPE = NONE; }
+##set_pin_assignment	{ gpio[7] }	{ LOCATION = P5; PULLTYPE = NONE; }
+set_pin_assignment	{ moving }	{ LOCATION = P23; }
+set_pin_assignment	{ rst_n }	{ LOCATION = P51; PULLTYPE = NONE; }
+set_pin_assignment	{ spi_master_sck }	{ LOCATION = P76; }
+set_pin_assignment	{ spi_master_scs }	{ LOCATION = P71; }
+set_pin_assignment	{ spi_master_sdi }	{ LOCATION = P72; PULLTYPE = NONE; }
+set_pin_assignment	{ spi_master_sdo }	{ LOCATION = P77; }
+set_pin_assignment	{ uart_rx }	{ LOCATION = P54; PULLTYPE = NONE; }
+set_pin_assignment	{ uart_tx }	{ LOCATION = P52; }
+
+
+
+
+
+
+
+
+
+
+
+
+

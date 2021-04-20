@@ -1,0 +1,35 @@
+<chipwatcher project_name="pulpino_zeroriscy" bit_file="pulpino_zeroriscy.bit" bid_file="pulpino_zeroriscy_inst.bid" chip_name="EG4S20BG256">
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="clk_real" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="8192"/>
+		<signal_vec>
+			<trigger_nets>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[0]"/>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[1]"/>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[2]"/>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[3]"/>
+			</trigger_nets>
+			<data_nets>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[0]"/>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[1]"/>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[2]"/>
+				<net name="pulpino_i/core_region_i/data_mem/be_q[3]"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="pulpino_i/core_region_i/data_mem/be_q" radix="bin" state="collapse" op="dont_care">
+					<net name="pulpino_i/core_region_i/data_mem/be_q[3]"/>
+					<net name="pulpino_i/core_region_i/data_mem/be_q[2]"/>
+					<net name="pulpino_i/core_region_i/data_mem/be_q[1]"/>
+					<net name="pulpino_i/core_region_i/data_mem/be_q[0]"/>
+				</bus>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				pulpino_i/core_region_i/data_mem/be_q[0] == low && pulpino_i/core_region_i/data_mem/be_q[1] == low && pulpino_i/core_region_i/data_mem/be_q[2] == low && pulpino_i/core_region_i/data_mem/be_q[3] == low
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

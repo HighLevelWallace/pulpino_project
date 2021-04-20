@@ -1,0 +1,6628 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation
+v\axi_node(AXI_DATA_W=32,AXI_USER_W=1,N_MASTER_PORT=3,N_SLAVE_PORT=3,AXI_ID_IN=2,N_REGION=1) 
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1617104210
+!i10b 1
+!s100 ZA@:>fUDlN:KG]Z3bYNhi2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[4iL_ST:GL>7Uh`oSQH<>0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1617103777
+Z5 8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_zeroriscy_rtl_sim.sv
+Z6 FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_zeroriscy_rtl_sim.sv
+!i122 547
+L0 94267 13892
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1617104209.000000
+Z9 !s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_zeroriscy_rtl_sim.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_zeroriscy_rtl_sim.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+n@134axi_node(@a@x@i_@d@a@t@a_@w=32,@a@x@i_@u@s@e@r_@w=1,@n_@m@a@s@t@e@r_@p@o@r@t=3,@n_@s@l@a@v@e_@p@o@r@t=3,@a@x@i_@i@d_@i@n=2,@n_@r@e@g@i@o@n=1)@040
+v\axi_node_intf_wrap(NB_MASTER=3,NB_SLAVE=3,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1,slave=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=2,AXI_USER_WIDTH=1)_Slave,master=AXI_BUS(AXI_ADDR_WIDTH=32,AXI_DATA_WIDTH=32,AXI_ID_WIDTH=4,AXI_USER_WIDTH=1)_Master) 
+R1
+Z13 !s110 1617104209
+!i10b 1
+!s100 Po1PBaL3GnB_P:fhh[F<h3
+R2
+IKWm4>Ao7I1Yz`8^^R21k`1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 3213 1079
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n3f4f320
+vadd_pu10_mu10_o10
+R1
+Z14 !s110 1617104211
+!i10b 1
+!s100 UE@`la7]>_0?fDzBn>BL83
+R2
+I3iZHn1OHg@`6<m8jUU;n]2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151580 164
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu10_pu10_o10
+R1
+R14
+!i10b 1
+!s100 >K[c_Z^XcHj>lQFFWiJ`>1
+R2
+I2nA_fdUG]dcQSKY:^Scin3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151238 144
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu12_pu12_o12
+R1
+R13
+!i10b 1
+!s100 FY]D0FOPgL6LbeCe6J>>R3
+R2
+ID?U@F2E4GdTZCLZnSEKR`0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1077 170
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu14_pu14_o14
+R1
+R14
+!i10b 1
+!s100 b1;MaS;DL61BcJf_EWo==3
+R2
+IQfTQVFY5BchL];aO]IBKo2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141740 196
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu15_pu15_o15
+R1
+R14
+!i10b 1
+!s100 MjMVb@V<_Ib9=USCS;i=01
+R2
+I@a:gTBTDBbQ_]81g_PNEI2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142330 209
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu16_mu16_o17
+R1
+R14
+!i10b 1
+!s100 C5iV:1I8I3BdX1`B@97?L1
+R2
+I4NYD;maYW0dbPTShco<W;2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 150450 257
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu16_pu16_o16
+R1
+R14
+!i10b 1
+!s100 @ZdMZAgEnUcCig6o9zj>B1
+R2
+IZV8kLk[a;[Q0Wc2]9;0PO3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 150145 222
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu1_pu1_o1
+R1
+R14
+!i10b 1
+!s100 RImSaN`70HQ6AcW`4Y9ES0
+R2
+I^9V66H[eN3mHa7iWNS:ZX0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141370 27
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu2_mu2_o2
+R1
+R14
+!i10b 1
+!s100 ;i`^1QAU9RM_a1;H067<J0
+R2
+I>U3B7n0D:MKdma<zZG5f<0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141483 44
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu2_pu2_o2
+R1
+R14
+!i10b 1
+!s100 gF;4?8Bz<<5TiXE3K^ZLZ3
+R2
+ISXcbdoIWZXoHaY`TVR>Ln0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141398 40
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu30_pu30_o30
+R1
+R14
+!i10b 1
+!s100 VW4nz[S9c_P8@DX?64]Y<3
+R2
+I=c@f5M[;g18Uf`TWW0l5Y0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 150727 404
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu32_pu32_o32
+R1
+R13
+!i10b 1
+!s100 57V;zN_i=lT;Ne<@JdKd@1
+R2
+I540GO7IHW`Q4^M8WW0A5:3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1469 430
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu33_pu30_pu29_pu28_pu27_pu26_pu25_pu24_pu23_pu22_pu21_pu20_pu19_pu18_pu17_pu16_mu32_mu32_o34
+R1
+R14
+!i10b 1
+!s100 ]0765a`g4nn^2@:Szlm2J2
+R2
+I_X^fF=>1iCe5AWck60Ela0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 170985 3716
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu33_pu33_o33
+R1
+R14
+!i10b 1
+!s100 =Zld`WWDhh]6MbP3OOVCQ0
+R2
+IKzEoSSG6iRZSk31Cj6F:91
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151867 443
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu34_pu34_o34
+R1
+R14
+!i10b 1
+!s100 agI=C@e?=nbzH8>k<8MG`3
+R2
+IEVkdDm5`H5In?ZFU[Nj[12
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 152829 456
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu3_mu3_o3
+R1
+R14
+!i10b 1
+!s100 J7Bo>hlXk[A`B1^j@7DeM2
+R2
+ID4TZafcenc`S0eI@<dM463
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142270 59
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu3_pu3_o3
+R1
+R14
+!i10b 1
+!s100 9db[ID<?`9PjCX:5SE<@13
+R2
+IL7X`BoKW[X3UU1Bjk:dF71
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142165 53
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu4_mu4_o4
+R1
+R14
+!i10b 1
+!s100 ;Jd5<jd2UfmHTAP?L2;zU0
+R2
+IRI==f8WPG8920aB]6^;6`3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151163 74
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu4_pu4_o4
+R1
+R14
+!i10b 1
+!s100 dgb^kc7iX6:509^53H8NN1
+R2
+I]JgOE`L6e=>zeSE5S1S802
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149712 66
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu5_mu5_o5
+R1
+R14
+!i10b 1
+!s100 CHEkfA9nLf?[gG_IDoza71
+R2
+I1Y>ch[bF;YoDLNGo3gA>K0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149880 89
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu5_mu5_o6
+R1
+R14
+!i10b 1
+!s100 JHIQFhlCdMPU]FM8=KUTC2
+R2
+IfVcj8M8=GH12`H[MYZMo20
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149619 92
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu5_pu5_o5
+R1
+R14
+!i10b 1
+!s100 J1V73jLSPNN052NiRTlG`1
+R2
+Id[[Te6Lgz@@WE0Lihi];m3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149421 79
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu8_pu8_o8
+R1
+R14
+!i10b 1
+!s100 =6=Jk3ZBU@7;IiJHzojIX0
+R2
+IM9IhXg4zFCj_IcVLIL3Tn1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 150026 118
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadd_pu9_pu9_o9
+R1
+R14
+!i10b 1
+!s100 coQ`=gZKPn=:8NI=2n_lM3
+R2
+Iff;_QhfO=W?m`ZZ=dYem61
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141937 131
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vAL_DFF
+R1
+R14
+!i10b 1
+!s100 Y=hMl88GCI:znFaZ931Bl0
+R2
+IFg7<8dRF=Yz4m8BB:]09`0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 175795 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@d@f@f
+vAL_DFF_0
+R1
+R13
+!i10b 1
+!s100 I4k4zVhR=Rzm<^GnlH_Z@1
+R2
+IIZmMPi?H?1`d2OioEUZV80
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1900 50
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@d@f@f_0
+vAL_DFF_X
+R1
+R13
+!i10b 1
+!s100 g]6`<zil>;0aRZDiaf]iE0
+R2
+IR`g05d`jm0cY2`8QP>jM31
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1420 48
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@d@f@f_@x
+vAL_FADD
+R1
+R14
+!i10b 1
+!s100 a91;kSRZElh?e[Mh:aNjV2
+R2
+IF@d[=8>=;F4J1O:o>N^Ca3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 175772 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@f@a@d@d
+vAL_LATCH
+R1
+R14
+!i10b 1
+!s100 _JaioJY9LU9X_=Yh3ak4m1
+R2
+IXUU:kmV]B;Y>2LkX_QG^g3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 175830 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@l@a@t@c@h
+vAL_LATCH_X
+R1
+R14
+!i10b 1
+!s100 QLLA6eDX0Q=oJ9k;72KY`1
+R2
+ImI4IAcdlUS]K`DbG021790
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142569 48
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@l@a@t@c@h_@x
+vAL_MUX
+R1
+R14
+!i10b 1
+!s100 z@a3?;V3[35h243khCYDL1
+R2
+I`m59l5=k9ni:=aGWSmn3]3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 175756 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l_@m@u@x
+vapb2per
+R1
+Z15 !s110 1616945047
+!i10b 1
+!s100 VR51TO[OoScZW6A3FJ]:h0
+R2
+IQCdYb9DH@c9V_gfHzWkYX0
+R3
+S1
+R0
+Z16 w1595991997
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv
+!i122 361
+L0 28 131
+R7
+r1
+!s85 0
+31
+Z17 !s108 1616945047.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv|
+!i113 1
+R11
+R12
+YAPB_BUS
+R1
+Z18 !s110 1616945101
+!i10b 1
+!s100 XPQcoG`b=AOlK3M99jSeb2
+R2
+I6]B6mZm:CmL7M[=KBkR6>3
+R3
+S1
+R0
+R16
+8C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\apb_bus.sv
+FC:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\apb_bus.sv
+!i122 473
+L0 73 0
+R7
+r1
+!s85 0
+31
+Z19 !s108 1616945101.000000
+Z20 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\debug_bus.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\apb_bus.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv|
+Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv|
+!i113 1
+R11
+R12
+n@a@p@b_@b@u@s
+vapb_event_unit
+R1
+Z22 !s110 1616945043
+!i10b 1
+!s100 :L5<kk1R31EUGmISoYTFb1
+R2
+I4Hj;HlT<coOL>DnUfUAi[2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv
+!i122 351
+L0 13 156
+R7
+r1
+!s85 0
+31
+!s108 1616945042.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\periphery\include\defines_event_unit.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv|
+!i113 1
+R11
+R12
+vapb_gpio
+R1
+R14
+!i10b 1
+!s100 KOjdKnNo4Q3NMZ5>omF5d0
+R2
+IVL_WQJGeX=1^fK:QF4@V_1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142892 6498
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vapb_mock_uart
+R1
+!s110 1616945094
+!i10b 1
+!s100 7^9GNa`mDYb3cHeW6P6EI3
+R2
+IU8n6Wb1Og0[ULei[dMi:92
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv
+!i122 459
+L0 11 86
+R7
+r1
+!s85 0
+31
+!s108 1616945094.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv|
+!i113 1
+R11
+R12
+vapb_node
+R1
+Z23 !s110 1616945044
+!i10b 1
+!s100 0S8L^3TXooX[=ioQPTXl^0
+R2
+ITX8EojTdRkY9CMiM=CgEG1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv
+!i122 354
+L0 20 64
+R7
+r1
+!s85 0
+31
+Z24 !s108 1616945044.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv|
+!i113 1
+R11
+R12
+vapb_node_wrap
+R1
+R23
+!i10b 1
+!s100 @R`2<R]TIb?FOVIRN96EG3
+R2
+IVUbMPj6:_S5N6g>j2S8`j0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv
+!i122 355
+L0 20 63
+R7
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv|
+!i113 1
+R11
+R12
+vapb_pll_if
+R1
+R22
+!i10b 1
+!s100 G?ME75a83>FoUY^]K:<mb2
+R2
+I[cFJ[lA3ZQDo[n>V:E^D`1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv
+!i122 352
+L0 11 78
+R7
+r1
+!s85 0
+31
+!s108 1616945043.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv|
+!i113 1
+R11
+R12
+vapb_pulpino
+R1
+!s110 1617103906
+!i10b 1
+!s100 ^RDjRQ25P1m`S^fa@<H:B3
+R2
+I9NCGXKmmnKeR;TmkPJAVZ2
+R3
+S1
+R0
+w1617103713
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv
+!i122 544
+L0 36 239
+R7
+r1
+!s85 0
+31
+!s108 1617103906.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv|
+!i113 1
+R11
+R12
+vapb_regs_top
+R1
+Z25 !s110 1616945045
+!i10b 1
+!s100 UJmRE;>4AjP]ce`Ei;5zX0
+R2
+IoW^8OVhbaNaK3BGLf9>4A2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv
+!i122 357
+L0 72 112
+R7
+r1
+!s85 0
+31
+Z26 !s108 1616945045.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv|
+!i113 1
+R11
+R12
+vapb_spi_master
+R1
+R25
+!i10b 1
+!s100 S@TekN?>2bzO>:Xazh:?m1
+R2
+I?5:T>dXOeNG4A:9IDI[G_3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv
+!i122 358
+L0 13 366
+R7
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv|
+!i113 1
+R11
+R12
+vapb_timer
+R1
+Z27 !s110 1616945046
+!i10b 1
+!s100 bBC?baQeTF_V@K3Z8[]B93
+R2
+I^zT=IVN4<dmG;2KZ3So7f1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv
+!i122 359
+L0 13 75
+R7
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv|
+!i113 1
+R11
+R12
+Eapb_uart
+R16
+Z28 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z29 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z30 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 360
+R0
+Z31 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd
+Z32 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd
+l0
+L37 1
+V8`1jK>EfR@9mk:H=ZIGkT3
+!s100 [2<fo8f[TDYRZQm55o0N93
+Z33 OV;C;2020.1;71
+32
+R27
+!i10b 1
+Z34 !s108 1616945046.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd|
+Z36 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd|
+!i113 1
+Z37 o-work work -2002 -explicit
+Z38 tExplicit 1 CvgOpt 0
+Artl
+R28
+R29
+R30
+DEx4 work 8 apb_uart 0 22 8`1jK>EfR@9mk:H=ZIGkT3
+!i122 360
+l374
+L66 966
+Vi0^F[gc?m;gK8]WDcfoRZ0
+!s100 `=W:P[hagAF33`Q33f^FW3
+R33
+32
+R27
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R37
+R38
+vaxi2apb32
+R1
+Z39 !s110 1616945066
+!i10b 1
+!s100 X]XG[:c_YJg7>IeZnnlNV3
+R2
+I^B>UEkPUZJ3l[E[g[B:M>0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv
+!i122 399
+L0 20 432
+R7
+r1
+!s85 0
+31
+Z40 !s108 1616945066.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv|
+!i113 1
+R11
+R12
+vaxi2apb_wrap
+R1
+Z41 !s110 1616945097
+!i10b 1
+!s100 GYCBIXh;XTS7MWAWH=DaL1
+R2
+ID7O`IeO^RXiVgMOCJf20O1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv
+!i122 464
+L0 13 183
+R7
+r1
+!s85 0
+31
+Z42 !s108 1616945097.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv|
+!i113 1
+R11
+R12
+vaxi2mem
+R1
+R39
+!i10b 1
+!s100 zz4`SFM08YcH6nG5n2JSg3
+R2
+I?_j[j1P?]SHG<E58i33JM3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv
+!i122 400
+L0 20 276
+R7
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv|
+!i113 1
+R11
+R12
+vaxi_address_decoder_AR
+R1
+R15
+!i10b 1
+!s100 BUlYaSK0ViRZ50cST8hhX1
+R2
+IDPC4Nb=ZD^I4Sn2Q5Z:6@2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv
+!i122 362
+L0 42 186
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv|
+!i113 1
+R11
+R12
+naxi_address_decoder_@a@r
+vaxi_address_decoder_AW
+R1
+!s110 1616945048
+!i10b 1
+!s100 de?eLd2O3@FHg`dKe@L]z1
+R2
+IZ^4<M9Il4@YaVm4XZS[Jb1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv
+!i122 363
+L0 42 235
+R7
+r1
+!s85 0
+31
+Z43 !s108 1616945048.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv|
+!i113 1
+R11
+R12
+naxi_address_decoder_@a@w
+vaxi_address_decoder_BR
+R1
+!s110 1616945049
+!i10b 1
+!s100 7jST@IGV2`[gI^L?:PXX61
+R2
+I_lj9^lbc_H7K>CS1@j`0<3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv
+!i122 364
+L0 45 38
+R7
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv|
+!i113 1
+R11
+R12
+naxi_address_decoder_@b@r
+vaxi_address_decoder_BW
+R1
+Z44 !s110 1616945050
+!i10b 1
+!s100 >024CWAKL^z@GbYYQDzQj1
+R2
+IY0@WK9gI[jof<0O8;TD8N2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv
+!i122 365
+L0 43 45
+R7
+r1
+!s85 0
+31
+!s108 1616945049.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv|
+!i113 1
+R11
+R12
+naxi_address_decoder_@b@w
+vaxi_address_decoder_DW
+R1
+R44
+!i10b 1
+!s100 Ukz>MSAfNcIXLQTD623Xz2
+R2
+I5Kjb`^:J>GQeTa=a5346]1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv
+!i122 366
+L0 45 84
+R7
+r1
+!s85 0
+31
+Z45 !s108 1616945050.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv|
+!i113 1
+R11
+R12
+naxi_address_decoder_@d@w
+vaxi_AR_allocator
+R1
+!s110 1616945051
+!i10b 1
+!s100 d8NfH=Jz_H<fPY5z<fhEX2
+R2
+Ini;2Gi@k?gVPGNhgU=LK22
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv
+!i122 367
+L0 42 110
+R7
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv|
+!i113 1
+R11
+R12
+naxi_@a@r_allocator
+vaxi_ar_buffer
+R1
+Z46 !s110 1616945052
+!i10b 1
+!s100 MOeRbE`DQLGBDXak;mV;E3
+R2
+I2S:n5=N9OaQPGO^BKZI9T3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv
+!i122 368
+Z47 L0 13 62
+R7
+r1
+!s85 0
+31
+!s108 1616945051.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv|
+!i113 1
+R11
+R12
+vaxi_ArbitrationTree
+R1
+R46
+!i10b 1
+!s100 7FM03YzKi]^244IeTlD2`1
+R2
+Io?<IYP1a6:BY7N9@z1U?22
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv
+!i122 369
+L0 44 257
+R7
+r1
+!s85 0
+31
+Z48 !s108 1616945052.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv|
+!i113 1
+R11
+R12
+naxi_@arbitration@tree
+vaxi_AW_allocator
+R1
+R46
+!i10b 1
+!s100 i[DUQWn6Q0nSAO5ZUbbh=2
+R2
+IBUj:bZoflj_`Y?^DL]f<O3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv
+!i122 370
+L0 42 122
+R7
+r1
+!s85 0
+31
+R48
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv|
+!i113 1
+R11
+R12
+naxi_@a@w_allocator
+vaxi_aw_buffer
+R1
+Z49 !s110 1616945053
+!i10b 1
+!s100 @5<CYQ1X>I1`Kn5aM[WW>3
+R2
+IBUfn;Ii[6BYL@_2bnZi9A0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv
+!i122 371
+R47
+R7
+r1
+!s85 0
+31
+Z50 !s108 1616945053.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv|
+!i113 1
+R11
+R12
+vaxi_b_buffer
+R1
+R49
+!i10b 1
+!s100 CR=j7=j@UTK25ClKA4DI]1
+R2
+I87WO8m7D0c<e977e`CIWT1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv
+!i122 372
+L0 13 42
+R7
+r1
+!s85 0
+31
+R50
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv|
+!i113 1
+R11
+R12
+vaxi_BR_allocator
+R1
+Z51 DXx4 work 7 axi_pkg 0 22 GBXQ^YzmHPHXjSTk]LQ]]2
+DXx4 work 24 axi_BR_allocator_sv_unit 0 22 `a`<>L]YPENAndLzJE3^>3
+Z52 !s110 1616945054
+R3
+r1
+!s85 0
+!i10b 1
+!s100 ZTJc_YMehihhE3=8AmKX^1
+IX`QLdV>7QMFlLXUTRzTN90
+!s105 axi_BR_allocator_sv_unit
+S1
+R0
+R16
+Z53 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv
+Z54 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv
+!i122 373
+L0 42 356
+R7
+31
+Z55 !s108 1616945054.000000
+Z56 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv|
+Z57 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv|
+!i113 1
+R11
+R12
+naxi_@b@r_allocator
+Xaxi_BR_allocator_sv_unit
+R1
+R51
+R52
+V`a`<>L]YPENAndLzJE3^>3
+r1
+!s85 0
+!i10b 1
+!s100 inikTTXWTIRL`>:@^zJ2R1
+I`a`<>L]YPENAndLzJE3^>3
+!i103 1
+S1
+R0
+R16
+R53
+R54
+!i122 373
+Z58 L0 41 0
+R7
+31
+R55
+R56
+R57
+!i113 1
+R11
+R12
+naxi_@b@r_allocator_sv_unit
+YAXI_BUS
+R1
+Z59 !s110 1617102947
+!i10b 1
+!s100 1G?nG>iTkndL@92bJ=LT?2
+R2
+IBYkKH_biSXLe:Uacj=AzR1
+R3
+S1
+R0
+R16
+8C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv
+FC:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv
+!i122 543
+Z60 L0 23 0
+R7
+r1
+!s85 0
+31
+Z61 !s108 1617102947.000000
+Z62 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv|
+Z63 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv|
+!i113 1
+R11
+R12
+n@a@x@i_@b@u@s
+vaxi_BW_allocator
+R1
+R51
+DXx4 work 24 axi_BW_allocator_sv_unit 0 22 X[=;gUE=8G4jKgc;S[CEj0
+R52
+R3
+r1
+!s85 0
+!i10b 1
+!s100 LUaEdTFBjh4WkhLe:cazf2
+I5dTK:805FF[><^W1e5Xc43
+!s105 axi_BW_allocator_sv_unit
+S1
+R0
+R16
+Z64 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv
+Z65 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv
+!i122 374
+L0 42 270
+R7
+31
+R55
+Z66 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv|
+Z67 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv|
+!i113 1
+R11
+R12
+naxi_@b@w_allocator
+Xaxi_BW_allocator_sv_unit
+R1
+R51
+R52
+VX[=;gUE=8G4jKgc;S[CEj0
+r1
+!s85 0
+!i10b 1
+!s100 LS9j?g]=0TiA`N?YD1kYL3
+IX[=;gUE=8G4jKgc;S[CEj0
+!i103 1
+S1
+R0
+R16
+R64
+R65
+!i122 374
+R58
+R7
+31
+R55
+R66
+R67
+!i113 1
+R11
+R12
+naxi_@b@w_allocator_sv_unit
+vaxi_cdc
+R1
+Z68 !s110 1616945055
+!i10b 1
+!s100 NzO9QO33kmFXOcn;<2X1;3
+R2
+I?O=@<T3KY5BWYbLL^O=VS3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv
+!i122 375
+L0 15 69
+R7
+r1
+!s85 0
+31
+Z69 !s108 1616945055.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv|
+!i113 1
+R11
+R12
+vaxi_DW_allocator
+R1
+R68
+!i10b 1
+!s100 B0`?dE<5^5XaG?B8milDz3
+R2
+IcTPDn0>7_FWZ2N]8jHB>]1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv
+!i122 376
+L0 44 228
+R7
+r1
+!s85 0
+31
+R69
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv|
+!i113 1
+R11
+R12
+naxi_@d@w_allocator
+vaxi_FanInPrimitive_Req
+R1
+!s110 1616945056
+!i10b 1
+!s100 WcdVBTSoe_VfhO3<[fci82
+R2
+Ijo=Kf<I1TVSE@JLk>`nEZ2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv
+!i122 377
+L0 42 73
+R7
+r1
+!s85 0
+31
+Z70 !s108 1616945056.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv|
+!i113 1
+R11
+R12
+naxi_@fan@in@primitive_@req
+vaxi_mem_if_SP
+R1
+Z71 !s110 1616945057
+!i10b 1
+!s100 F^?0ad5d34S]GYbO2TXjf1
+R2
+IEHI;4:``=6zhi5e4QX<I_2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv
+!i122 378
+L0 11 497
+R7
+r1
+!s85 0
+31
+R70
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv|
+!i113 1
+R11
+R12
+naxi_mem_if_@s@p
+vaxi_mem_if_SP_wrap
+R1
+!s110 1616945095
+!i10b 1
+!s100 5J^<`IlIHhjgcYz:ZTFT`3
+R2
+IbiYEenoS6i:N[R=X@FQaI1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv
+!i122 460
+L0 13 102
+R7
+r1
+!s85 0
+31
+Z72 !s108 1616945095.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv|
+!i113 1
+R11
+R12
+naxi_mem_if_@s@p_wrap
+vaxi_multiplexer
+R1
+R71
+!i10b 1
+!s100 NS]8=HR67Va1g9eEUB4J92
+R2
+I;9L;fC3<7hMg?^Y[5074I0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv
+!i122 379
+L0 42 16
+R7
+r1
+!s85 0
+31
+Z73 !s108 1616945057.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv|
+!i113 1
+R11
+R12
+vaxi_node
+R1
+Z74 !s110 1616945058
+!i10b 1
+!s100 ade:437FSoGS[dQWEIjE@2
+R2
+I;i]UP_0oN7GEWL_kWg89d0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv
+!i122 380
+L0 41 553
+R7
+r1
+!s85 0
+31
+R73
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv|
+!i113 1
+R11
+R12
+vaxi_node_intf_wrap
+R1
+Z75 !s110 1616945096
+!i10b 1
+!s100 joOPg:=i5Fd`BPFnnB_Xc3
+R2
+I;R[JU@`O4`[91T:cTHNh62
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv
+!i122 461
+L0 14 378
+R7
+r1
+!s85 0
+31
+R72
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv|
+!i113 1
+R11
+R12
+vaxi_node_wrap_with_slices
+R1
+R74
+!i10b 1
+!s100 lQ>?IoVSEz>O:<VhT?M8z0
+R2
+I@PM1QX`6CDQej4@9L:C[N1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv
+!i122 381
+L0 22 82
+R7
+r1
+!s85 0
+31
+Z76 !s108 1616945058.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv|
+!i113 1
+R11
+R12
+Xaxi_pkg
+R1
+R74
+!i10b 1
+!s100 fKYYb>51d9lHIQNTV9_0:3
+R2
+IGBXQ^YzmHPHXjSTk]LQ]]2
+VGBXQ^YzmHPHXjSTk]LQ]]2
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv
+!i122 382
+L0 14 0
+R7
+r1
+!s85 0
+31
+R76
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv|
+!i113 1
+R11
+R12
+vaxi_r_buffer
+R1
+Z77 !s110 1616945059
+!i10b 1
+!s100 Y:oz>hZMAoJEAgS6CPLCj0
+R2
+I=f9ZF3A8JTi_;jCCI1MKg2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv
+!i122 383
+L0 13 48
+R7
+r1
+!s85 0
+31
+R76
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv|
+!i113 1
+R11
+R12
+vaxi_read_only_ctrl
+R1
+R77
+!i10b 1
+!s100 ;Qo<9Q9G8dLDEZjXCB2<i0
+R2
+I0[3E5P9zg<?Xfb^MoM>zB2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv
+!i122 384
+L0 16 503
+R7
+r1
+!s85 0
+31
+Z78 !s108 1616945059.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv|
+!i113 1
+R11
+R12
+vaxi_regs_top
+R1
+R77
+!i10b 1
+!s100 3d@<=CRhcQcJ>:5o>@8Cj0
+R2
+I2lAVka0C:dD89mHUQE6P00
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv
+!i122 385
+L0 92 371
+R7
+r1
+!s85 0
+31
+R78
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv|
+!i113 1
+R11
+R12
+vaxi_request_block
+R1
+Z79 !s110 1616945060
+!i10b 1
+!s100 ??YL>=N]`7m?V3jdeH;YF0
+R2
+ITXS0OWc_Nn<TEobQ840m@2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv
+!i122 386
+L0 37 323
+R7
+r1
+!s85 0
+31
+Z80 !s108 1616945060.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv|
+!i113 1
+R11
+R12
+vaxi_response_block
+R1
+R79
+!i10b 1
+!s100 QkSFAUQRFmoJY57Ulk3]i3
+R2
+IZiX7aO:4nM76hTCC[c>7X3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv
+!i122 387
+L0 42 306
+R7
+r1
+!s85 0
+31
+R80
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv|
+!i113 1
+R11
+R12
+vaxi_RR_Flag_Req
+R1
+Z81 !s110 1616945061
+!i10b 1
+!s100 l9D39PXQjgBAbY2He>WXZ2
+R2
+I37oElo1N3]^SK[9@@>hBf1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv
+!i122 388
+L0 43 32
+R7
+r1
+!s85 0
+31
+R80
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv|
+!i113 1
+R11
+R12
+naxi_@r@r_@flag_@req
+vaxi_single_slice
+R1
+R81
+!i10b 1
+!s100 eQYdnk@JLzDia3KVn3l4_0
+R2
+IISe[26a?>>Q5zd[[m2SUK0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv
+!i122 389
+L0 12 40
+R7
+r1
+!s85 0
+31
+Z82 !s108 1616945061.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv|
+!i113 1
+R11
+R12
+vaxi_slice
+R1
+Z83 !s110 1616945062
+!i10b 1
+!s100 @RT^>[^_PXjB_JL57TLGG3
+R2
+IS:EOM1WmaQhkC92:Y2E0W3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv
+!i122 390
+L0 13 299
+R7
+r1
+!s85 0
+31
+R82
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv|
+!i113 1
+R11
+R12
+vaxi_slice_dc_master
+R1
+R83
+!i10b 1
+!s100 ROzlPKjN`o_EMd7hdCz1P0
+R2
+Ik5[meM<TO9X90X``V_EWJ3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv
+!i122 391
+L0 11 347
+R7
+r1
+!s85 0
+31
+Z84 !s108 1616945062.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv|
+!i113 1
+R11
+R12
+vaxi_slice_dc_master_wrap
+R1
+R83
+!i10b 1
+!s100 _f?nTNokA0h]bC<I04EH62
+R2
+IM_WVBnRLGAA`dGgWXJiNl3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv
+!i122 392
+L0 33 221
+R7
+r1
+!s85 0
+31
+R84
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv|
+!i113 1
+R11
+R12
+vaxi_slice_dc_slave
+R1
+Z85 !s110 1616945063
+!i10b 1
+!s100 R7Zh57]?@:F>@PcMOk21@3
+R2
+Iz>LGc_`le3WcUbZ0fLgWc1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv
+!i122 393
+L0 11 330
+R7
+r1
+!s85 0
+31
+R84
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv|
+!i113 1
+R11
+R12
+vaxi_slice_dc_slave_wrap
+R1
+R85
+!i10b 1
+!s100 X6FIC_^PAkS:>_622@F>=0
+R2
+IBiXImzZc`Ncfo6[ccV=ZE3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv
+!i122 394
+L0 11 220
+R7
+r1
+!s85 0
+31
+!s108 1616945063.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv|
+!i113 1
+R11
+R12
+vaxi_slice_wrap
+R1
+R75
+!i10b 1
+!s100 gG[FEj^T:NaeEoM@i2Zcl0
+R2
+IWM9E=egjdcQ>U2CMkYA[C1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv
+!i122 462
+L0 12 186
+R7
+r1
+!s85 0
+31
+Z86 !s108 1616945096.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv|
+!i113 1
+R11
+R12
+vaxi_spi_slave
+R1
+!s110 1616945064
+!i10b 1
+!s100 ooPLMKibkT;R<zOf@DDDM0
+R2
+IH];MjSADIg?QCn=UKO2^83
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv
+!i122 396
+L0 11 309
+R7
+r1
+!s85 0
+31
+Z87 !s108 1616945064.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv|
+!i113 1
+R11
+R12
+vaxi_spi_slave_wrap
+R1
+R41
+!i10b 1
+!s100 b<kBN@LU<AdLo3:4<gMNR0
+R2
+Ih][n=8N5THPiSSzXmkPoO3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv
+!i122 463
+L0 12 104
+R7
+r1
+!s85 0
+31
+R86
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv|
+!i113 1
+R11
+R12
+vaxi_w_buffer
+R1
+Z88 !s110 1616945065
+!i10b 1
+!s100 UTS_nWS42b^CflV54lk6a2
+R2
+I0cC4JbPb>f3fPUo]JZOYT0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv
+!i122 397
+L0 13 43
+R7
+r1
+!s85 0
+31
+R87
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv|
+!i113 1
+R11
+R12
+vaxi_write_only_ctrl
+R1
+R88
+!i10b 1
+!s100 DgUO2eDCX;HU]K_AII@3<3
+R2
+ISh[e0oAaRI?<;chAo^`S53
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv
+!i122 398
+L0 16 336
+R7
+r1
+!s85 0
+31
+!s108 1616945065.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv|
+!i113 1
+R11
+R12
+vbinary_decoder_2
+R1
+R14
+!i10b 1
+!s100 YLOh6c6b2K=ULQS?7Xgdk2
+R2
+II30D0M95>;8g`D_@gfb_T0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142219 24
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_decoder_3
+R1
+R14
+!i10b 1
+!s100 3FUZMb2Wg;2^z:J2=^SnB2
+R2
+I?<TAal1?O@mZiaUlY8_A10
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149779 44
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_decoder_5
+R1
+R14
+!i10b 1
+!s100 EXD6ahLogiR^3=bPL[CFI0
+R2
+IlXhb>YB7k>NWFZUlK9B<23
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142618 204
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s1_w1
+R1
+R14
+!i10b 1
+!s100 KY?i;j?50QGD1AgZ96Xoc0
+R2
+I=IP1QQ?j`IEb=oaTB4EDN3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141461 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s2_w1
+R1
+R13
+!i10b 1
+!s100 P@gblL7aVfhFTX]`J;J9U0
+R2
+IW2?9_5P=C@6L3SEEzjh9n1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1382 37
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s3_w1
+R1
+R14
+!i10b 1
+!s100 XVCEJ5TTeR4G8bz=zE3YI0
+R2
+I9@I3mRVCLi_A:UND5`nFO1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141528 69
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s4_w1
+R1
+R13
+!i10b 1
+!s100 b`nmjGfc7B^LdVzD^f<oi2
+R2
+I96=n`^kbiU=23;fnHogR<2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1248 133
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s5_w1
+R1
+R14
+!i10b 1
+!s100 3;SFbYEZimiI?PMeTF9L42
+R2
+IIoBLgCniHzN:G3Skae26b0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 153644 261
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s6_w1
+R1
+R14
+!i10b 1
+!s100 BXa9K<6G_ZfOYV]oBC4A90
+R2
+IQjLWI7<6K:D=ZCcQQN@@Y2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 152311 517
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vbinary_mux_s7_w1
+R1
+R14
+!i10b 1
+!s100 z`Gz6RPgN5cJXFoU8`Jfo0
+R2
+IW9Ibf9gJ<Y<<Zam@E956d1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 174726 1029
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vboot_code
+R1
+R41
+!i10b 1
+!s100 TRV>Me@=<iolNcPiL_00;0
+R2
+ImRcEkDZnXNULel66_IT1m1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv
+!i122 465
+L0 12 505
+R7
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv|
+!i113 1
+R11
+R12
+vboot_rom_wrap
+R1
+Z89 !s110 1616945098
+!i10b 1
+!s100 GS39WM>2Ti93Ok_9PUR=00
+R2
+I@hIa=`dgAOML<X389OMHS3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv
+!i122 466
+L0 14 23
+R7
+r1
+!s85 0
+31
+Z90 !s108 1616945098.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv|
+!i113 1
+R11
+R12
+vclk_rst_gen
+R1
+R89
+!i10b 1
+!s100 ad_oCGRSl_JGg>ERh_d_B0
+R2
+I]MBzAYiU^HRDm[<oU1E6M3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv
+!i122 467
+L0 12 126
+R7
+r1
+!s85 0
+31
+R90
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv|
+!i113 1
+R11
+R12
+vcluster_clock_gating
+R1
+Z91 !s110 1616945086
+!i10b 1
+!s100 E`B^REjLB39J40e_IljdA3
+R2
+IoAV2Z6[5dET:lHf5iXM8P0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv
+!i122 441
+Z92 L0 11 24
+R7
+r1
+!s85 0
+31
+Z93 !s108 1616945086.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv|
+!i113 1
+R11
+R12
+vcluster_clock_inverter
+R1
+Z94 !s110 1616945087
+!i10b 1
+!s100 V<d3ic;KW_PZnaeQnT?iF0
+R2
+I[g?hNiSJMb1CAo0@Z>KS^0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv
+!i122 442
+Z95 L0 11 9
+R7
+r1
+!s85 0
+31
+Z96 !s108 1616945087.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv|
+!i113 1
+R11
+R12
+vcluster_clock_mux2
+R1
+R94
+!i10b 1
+!s100 L`jbz;HDBMU1CMK8z3Zc83
+R2
+IfEGMIY<7z@Fi5kUGnajRE1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv
+!i122 443
+Z97 L0 11 17
+R7
+r1
+!s85 0
+31
+R96
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv|
+!i113 1
+R11
+R12
+vcore2axi
+R1
+Z98 !s110 1616945067
+!i10b 1
+!s100 O1U[djo;iSlP1a<1fCVGE2
+R2
+IoYjbk@CSR;GV`=9B4ba2U0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv
+!i122 401
+L0 16 321
+R7
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv|
+!i113 1
+R11
+R12
+vcore2axi_wrap
+R1
+!s110 1616945099
+!i10b 1
+!s100 bATYYVfKgzbTiXFe9]:TV0
+R2
+Io5@k<bSl<;h2o2hm7o^cF0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv
+!i122 469
+L0 14 102
+R7
+r1
+!s85 0
+31
+!s108 1616945099.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv|
+!i113 1
+R11
+R12
+vcore_region
+R1
+R59
+!i10b 1
+!s100 JTX6l:Z?:;SnPae^`6Ze51
+R2
+I[1JZ8^b<i[c05WaZHicBS0
+R3
+S1
+R0
+w1617102941
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv
+!i122 543
+L0 15 737
+R7
+r1
+!s85 0
+31
+R61
+R62
+R63
+!i113 1
+R11
+R12
+vdc_data_buffer
+R1
+R98
+!i10b 1
+!s100 hgT`eg0bQhV]JC6;ICFcm1
+R2
+IfRQkkZBCi[97109iM@DaF2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv
+!i122 402
+L0 11 35
+R7
+r1
+!s85 0
+31
+Z99 !s108 1616945067.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv|
+!i113 1
+R11
+R12
+vdc_full_detector
+Z100 !s110 1616945068
+!i10b 1
+!s100 g[;gjY6EMe?VR`aBUinFD3
+R2
+ID[;`T9>Vd6@4Uk5[RLzGL3
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v
+!i122 403
+L0 11 47
+R7
+r1
+!s85 0
+31
+R99
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v|
+!i113 1
+Z101 o-work work
+R12
+vdc_synchronizer
+R100
+!i10b 1
+!s100 `?dAXHZiOc^bzD9W3kMhN2
+R2
+I839DZA37GnAV;WZR9EJfa2
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v
+!i122 404
+L0 11 28
+R7
+r1
+!s85 0
+31
+Z102 !s108 1616945068.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v|
+!i113 1
+R101
+R12
+vdc_token_ring
+R100
+!i10b 1
+!s100 G6mgM]@fN1o_gk5UfJgJa1
+R2
+I7caV;dl@^R`?hDZM@^IFZ1
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v
+!i122 405
+L0 11 30
+R7
+r1
+!s85 0
+31
+R102
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v|
+!i113 1
+R101
+R12
+vdc_token_ring_fifo_din
+Z103 !s110 1616945069
+!i10b 1
+!s100 nDkeD0BL1ICK[_JL9]k>Q0
+R2
+I<>n3HXLZM?iXBBEQi6]F<0
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v
+!i122 406
+L0 11 75
+R7
+r1
+!s85 0
+31
+Z104 !s108 1616945069.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v|
+!i113 1
+R101
+R12
+vdc_token_ring_fifo_dout
+R103
+!i10b 1
+!s100 RS[gkneO0^7o7ZjikBK6D2
+R2
+IZmzPZYANR=CW1>@mQVbDi3
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v
+!i122 407
+L0 11 67
+R7
+r1
+!s85 0
+31
+R104
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v|
+!i113 1
+R101
+R12
+YDEBUG_BUS
+R1
+Z105 !s110 1617102866
+!i10b 1
+!s100 G35<k1eA8C5DVBMNlGKAV3
+R2
+I@jzb0zIB__f^i7:F1>bF82
+R3
+S1
+R0
+R16
+8C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\debug_bus.sv
+FC:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\debug_bus.sv
+!i122 540
+L0 16 0
+R7
+r1
+!s85 0
+31
+Z106 !s108 1617102866.000000
+Z107 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\debug_bus.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\axi_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv|
+Z108 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv|
+!i113 1
+R11
+R12
+n@d@e@b@u@g_@b@u@s
+vdecoder_3to8
+Z109 !s110 1616945088
+!i10b 1
+!s100 D=JAJXNB4@QY^Xj^g45k83
+R2
+If<_?oJ=A0f88oU>8:9lVj0
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v
+!i122 444
+L0 2 13
+R7
+r1
+!s85 0
+31
+R96
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v|
+!i113 1
+R101
+R12
+vdecoder_8to256
+R109
+!i10b 1
+!s100 @WG<>]aCc0G3G`zeaXGFO0
+R2
+IbT3<7o;IY2Ke8SG[T?RK50
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v
+!i122 445
+L0 2 262
+R7
+r1
+!s85 0
+31
+Z110 !s108 1616945088.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v|
+!i113 1
+R101
+R12
+vdff
+R1
+Z111 !s110 1616945106
+!i10b 1
+!s100 @84?8I^Lc51Yj77K6jBYb0
+R2
+Ic3>jij0C20^=[ZVLNco`g3
+R3
+S1
+R0
+R16
+Z112 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv
+Z113 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv
+!i122 485
+L0 158 10
+R7
+r1
+!s85 0
+31
+Z114 !s108 1616945106.000000
+Z115 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv|
+Z116 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv|
+!i113 1
+R11
+R12
+veq_w1
+R1
+R14
+!i10b 1
+!s100 E1l=M<:oJ4>k?IKC>gPIh2
+R2
+IV3VXo7C[NM26o>Pm>mDQI2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151745 17
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w10
+R1
+R14
+!i10b 1
+!s100 T=MP5BCdoTCNSDnY9NY9[2
+R2
+IDz5MB]PYX3<odYWo1n64d3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151383 53
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w12
+R1
+R14
+!i10b 1
+!s100 GGOTf=OmC4?HRfZ9V=UNY1
+R2
+I2k4k]<N<3Gnd5AMZYmX8H1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151763 61
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w17
+R1
+R14
+!i10b 1
+!s100 GhbXd22A?h>0?ig<k78hX2
+R2
+I`9c7]E[0AjbdEz5fL2;aK0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 150368 81
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w2
+R1
+R14
+!i10b 1
+!s100 RNYbOBUmlH`21zbWJSfGg0
+R2
+IK4EFNjAH]UJihAUjjzaCE2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141439 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w3
+R1
+R14
+!i10b 1
+!s100 HDm9QoGS]g^DZ9OFj2bd`0
+R2
+I;me^?zEg`LnXDoKab]0Kc3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142244 25
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w32
+R1
+R14
+!i10b 1
+!s100 IdKTTX?Yz@g`7f_[kD[_X3
+R2
+IVc9SDKmg[M5F^n50]C_>k0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 141598 141
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w4
+R1
+R14
+!i10b 1
+!s100 zhRVPnH@hOiXeQgW?oMhM2
+R2
+Im2:;SW:=4=lWS>nY2>d9Y1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149391 29
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w5
+R1
+R14
+!i10b 1
+!s100 o38=2fQL12<::C[=k@M;H0
+R2
+Ig2<STdJmGJh4LI_hP7kTJ0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149824 33
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w6
+R1
+R14
+!i10b 1
+!s100 :M@nfJ?aAVDi=bXkm?YA:2
+R2
+IekJcP2FaEVR90YG@`dgVo1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149501 37
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w7
+R1
+R14
+!i10b 1
+!s100 lYG32d[VY=YDA@a2UC_2k2
+R2
+Idfe?Lf9MPkX`Fn[J`iLQG3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151825 41
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w8
+R1
+R14
+!i10b 1
+!s100 fM_7OhOBPA^6I9aN?m2SS2
+R2
+Iz?TVzRk24`iY0MA;_;TZ@0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142069 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+veq_w9
+R1
+R14
+!i10b 1
+!s100 @ID=]nTJK1:34B]o37Ii:1
+R2
+Icnc=l1bFC63jU4j@:kzJ=3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142115 49
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vfifo
+R1
+Z117 !s110 1616945070
+!i10b 1
+!s100 7ziV;0M^Yg6cbXmS>m[X<3
+R2
+IO``2RDRbLdonPmnT4mJeV1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv
+!i122 408
+L0 14 43
+R7
+r1
+!s85 0
+31
+R104
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv|
+!i113 1
+R11
+R12
+vfifo_v2
+R1
+R117
+!i10b 1
+!s100 7KKE[[:b[bo]bzFD^8oA00
+R2
+IS_hcE>BWF[>ShH2P5=cod0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv
+!i122 409
+L0 13 67
+R7
+r1
+!s85 0
+31
+Z118 !s108 1616945070.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv|
+!i113 1
+R11
+R12
+vfifo_v3
+R1
+Z119 !s110 1616945071
+!i10b 1
+!s100 P]B3695ON:9`C<ZbL<ze]1
+R2
+I`ZzoaDYk5V@L[^Qa]m>XN0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv
+!i122 410
+L0 13 141
+R7
+r1
+!s85 0
+31
+R118
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv|
+!i113 1
+R11
+R12
+YFLL_BUS
+R1
+R119
+!i10b 1
+!s100 Pg1Kke:Fd]IIPH5?Pz6ZG2
+R2
+IzJ2cnFmG5lK[bP6<X4APV2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv
+!i122 411
+L0 12 0
+R7
+r1
+!s85 0
+31
+Z120 !s108 1616945071.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv|
+!i113 1
+R11
+R12
+n@f@l@l_@b@u@s
+vgeneric_fifo
+R1
+Z121 !s110 1616945089
+!i10b 1
+!s100 mY=TCM>7Ezbh[j42AACfL3
+R2
+IcIgC;U<c?F[9?CAUQi_Q^3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv
+!i122 446
+L0 11 242
+R7
+r1
+!s85 0
+31
+R110
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv|
+!i113 1
+R11
+R12
+vgeneric_service_unit
+R1
+R119
+!i10b 1
+!s100 JZ04b`<OmH2cE`YQ<@jBk2
+R2
+I772mCic2c1Km>65M0@:A=2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv
+!i122 412
+L0 13 147
+R7
+r1
+!s85 0
+31
+R120
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\periphery\include\defines_event_unit.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv|
+!i113 1
+R11
+R12
+vinstr_ram_wrap
+R1
+!s110 1617078691
+!i10b 1
+!s100 kJefJBojWSJ?NfFQ`87PH3
+R2
+IEeZCIBnDE5D5gJXaTnY=S0
+R3
+S1
+R0
+w1617078365
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv
+!i122 530
+L0 14 81
+R7
+r1
+!s85 0
+31
+!s108 1617078691.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv|
+!i113 1
+R11
+R12
+vinv
+R1
+R111
+!i10b 1
+!s100 Po3m?Y^6bBJ17<OdP2]o=0
+R2
+IFEG?V?L4XgNPD`COzRai<0
+R3
+S1
+R0
+R16
+R112
+R113
+!i122 485
+L0 169 11
+R7
+r1
+!s85 0
+31
+R114
+R115
+R116
+!i113 1
+R11
+R12
+vinv_chain
+R1
+R111
+!i10b 1
+!s100 ToY?o7[a>F=FR]NBad@2P1
+R2
+IjJV:TP^H^RFiA;0X8@<6<2
+R3
+S1
+R0
+R16
+R112
+R113
+!i122 485
+L0 181 10
+R7
+r1
+!s85 0
+31
+R114
+R115
+R116
+!i113 1
+R11
+R12
+vlt_u2_u2
+R1
+R14
+!i10b 1
+!s100 CUJc]?U3G3RSU6n>?<55C1
+R2
+IGX<6:AZNZgH:U=?gm;ajQ0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151132 30
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlt_u32_u32
+R1
+R13
+!i10b 1
+!s100 QJkSo5VD?7bQJk^Blek6E3
+R2
+IO:W8LCG0CNIEJ<kDJ6WCW0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 1951 324
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlt_u5_u5
+R1
+R14
+!i10b 1
+!s100 cAgFkImkL29Id3ga_C@=V3
+R2
+ICg1G`S>2]^nd4M34JPhYS2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149539 79
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlt_u8_u8
+R1
+R14
+!i10b 1
+!s100 44H1Ne<F^@^]o0n;aYAeP1
+R2
+IdYe?7VA323PaT[1KZBnV70
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151437 115
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmem_blk
+Z122 !s110 1617102864
+!i10b 1
+!s100 :dM9TMIn[OY5^T3G^SPA`2
+R2
+I;cD[obQ=^ha3EY?eC3KJY1
+R3
+R0
+w1617094577
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v
+!i122 535
+L0 14 59
+R7
+r1
+!s85 0
+31
+!s108 1617102864.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v|
+!i113 1
+R101
+R12
+vmem_tb
+R1
+!s110 1616945041
+!i10b 1
+!s100 _>05n;O5U[188FEBii56Q3
+R2
+I;jizEL6X9m2ZDQLG^<S5S1
+R3
+S1
+R0
+w1616834517
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv
+!i122 347
+L0 2 35
+R7
+r1
+!s85 0
+31
+Z123 !s108 1616945041.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv|
+!i113 1
+R11
+R12
+vmult_s17_s17_o34
+R1
+R14
+!i10b 1
+!s100 UUmVd1@Uo<S0o`]4eX^Bj1
+R2
+Id97J=XHmhDl_zV9]XYm9N3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 153286 357
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w10
+R1
+R14
+!i10b 1
+!s100 1PF]zE_Kh4dOBmVO725V?1
+R2
+IMXeahX;zlF_80O7;l4gQZ0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 151553 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w12
+R1
+R14
+!i10b 1
+!s100 b274cCLzB8CkAgA<IbGMo2
+R2
+Ihg:GV7jZFjgR:91loX1Pd1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142540 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w16
+R1
+R14
+!i10b 1
+!s100 gHEceoNoJ1S:<`I41B9CC2
+R2
+IJEB;Bj=k5W>`ln@<5PJ__3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149993 32
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w2
+R1
+R14
+!i10b 1
+!s100 kW@ZUFD>FjYAV1mlTlRIE2
+R2
+IILRA@S:LH5bH@3IQ7?[DA0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 150708 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w3
+R1
+R14
+!i10b 1
+!s100 b000dZbU@=5Z;i?V13IBO2
+R2
+IU4[]EN<@VCEbMe;jkenY;0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142872 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w32
+R1
+R14
+!i10b 1
+!s100 lb6XAfa2^XSOEV>jPKN<70
+R2
+Ie;I8R@;PhnmYQ9Dgod`JE1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 142823 48
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w5
+R1
+R14
+!i10b 1
+!s100 Nch[X6;cok16@[Y98[bWF2
+R2
+I_:idVCMoIWbj3i6KXK9>>2
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149858 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w6
+R1
+R14
+!i10b 1
+!s100 fn``KXRKNKHnn5P[^=cim0
+R2
+I`_;[VSXgVWSoi6KkF58RF1
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 149970 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vne_w7
+R1
+R14
+!i10b 1
+!s100 OJ?6I`OMS>k0lZNGmBWSh2
+R2
+IggXHc6Ak74XY66^gFmTm93
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 174702 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vnominal_voltage_region
+R1
+!s110 1616945100
+!i10b 1
+!s100 GgN>>cTf>P>kCJiR1^AfY3
+R2
+I=mBCkeU:da7>kVlHJ4gHk2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv
+!i122 471
+L0 3 159
+R7
+r1
+!s85 0
+31
+Z124 !s108 1616945100.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv|
+!i113 1
+R11
+R12
+vonehot_to_bin
+R1
+Z125 !s110 1616945072
+!i10b 1
+!s100 fK0OYKADeeTzGA>`]<;V;2
+R2
+I]ZV8`S@8M3?1jg3<SVT102
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv
+!i122 413
+L0 13 27
+R7
+r1
+!s85 0
+31
+Z126 !s108 1616945072.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv|
+!i113 1
+R11
+R12
+vOSC0
+!s110 1616945040
+!i10b 1
+!s100 a;B45Ne:lTC8U<;Qf]<`H3
+R2
+IQcFDh=75<Q^Q?C@7=eF0S3
+R3
+R0
+w1616154782
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v
+!i122 346
+L0 5 23
+R7
+r1
+!s85 0
+31
+!s108 1616945040.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v|
+!i113 1
+R101
+R12
+n@o@s@c0
+vperiph_bus_wrap
+R1
+R18
+!i10b 1
+!s100 4X<n6S<TTZ9c@:2J9cARZ1
+R2
+ICR35O=DA6BXIFXW9LanM92
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv
+!i122 472
+L0 13 103
+R7
+r1
+!s85 0
+31
+R124
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\apb_bus.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv|
+!i113 1
+R11
+R12
+vperipherals
+R1
+R18
+!i10b 1
+!s100 3C@_jFc7ImOBkn6A?M^7O2
+R2
+Ig;iKlzzcX1BMZZOUPWHDT3
+R3
+S1
+R0
+w1615981966
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv
+!i122 473
+L0 16 530
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R11
+R12
+vpll0
+!s110 1616945042
+!i10b 1
+!s100 4W=76REQBkPhLf@PnGYN01
+R2
+ICOW7Ul_]N2CQi<b@^C3XS3
+R3
+R0
+w1616734157
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v
+!i122 349
+L0 5 101
+R7
+r1
+!s85 0
+31
+R123
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v|
+!i113 1
+R101
+R12
+vpll_config_arbiter
+R1
+Z127 !s110 1616945102
+!i10b 1
+!s100 Qe?GCTLBCKb6g6DkfC_VI2
+R2
+Ije=UV4Xdb`5Dk7Z_0JQUm2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv
+!i122 474
+L0 2 77
+R7
+r1
+!s85 0
+31
+Z128 !s108 1616945102.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv|
+!i113 1
+R11
+R12
+vpll_controller
+R1
+R127
+!i10b 1
+!s100 gFj0`QP5c]mKW;WkO8DG[1
+R2
+I9KZEB2nP2h3kae@o7Z?iV1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv
+!i122 475
+L0 2 88
+R7
+r1
+!s85 0
+31
+R128
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv|
+!i113 1
+R11
+R12
+vPLLCORELAINT
+R121
+!i10b 1
+!s100 20:9gAHP6GBk54h=S5Lfi2
+R2
+I5Y^jGUeWCKfUf8RFjYiZC2
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v
+!i122 447
+L0 34 439
+R7
+r1
+!s85 0
+31
+Z129 !s108 1616945089.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v|
+!i113 1
+R101
+R12
+n@p@l@l@c@o@r@e@l@a@i@n@t
+vpulp_clock_gating
+R1
+R121
+!i10b 1
+!s100 lIVN?cTz?DC=FeTcU19zK2
+R2
+IUhfmJ9@6daAXjHBR74Jz73
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv
+!i122 448
+R92
+R7
+r1
+!s85 0
+31
+R129
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv|
+!i113 1
+R11
+R12
+vpulp_clock_inverter
+R1
+Z130 !s110 1616945090
+!i10b 1
+!s100 4;2azRiClKg0724cVi2za2
+R2
+IYM4`I`=nGfTTBU17PWKDl3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv
+!i122 449
+R95
+R7
+r1
+!s85 0
+31
+Z131 !s108 1616945090.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv|
+!i113 1
+R11
+R12
+vpulp_clock_mux2
+R1
+R130
+!i10b 1
+!s100 =hiU[7jE<Rhm;1:iHVlE^3
+R2
+IF@E`Qll>H^8?BoY;WDDa]3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv
+!i122 450
+R97
+R7
+r1
+!s85 0
+31
+R131
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv|
+!i113 1
+R11
+R12
+vpulp_soc
+!s110 1617106379
+!i10b 1
+!s100 ?N5Vio;O;jnomfkG^8i:U2
+R2
+IH[E>U3eknHmNR5ejfH:ff0
+R3
+R0
+w1617103666
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v
+!i122 548
+L0 6 215
+R7
+r1
+!s85 0
+31
+!s108 1617106378.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v|
+!i113 1
+R101
+R12
+vpulp_soc_tb
+!s110 1616997876
+!i10b 1
+!s100 D?7kMU696E`P0z>OKnoYL3
+R2
+IOJXjEF[[Ig_KjKKbmTK043
+R3
+R0
+w1616997847
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v
+!i122 520
+L0 6 310
+R7
+r1
+!s85 0
+31
+!s108 1616997876.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v|
+!i113 1
+R101
+R12
+vpulpino_top
+R1
+R105
+!i10b 1
+!s100 ]AUaLQUPMR_EnGdWC9?lO3
+R2
+IgemDN6GMAHilnYo^a;ggD3
+R3
+S1
+R0
+w1617099942
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv
+!i122 540
+L0 20 296
+R7
+r1
+!s85 0
+31
+R106
+R107
+R108
+!i113 1
+R11
+R12
+vpulpino_top_tb
+!s110 1616945038
+!i10b 1
+!s100 MBCFSK4G^7W08?<OSXm<51
+R2
+IV`DPA_nT6fAi6MNSCMfGT3
+R3
+R0
+w1616038291
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v
+!i122 342
+L0 6 83
+R7
+r1
+!s85 0
+31
+!s108 1616945038.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v|
+!i113 1
+R101
+R12
+vram_mux
+R1
+!s110 1616945103
+!i10b 1
+!s100 o=g3=af]zeoz0[kQ=1LkW2
+R2
+I<z`Q<LzJhABaKQOJT3jCS1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv
+!i122 478
+L0 11 241
+R7
+r1
+!s85 0
+31
+Z132 !s108 1616945103.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv|
+!i113 1
+R11
+R12
+vrbl
+Z133 !s110 1616945104
+!i10b 1
+!s100 ho2:l:;Qz8fckPagk4hUz2
+R2
+ITTfPHDC2J3gQCNJE`PLMn1
+R3
+R0
+w1589804868
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v
+!i122 479
+L0 3 15
+R7
+r1
+!s85 0
+31
+R132
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v|
+!i113 1
+R101
+R12
+vregisters
+R1
+Z134 !s110 1616945116
+!i10b 1
+!s100 EUWb53Q[c41YW;`az[o9h0
+R2
+I7Cm>?om`Rmh;S>^EQe5P<2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv
+!i122 508
+L0 2 29
+R7
+r1
+!s85 0
+31
+!s108 1616945115.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv|
+!i113 1
+R11
+R12
+vrstgen
+R1
+!s110 1616945091
+!i10b 1
+!s100 XK`V=5dYL;;8z05C1;]=33
+R2
+Iic?MNJGh;3=5`>_^fa9Mf2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv
+!i122 452
+L0 11 61
+R7
+r1
+!s85 0
+31
+!s108 1616945091.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv|
+!i113 1
+R11
+R12
+vs25fl256s
+R134
+!i10b 1
+!s100 dFb6ME4z1;GBbKm>_0>3]1
+R2
+I9eR]Z0mk;eFB:9PezReJk0
+R3
+R0
+Z135 w1595991998
+8C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v
+!i122 509
+L0 124 7919
+R7
+r1
+!s85 0
+31
+Z136 !s108 1616945116.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v|
+!i113 1
+R101
+R12
+vscan_led_hex_disp
+!s110 1617102863
+!i10b 1
+!s100 @DDToI3e==MUP1k?Ed6<G0
+R2
+Ij55O2AP`8jN3n1A?Ghj<11
+R3
+R0
+w1617099997
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v
+!i122 533
+L0 2 79
+R7
+r1
+!s85 0
+31
+Z137 !s108 1617102863.000000
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v|
+!i113 1
+R101
+R12
+vseconds_clk_div
+R122
+!i10b 1
+!s100 C?jBI`k34cf`@GBo>_hc@2
+R2
+IFXUUIbY^R86cM8RH_fR:C0
+R3
+R0
+w1617100871
+8C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v
+FC:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v
+!i122 534
+L0 1 20
+R7
+r1
+!s85 0
+31
+R137
+!s107 C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v|
+!i113 1
+R101
+R12
+vsleep_unit
+R1
+R125
+!i10b 1
+!s100 [JP^fHa0eTmGoe^BPb30T0
+R2
+I>iEgF6_l9WGBJW;^^S>c02
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv
+!i122 414
+L0 13 212
+R7
+r1
+!s85 0
+31
+R126
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\periphery\include\defines_event_unit.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv|
+!i113 1
+R11
+R12
+Eslib_clock_div
+R16
+R28
+R29
+R30
+!i122 415
+R0
+Z138 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd
+Z139 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd
+l0
+Z140 L29 1
+V4kG3CN?jG;QY1WBn`Q=?d0
+!s100 MMkNn?B9nbLjZnd>l93X82
+R33
+32
+Z141 !s110 1616945073
+!i10b 1
+Z142 !s108 1616945073.000000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd|
+Z144 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 14 slib_clock_div 0 22 4kG3CN?jG;QY1WBn`Q=?d0
+!i122 415
+l46
+L41 29
+V]aM6j0MfAZ=D;SeENiNgG2
+!s100 YF:Dc4oj6j=J>bc7NA0SA3
+R33
+32
+R141
+!i10b 1
+R142
+R143
+R144
+!i113 1
+R37
+R38
+Eslib_counter
+R16
+R28
+R29
+R30
+!i122 416
+R0
+Z145 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd
+Z146 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd
+l0
+R140
+VLIB]B1]YBFRS2oZ:76P>41
+!s100 ZaUbW]WbFM?Yo1InA2Q_M1
+R33
+32
+R141
+!i10b 1
+R142
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd|
+Z148 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 12 slib_counter 0 22 LIB]B1]YBFRS2oZ:76P>41
+!i122 416
+l48
+L46 31
+V@28K>[P<ej9gA`AWGZ24o1
+!s100 Dli>`VD:Bf]Jlh@Z9J[zj3
+R33
+32
+R141
+!i10b 1
+R142
+R147
+R148
+!i113 1
+R37
+R38
+Eslib_edge_detect
+R16
+R28
+R29
+R30
+!i122 417
+R0
+Z149 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd
+Z150 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd
+l0
+Z151 L28 1
+V]4<5<9>Ac9;PM0coQLnB23
+!s100 R95d@G3W<A8B69ZP?bA@o0
+R33
+32
+Z152 !s110 1616945074
+!i10b 1
+R142
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd|
+Z154 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 16 slib_edge_detect 0 22 ]4<5<9>Ac9;PM0coQLnB23
+!i122 417
+l40
+L38 18
+VoV@?bGFTD`ZmFd3=bPf7:3
+!s100 zca8=CdW7ELi2YILHW3zg3
+R33
+32
+R152
+!i10b 1
+R142
+R153
+R154
+!i113 1
+R37
+R38
+Eslib_fifo
+R16
+R28
+R29
+R30
+!i122 418
+R0
+Z155 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd
+Z156 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd
+l0
+R140
+VBDh0R>kHk45OX=6hK>Q>]2
+!s100 VM:U`coZh[>kYdWJz<F`@1
+R33
+32
+R152
+!i10b 1
+Z157 !s108 1616945074.000000
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd|
+Z159 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 9 slib_fifo 0 22 BDh0R>kHk45OX=6hK>Q>]2
+!i122 418
+l59
+L48 84
+ViI66kk^0;<ZI]Y]@cHgJ31
+!s100 UFJ@J<aa_NCz`e:0ACB4M2
+R33
+32
+R152
+!i10b 1
+R157
+R158
+R159
+!i113 1
+R37
+R38
+Eslib_input_filter
+R16
+R28
+R29
+R30
+!i122 419
+R0
+Z160 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd
+Z161 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd
+l0
+R151
+VbzSXSCoBcahcob_[ni4[z2
+!s100 >oNX^fWhdS@iN^<F0e_fi3
+R33
+32
+Z162 !s110 1616945075
+!i10b 1
+Z163 !s108 1616945075.000000
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd|
+Z165 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 17 slib_input_filter 0 22 bzSXSCoBcahcob_[ni4[z2
+!i122 419
+l43
+L41 28
+Vd`dDZCSa@e:^zBV`LPfW02
+!s100 Y;lMD:fXnoRA]^V5X8Ohf3
+R33
+32
+R162
+!i10b 1
+R163
+R164
+R165
+!i113 1
+R37
+R38
+Eslib_input_sync
+R16
+R28
+R29
+R30
+!i122 420
+R0
+Z166 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd
+Z167 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd
+l0
+R151
+VSoE9^B60H@zMdfflEG4mb0
+!s100 D3`NbI_2J0?NN6WcaYI2n0
+R33
+32
+Z168 !s110 1616945076
+!i10b 1
+R163
+Z169 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd|
+Z170 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 15 slib_input_sync 0 22 SoE9^B60H@zMdfflEG4mb0
+!i122 420
+l39
+L37 17
+Vkc^S=kd]T`?nIKOMIdX>J2
+!s100 5Mn]]?nUOQZHMNG2zizGa3
+R33
+32
+R168
+!i10b 1
+R163
+R169
+R170
+!i113 1
+R37
+R38
+Eslib_mv_filter
+R16
+R28
+R29
+R30
+!i122 421
+R0
+Z171 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd
+Z172 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd
+l0
+R140
+VdMNRMSg^RgR13YXLJAEQT3
+!s100 Y68Tlh21jam^^_XODK@540
+R33
+32
+R168
+!i10b 1
+Z173 !s108 1616945076.000000
+Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd|
+Z175 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 14 slib_mv_filter 0 22 dMNRMSg^RgR13YXLJAEQT3
+!i122 421
+l50
+L44 34
+VZb=9EFJ<1f;M_VSi=Yzi`1
+!s100 0CZRK`7GXHlk==]S3inY?0
+R33
+32
+R168
+!i10b 1
+R173
+R174
+R175
+!i113 1
+R37
+R38
+vsp_ram
+R1
+!s110 1617102865
+!i10b 1
+!s100 Acf9?eEVFY4;GJnn9[2?33
+R2
+Ijh]7ccL6=IkDanFze72nQ2
+R3
+S1
+R0
+w1617093918
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv
+!i122 537
+L0 12 181
+R7
+r1
+!s85 0
+31
+!s108 1617102865.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv|
+!i113 1
+R11
+R12
+vsp_ram_wrap
+R1
+!s110 1617102867
+!i10b 1
+!s100 DfAIMQ_86:V=WFKg=1`NH1
+R2
+IBe]Ib>Wo]M9Im;lll_1m?1
+R3
+S1
+R0
+w1617094805
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv
+!i122 541
+L0 13 350
+R7
+r1
+!s85 0
+31
+R106
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\soc\includes\config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv|
+!i113 1
+R11
+R12
+vspi_interface
+R1
+R133
+!i10b 1
+!s100 <TQMLL8I9Q_lFN?RbZ<^n1
+R2
+IC]XSAe=6F`gV1kl6OagjB3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv
+!i122 481
+L0 2 105
+R7
+r1
+!s85 0
+31
+Z176 !s108 1616945104.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv|
+!i113 1
+R11
+R12
+vspi_master
+R1
+Z177 !s110 1616945117
+!i10b 1
+!s100 J_ZgOJ=8@nL8@Q1=HdRe61
+R2
+IUW<jNn`nC:Nj5:iHS55je2
+R3
+S1
+R0
+R135
+8C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv
+!i122 510
+L0 2 20
+R7
+r1
+!s85 0
+31
+R136
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv|
+!i113 1
+R11
+R12
+vspi_master_apb_if
+R1
+Z178 !s110 1616945077
+!i10b 1
+!s100 C4`Aa<9GH>aC;NDC=oKEf3
+R2
+IVle]m_CBJhoIANO^C8GMB1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv
+!i122 422
+L0 24 196
+R7
+r1
+!s85 0
+31
+Z179 !s108 1616945077.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv|
+!i113 1
+R11
+R12
+vspi_master_clkgen
+R1
+R178
+!i10b 1
+!s100 [_QgZ1fNneEI^2G=NG?E53
+R2
+IloOK=[<]7bJOO69n09U700
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv
+!i122 423
+L0 11 71
+R7
+r1
+!s85 0
+31
+R179
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv|
+!i113 1
+R11
+R12
+vspi_master_controller
+R1
+Z180 !s110 1616945078
+!i10b 1
+!s100 =<kAmYZ:^9S9AYXbd9GH]2
+R2
+I5?]:z[zinT=91GbbLOc362
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv
+!i122 424
+L0 15 546
+R7
+r1
+!s85 0
+31
+R179
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv|
+!i113 1
+R11
+R12
+vspi_master_fifo
+R1
+R180
+!i10b 1
+!s100 58h^J6mnC9VSgHV3dgV8P0
+R2
+IX>Z:1^GD:E2MocYl0KF243
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv
+!i122 425
+L0 13 127
+R7
+r1
+!s85 0
+31
+Z181 !s108 1616945078.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv|
+!i113 1
+R11
+R12
+vspi_master_rx
+R1
+Z182 !s110 1616945079
+!i10b 1
+!s100 W_Pd`<Fh@2>3ZNA3nac161
+R2
+I1dVZE5i]F9]BM3R^0XTT53
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv
+!i122 426
+L0 11 129
+R7
+r1
+!s85 0
+31
+R181
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv|
+!i113 1
+R11
+R12
+vspi_master_tx
+R1
+R182
+!i10b 1
+!s100 ^YQ`;k@7ESlIc2[l1dSER3
+R2
+I2U;ijQNa277]K7QoTH:6N1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv
+!i122 427
+L0 11 119
+R7
+r1
+!s85 0
+31
+Z183 !s108 1616945079.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv|
+!i113 1
+R11
+R12
+vspi_reciver
+R1
+Z184 !s110 1616945105
+!i10b 1
+!s100 j2Pf@JkbSHdA76DHeie[D2
+R2
+I<d<Eg=mo`cN34^MMliUbY2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv
+!i122 482
+L0 2 34
+R7
+r1
+!s85 0
+31
+R176
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv|
+!i113 1
+R11
+R12
+vspi_sender
+R1
+R184
+!i10b 1
+!s100 Ea`JCB>Hg?l`I9cYVN;cB2
+R2
+IHdEEnOG2@]J19LW1_mfUZ1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv
+!i122 483
+L0 2 38
+R7
+r1
+!s85 0
+31
+Z185 !s108 1616945105.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv|
+!i113 1
+R11
+R12
+vspi_slave_axi_plug
+R1
+R182
+!i10b 1
+!s100 7WJ5i@KjEHW1dRYlC]f:z2
+R2
+IO`[k1U30SX[6UIjb:MWHV2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv
+!i122 428
+L0 11 304
+R7
+r1
+!s85 0
+31
+R183
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv|
+!i113 1
+R11
+R12
+vspi_slave_cmd_parser
+R1
+Z186 !s110 1616945080
+!i10b 1
+!s100 D7Y5M9XW@37`2`Zf>E1_h3
+R2
+IATG]iMgdccl:=iL6Fe<9m3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv
+!i122 429
+L0 11 150
+R7
+r1
+!s85 0
+31
+Z187 !s108 1616945080.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv|
+!i113 1
+R11
+R12
+vspi_slave_controller
+R1
+R186
+!i10b 1
+!s100 h7XlfGFEKiWc<IR4koGzh2
+R2
+IgOkTY;Rb:zjz:ORRjHa@z3
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv
+!i122 430
+L0 15 354
+R7
+r1
+!s85 0
+31
+R187
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv|
+!i113 1
+R11
+R12
+vspi_slave_dc_fifo
+R1
+!s110 1616945081
+!i10b 1
+!s100 BY<5L9OBM9TYjD?kkCjkY1
+R2
+I7^1[OAT<AQ;JK=DgW_8191
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv
+!i122 431
+L0 11 46
+R7
+r1
+!s85 0
+31
+Z188 !s108 1616945081.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv|
+!i113 1
+R11
+R12
+vspi_slave_regs
+R1
+Z189 !s110 1616945082
+!i10b 1
+!s100 >eDHV0Q8_5^@oz8TL>3QD1
+R2
+I8DI?R7zk3@LV_jmfe?8^K1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv
+!i122 432
+L0 11 65
+R7
+r1
+!s85 0
+31
+R188
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv|
+!i113 1
+R11
+R12
+vspi_slave_rx
+R1
+R189
+!i10b 1
+!s100 ^Tg^gB5AU@5JJ]2Rh=V5;0
+R2
+IoGe0J6Bi@mghAT^?dc:[@2
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv
+!i122 433
+L0 11 87
+R7
+r1
+!s85 0
+31
+Z190 !s108 1616945082.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv|
+!i113 1
+R11
+R12
+vspi_slave_syncro
+R1
+R189
+!i10b 1
+!s100 `NKYQL<9m8hn[81kHY81l3
+R2
+IEE?FVG7Ua2J90BgE6eldo1
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv
+!i122 434
+L0 11 43
+R7
+r1
+!s85 0
+31
+R190
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv|
+!i113 1
+R11
+R12
+vspi_slave_tx
+R1
+Z191 !s110 1616945083
+!i10b 1
+!s100 692SczW]6UaKO4bLD>[;X3
+R2
+IOMEF]7Qf<PdF;Ebe9L2Ao0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv
+!i122 435
+L0 11 108
+R7
+r1
+!s85 0
+31
+R190
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv|
+!i113 1
+R11
+R12
+vspi_test
+R177
+!i10b 1
+!s100 kQ[9L@VGJH;Ogdie]OaLS0
+R2
+I^1LYFcck@8aL`3LQie`IS0
+R3
+R0
+R135
+8C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v
+!i122 511
+L0 2 348
+R7
+r1
+!s85 0
+31
+!s108 1616945117.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v|
+!i113 1
+R101
+R12
+vssram
+R1
+R111
+!i10b 1
+!s100 XTK?`n4Nl67dLiPQIP^AO2
+R2
+I`=4[RNO@9TcJ_d0j6Zof60
+R3
+S1
+R0
+w1612157128
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv
+!i122 484
+L0 1 151
+R7
+r1
+!s85 0
+31
+R185
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv|
+!i113 1
+R11
+R12
+vtimer
+R1
+R191
+!i10b 1
+!s100 @YdK<Vi6bJF`R30ob0ITO1
+R2
+I3]d]l`nd]3ZE7Kf0=o:?m0
+R3
+S1
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv
+!i122 436
+L0 20 126
+R7
+r1
+!s85 0
+31
+Z192 !s108 1616945083.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv|
+!i113 1
+R11
+R12
+vtiming_test
+R1
+R111
+!i10b 1
+!s100 [gH;@hbo2PU]>UlHLQl:>1
+R2
+Ii?0aaNW1>^NkG67h0DAD61
+R3
+S1
+R0
+R16
+R112
+R113
+!i122 485
+L0 3 154
+R7
+r1
+!s85 0
+31
+R114
+R115
+R116
+!i113 1
+R11
+R12
+vTSMC28_PLL
+!s110 1616945092
+!i10b 1
+!s100 _HLo:I=Kzn][z[]>=2V_?3
+R2
+IebfMi4dLT]O]H;nIN^ag53
+R3
+R0
+R16
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v
+!i122 455
+L0 33 62
+R7
+r1
+!s85 0
+31
+!s108 1616945092.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v|
+!i113 1
+R101
+R12
+n@t@s@m@c28_@p@l@l
+Euart_baudgen
+R16
+R28
+R29
+R30
+!i122 437
+R0
+Z193 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd
+Z194 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd
+l0
+R140
+Va;;o>gB75QM4nKHiIWS=91
+!s100 nMkhmIiXVBbOz3OzGgdVm0
+R33
+32
+Z195 !s110 1616945084
+!i10b 1
+R192
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd|
+Z197 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 12 uart_baudgen 0 22 a;;o>gB75QM4nKHiIWS=91
+!i122 437
+l43
+L40 26
+VC2=Pk=dkMXSTUHgQ3<k]B1
+!s100 CNKlD>d;?_?0HJL@`ozP63
+R33
+32
+R195
+!i10b 1
+R192
+R196
+R197
+!i113 1
+R37
+R38
+Euart_interrupt
+R16
+R28
+R29
+R30
+!i122 438
+R0
+Z198 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd
+Z199 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd
+l0
+L33 1
+VO]L1eh]McPgJ>zf`Q;UZi3
+!s100 P4V24=T6mZkdM4zzS<Rl40
+R33
+32
+R195
+!i10b 1
+Z200 !s108 1616945084.000000
+Z201 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd|
+Z202 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 14 uart_interrupt 0 22 O]L1eh]McPgJ>zf`Q;UZi3
+!i122 438
+l57
+L49 53
+VENCAJ`8z?Z`FON<QaMCe71
+!s100 1=VgQ=fn>Yf1QWSVHDb3@1
+R33
+32
+R195
+!i10b 1
+R200
+R201
+R202
+!i113 1
+R37
+R38
+Euart_receiver
+R16
+R28
+R29
+R30
+!i122 439
+R0
+Z203 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd
+Z204 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd
+l0
+R140
+VUCEHP`2h[VVXIfZzi[jbK2
+!s100 WfDS6;?IjEa1K>Se7AT4E1
+R33
+32
+R195
+!i10b 1
+R200
+Z205 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd|
+Z206 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 13 uart_receiver 0 22 UCEHP`2h[VVXIfZzi[jbK2
+!i122 439
+l119
+L49 262
+V5OYl]WoaIj^Gd25UkKR0D1
+!s100 l3kozC8]YB9Ym]b]55N5=3
+R33
+32
+R195
+!i10b 1
+R200
+R205
+R206
+!i113 1
+R37
+R38
+Euart_transmitter
+R16
+R28
+R29
+R30
+!i122 440
+R0
+Z207 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd
+Z208 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd
+l0
+R140
+VUk5?[ifcO>LjY3`=2a8Hj2
+!s100 [bY7QcS9BaHbk36dfUIl11
+R33
+32
+R91
+!i10b 1
+R93
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd|
+Z210 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd|
+!i113 1
+R37
+R38
+Artl
+R28
+R29
+R30
+DEx4 work 16 uart_transmitter 0 22 Uk5?[ifcO>LjY3`=2a8Hj2
+!i122 440
+l59
+L48 168
+V`CNF0B7OZ_9HGhm16Co6B2
+!s100 iDLOH401Gh`Z93=AHle:`2
+R33
+32
+R91
+!i10b 1
+R93
+R209
+R210
+!i113 1
+R37
+R38
+vvirtual_spi_programmer
+R1
+!s110 1616987089
+!i10b 1
+!s100 HZ9Ta@5LF3zcK=XDiaBoU1
+R2
+Ih_GEO4Pge[Aal_W3Ye?oB1
+R3
+S1
+R0
+w1616987077
+8C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv
+!i122 517
+L0 2 292
+R7
+r1
+!s85 0
+31
+!s108 1616987088.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv|
+!i113 1
+R11
+R12
+vzeroriscy_alu
+R1
+Z211 DXx4 work 17 zeroriscy_defines 0 22 0;JIIkQO_3nUNQ4Q;f<MQ0
+DXx4 work 21 zeroriscy_alu_sv_unit 0 22 Nff0Ifd?ZZePe>6@;f=9Q2
+Z212 !s110 1616945108
+R3
+r1
+!s85 0
+!i10b 1
+!s100 l?GgaShVdRP0?=>NFnY6O0
+I]9c[DZ[FaXVNmHH0`6@Ei3
+!s105 zeroriscy_alu_sv_unit
+S1
+R0
+Z213 w1615469670
+Z214 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv
+Z215 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv
+!i122 488
+L0 30 252
+R7
+31
+Z216 !s108 1616945107.000000
+Z217 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv|
+Z218 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_alu_sv_unit
+R1
+R211
+Z219 !s110 1616945107
+VNff0Ifd?ZZePe>6@;f=9Q2
+r1
+!s85 0
+!i10b 1
+!s100 KFcccikVTfQRT6fL[PaZ32
+INff0Ifd?ZZePe>6@;f=9Q2
+!i103 1
+S1
+R0
+R213
+R214
+R215
+Z220 FC:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv
+!i122 488
+L0 28 0
+R7
+31
+R216
+R217
+R218
+!i113 1
+R11
+R12
+vzeroriscy_compressed_decoder
+R1
+R211
+DXx4 work 36 zeroriscy_compressed_decoder_sv_unit 0 22 IiBl0nV?4f80dc6l783VP0
+R212
+R3
+r1
+!s85 0
+!i10b 1
+!s100 [cOh]koPJzD06V2DFaCSH1
+IMe5UZfQR^955i7ZzY?lHF2
+!s105 zeroriscy_compressed_decoder_sv_unit
+S1
+R0
+Z221 w1606239158
+Z222 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv
+Z223 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv
+!i122 489
+L0 27 208
+R7
+31
+Z224 !s108 1616945108.000000
+Z225 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv|
+Z226 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_compressed_decoder_sv_unit
+R1
+R211
+R212
+VIiBl0nV?4f80dc6l783VP0
+r1
+!s85 0
+!i10b 1
+!s100 8]:e<]k5G@z>BFU;TMW4:2
+IIiBl0nV?4f80dc6l783VP0
+!i103 1
+S1
+R0
+R221
+R222
+R223
+!i122 489
+L0 25 0
+R7
+31
+R224
+R225
+R226
+!i113 1
+R11
+R12
+vzeroriscy_controller
+R1
+R211
+DXx4 work 28 zeroriscy_controller_sv_unit 0 22 0CjKBaHaKz;zA0ej^DmY02
+R212
+R3
+r1
+!s85 0
+!i10b 1
+!s100 <e^zTYe>eOleeZX6[F64b2
+I2ileNMRj0;8ALm_=D7nV80
+!s105 zeroriscy_controller_sv_unit
+S1
+R0
+Z227 w1616832823
+Z228 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv
+Z229 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv
+!i122 490
+L0 39 504
+R7
+31
+R224
+Z230 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv|
+Z231 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_controller_sv_unit
+R1
+R211
+R212
+V0CjKBaHaKz;zA0ej^DmY02
+r1
+!s85 0
+!i10b 1
+!s100 gQOUYf]]@LiKUC]J3V`[k0
+I0CjKBaHaKz;zA0ej^DmY02
+!i103 1
+S1
+R0
+R227
+R228
+R229
+R220
+!i122 490
+L0 36 0
+R7
+31
+R224
+R230
+R231
+!i113 1
+R11
+R12
+vzeroriscy_core
+R1
+R14
+!i10b 1
+!s100 ^z_N3?JBb_D4SPLZN;bDa3
+R2
+I0HBfBk>YJ8Pii4Yl@AN7m3
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 108160 33209
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Xzeroriscy_core_sv_unit
+R1
+R211
+Z232 !s110 1616945109
+V?DOz^9mQ4ozTM15OJHz`_3
+r1
+!s85 0
+!i10b 1
+!s100 j;LP8@A1mboB8F>?neUiC1
+I?DOz^9mQ4ozTM15OJHz`_3
+!i103 1
+S1
+R0
+w1616212042
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv
+R220
+!i122 491
+Z233 L0 31 0
+R7
+31
+R224
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv|
+!i113 1
+R11
+R12
+vzeroriscy_cs_registers
+R1
+R211
+DXx4 work 30 zeroriscy_cs_registers_sv_unit 0 22 2HBIg6I<ckJ<QAgJZi6DW0
+R232
+R3
+r1
+!s85 0
+!i10b 1
+!s100 C8]h6N[QY`3oaHMk[6Ljo3
+IgRBO5MJ?B0JIPB^>mnWTH1
+!s105 zeroriscy_cs_registers_sv_unit
+S1
+R0
+Z234 w1615469723
+Z235 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv
+Z236 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv
+!i122 492
+L0 37 441
+R7
+31
+Z237 !s108 1616945109.000000
+Z238 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv|
+Z239 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_cs_registers_sv_unit
+R1
+R211
+R232
+V2HBIg6I<ckJ<QAgJZi6DW0
+r1
+!s85 0
+!i10b 1
+!s100 F<YTNF<:OK6za]4i:@Fhl0
+I2HBIg6I<ckJ<QAgJZi6DW0
+!i103 1
+S1
+R0
+R234
+R235
+R236
+R220
+!i122 492
+L0 29 0
+R7
+31
+R237
+R238
+R239
+!i113 1
+R11
+R12
+vzeroriscy_debug_unit
+R1
+R211
+DXx4 work 28 zeroriscy_debug_unit_sv_unit 0 22 E:]>GJ51fdezP9_X71XDZ0
+R232
+R3
+r1
+!s85 0
+!i10b 1
+!s100 a33nTfo1m=mLMCfEI?e@k1
+I;D@<lmN2b2gcNP0m^]CVN3
+!s105 zeroriscy_debug_unit_sv_unit
+S1
+R0
+Z240 w1615965131
+Z241 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv
+Z242 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv
+!i122 493
+L0 30 460
+R7
+31
+R237
+Z243 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv|
+Z244 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_debug_unit_sv_unit
+R1
+R211
+R232
+VE:]>GJ51fdezP9_X71XDZ0
+r1
+!s85 0
+!i10b 1
+!s100 B]:Id4fACgoOkYEPm;a:e3
+IE:]>GJ51fdezP9_X71XDZ0
+!i103 1
+S1
+R0
+R240
+R241
+R242
+R220
+!i122 493
+L0 27 0
+R7
+31
+R237
+R243
+R244
+!i113 1
+R11
+R12
+vzeroriscy_decoder
+R1
+R211
+DXx4 work 25 zeroriscy_decoder_sv_unit 0 22 YZ<3h3dPkP;Pk7PQgH>930
+Z245 !s110 1616945110
+R3
+r1
+!s85 0
+!i10b 1
+!s100 4k7h9d=3BiRN3<A5P2>GD3
+IXV55:1h3FVDkGB6aa9<mT3
+!s105 zeroriscy_decoder_sv_unit
+S1
+R0
+Z246 w1615469692
+Z247 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv
+Z248 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv
+!i122 494
+L0 33 558
+R7
+31
+R237
+Z249 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv|
+Z250 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_decoder_sv_unit
+R1
+R211
+R245
+VYZ<3h3dPkP;Pk7PQgH>930
+r1
+!s85 0
+!i10b 1
+!s100 <`C2Qc5iT4j_LK?AiGb?81
+IYZ<3h3dPkP;Pk7PQgH>930
+!i103 1
+S1
+R0
+R246
+R247
+R248
+R220
+!i122 494
+R233
+R7
+31
+R237
+R249
+R250
+!i113 1
+R11
+R12
+Xzeroriscy_defines
+R1
+R219
+!i10b 1
+!s100 B`^l7_ESM?ezJ2^B9>Bd22
+R2
+I0;JIIkQO_3nUNQ4Q;f<MQ0
+V0;JIIkQO_3nUNQ4Q;f<MQ0
+S1
+R0
+R221
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv
+!i122 486
+L0 26 0
+R7
+r1
+!s85 0
+31
+R216
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv|
+!i113 1
+R11
+R12
+vzeroriscy_ex_block
+R1
+R211
+DXx4 work 26 zeroriscy_ex_block_sv_unit 0 22 a7JYSVQocQBzI79ESL0Aa1
+R245
+R3
+r1
+!s85 0
+!i10b 1
+!s100 HFeKjgi5B1DM@LNeGI<0W1
+IlXbddSeD1S>XW8]^3nO243
+!s105 zeroriscy_ex_block_sv_unit
+S1
+R0
+Z251 w1615469709
+Z252 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv
+Z253 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv
+!i122 495
+L0 33 156
+R7
+31
+Z254 !s108 1616945110.000000
+Z255 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv|
+Z256 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_ex_block_sv_unit
+R1
+R211
+R245
+Va7JYSVQocQBzI79ESL0Aa1
+r1
+!s85 0
+!i10b 1
+!s100 [IhB;[CUeBU]?[WVlWMGX2
+Ia7JYSVQocQBzI79ESL0Aa1
+!i103 1
+S1
+R0
+R251
+R252
+R253
+R220
+!i122 495
+R233
+R7
+31
+R254
+R255
+R256
+!i113 1
+R11
+R12
+vzeroriscy_fetch_fifo
+R1
+Z257 !s110 1616945111
+!i10b 1
+!s100 24?lGVk^8L426KbHSMOk00
+R2
+IABZFmRJD9?JJO][GnSh^G0
+R3
+S1
+R0
+w1615469718
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv
+!i122 496
+L0 26 205
+R7
+r1
+!s85 0
+31
+R254
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv|
+!i113 1
+R11
+R12
+vzeroriscy_id_stage
+R1
+R14
+!i10b 1
+!s100 2MdJ?TkNhY^doJLBa>ccU0
+R2
+IYjKI<cXGf;am4N4C6_Zjg0
+R3
+S1
+R0
+R4
+R5
+R6
+!i122 547
+L0 153906 17078
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Xzeroriscy_id_stage_sv_unit
+R1
+R211
+R257
+VS<>PoCkHbYSe:K2haceAT1
+r1
+!s85 0
+!i10b 1
+!s100 dMYkRJnaBQKm@bUAA6L4f3
+IS<>PoCkHbYSe:K2haceAT1
+!i103 1
+S1
+R0
+w1615469681
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv
+R220
+!i122 497
+R233
+R7
+31
+Z258 !s108 1616945111.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv|
+!i113 1
+R11
+R12
+vzeroriscy_if_stage
+R1
+R211
+DXx4 work 26 zeroriscy_if_stage_sv_unit 0 22 U]D8iB3<BZ3dUJ?@T`E9e2
+R257
+R3
+r1
+!s85 0
+!i10b 1
+!s100 0eiLDhbDAVk4Uc]mWHG@90
+I5KgQZ3Bk>LBG7VKSIN4_:0
+!s105 zeroriscy_if_stage_sv_unit
+S1
+R0
+Z259 w1615469732
+Z260 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv
+Z261 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv
+!i122 498
+L0 32 246
+R7
+31
+R258
+Z262 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv|
+Z263 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_if_stage_sv_unit
+R1
+R211
+R257
+VU]D8iB3<BZ3dUJ?@T`E9e2
+r1
+!s85 0
+!i10b 1
+!s100 5;_UzMdVF=fFeE:C]IVa`3
+IU]D8iB3<BZ3dUJ?@T`E9e2
+!i103 1
+S1
+R0
+R259
+R260
+R261
+R220
+!i122 498
+Z264 L0 30 0
+R7
+31
+R258
+R262
+R263
+!i113 1
+R11
+R12
+vzeroriscy_int_controller
+R1
+R211
+DXx4 work 32 zeroriscy_int_controller_sv_unit 0 22 <g5H^Ejafee9k13gC6Rm30
+Z265 !s110 1616945112
+R3
+r1
+!s85 0
+!i10b 1
+!s100 @LG7IOYbX__YmaKUSMm;F2
+IQX@UfP[RF9:n<A_W]cOlT3
+!s105 zeroriscy_int_controller_sv_unit
+S1
+R0
+R221
+Z266 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv
+Z267 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv
+!i122 499
+L0 26 83
+R7
+31
+R258
+Z268 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv|
+Z269 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_int_controller_sv_unit
+R1
+R211
+R265
+V<g5H^Ejafee9k13gC6Rm30
+r1
+!s85 0
+!i10b 1
+!s100 _F_FD6OcZ2NZTb_mR4Tcc2
+I<g5H^Ejafee9k13gC6Rm30
+!i103 1
+S1
+R0
+R221
+R266
+R267
+!i122 499
+L0 24 0
+R7
+31
+R258
+R268
+R269
+!i113 1
+R11
+R12
+vzeroriscy_load_store_unit
+R1
+R265
+!i10b 1
+!s100 _9o`^2NR4dIL]abZnI_FL1
+R2
+ID9^KZU`1Uo>lW3l7L;z2@0
+R3
+S1
+R0
+w1615469713
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv
+!i122 500
+L0 30 470
+R7
+r1
+!s85 0
+31
+Z270 !s108 1616945112.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv|
+!i113 1
+R11
+R12
+vzeroriscy_multdiv_fast
+R1
+R211
+DXx4 work 30 zeroriscy_multdiv_fast_sv_unit 0 22 NC:Qz9Me=HTn2PJEzO91G1
+R265
+R3
+r1
+!s85 0
+!i10b 1
+!s100 G2_OiYK[:g2BnQ76S?jKg0
+I2`WXG9o6DC11bT5]IcMD23
+!s105 zeroriscy_multdiv_fast_sv_unit
+S1
+R0
+R221
+Z271 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv
+Z272 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv
+!i122 501
+L0 28 312
+R7
+31
+R270
+Z273 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv|
+Z274 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_multdiv_fast_sv_unit
+R1
+R211
+R265
+VNC:Qz9Me=HTn2PJEzO91G1
+r1
+!s85 0
+!i10b 1
+!s100 m2b4_mQ[lno7=JoG8NH6G2
+INC:Qz9Me=HTn2PJEzO91G1
+!i103 1
+S1
+R0
+R221
+R271
+R272
+!i122 501
+R60
+R7
+31
+R270
+R273
+R274
+!i113 1
+R11
+R12
+vzeroriscy_multdiv_slow
+R1
+R211
+DXx4 work 30 zeroriscy_multdiv_slow_sv_unit 0 22 7OPCBU?C8RKgP?L_cIOPi0
+Z275 !s110 1616945113
+R3
+r1
+!s85 0
+!i10b 1
+!s100 ;EjP0S<b1zW[E3z_SKW0L0
+ICkJLfeWaXEI@0O<YFo_MC1
+!s105 zeroriscy_multdiv_slow_sv_unit
+S1
+R0
+R221
+Z276 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv
+Z277 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv
+!i122 502
+L0 26 275
+R7
+31
+R270
+Z278 !s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv|
+Z279 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_multdiv_slow_sv_unit
+R1
+R211
+R275
+V7OPCBU?C8RKgP?L_cIOPi0
+r1
+!s85 0
+!i10b 1
+!s100 ^LUkimM8[bjAaoL4NFOMT3
+I7OPCBU?C8RKgP?L_cIOPi0
+!i103 1
+S1
+R0
+R221
+R276
+R277
+!i122 502
+R60
+R7
+31
+R270
+R278
+R279
+!i113 1
+R11
+R12
+vzeroriscy_prefetch_buffer
+R1
+R275
+!i10b 1
+!s100 i0e0akei`=hine7Snfi[o1
+R2
+I_6T[>H9WQcHOoi4XBT57D3
+R3
+S1
+R0
+R221
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv
+!i122 503
+L0 23 230
+R7
+r1
+!s85 0
+31
+!s108 1616945113.000000
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv|
+!i113 1
+R11
+R12
+vzeroriscy_register_file
+R1
+!s110 1616945114
+!i10b 1
+!s100 j3fU]kKU:g:<aDiY9Rk@^3
+R2
+I[Z`VQEPJ2jIa7?A3_JMR43
+R3
+S1
+R0
+w1615469676
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv
+!i122 505
+L0 29 75
+R7
+r1
+!s85 0
+31
+Z280 !s108 1616945114.000000
+!s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv|
+!i113 1
+R11
+R12
+vzeroriscy_tracer
+R1
+R211
+Z281 DXx4 work 24 zeroriscy_tracer_defines 0 22 Kkz?STJRgK_AaABkiaKi70
+DXx4 work 24 zeroriscy_tracer_sv_unit 0 22 i`284Qj0GUgALc[oW;8Gb2
+Z282 !s110 1616945115
+R3
+r1
+!s85 0
+!i10b 1
+!s100 hoK:1d=eZO[jPTQ0G2ec20
+I;MmKSO9jPa6nIX<3DnGn^2
+!s105 zeroriscy_tracer_sv_unit
+S1
+R0
+Z283 w1615469727
+Z284 8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv
+Z285 FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv
+!i122 506
+L0 41 403
+R7
+31
+R280
+Z286 !s107 C:\Users\10128\Documents\GitHub\AnLogic_core\RTL\zero-riscy\include\zeroriscy_config.sv|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv|
+Z287 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_tracer_defines
+R1
+R211
+R219
+!i10b 1
+!s100 zS`FRj0b5V5lYaSzK@SUQ0
+R2
+IKkz?STJRgK_AaABkiaKi70
+VKkz?STJRgK_AaABkiaKi70
+S1
+R0
+R221
+8C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv
+FC:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv
+!i122 487
+L0 11 0
+R7
+r1
+!s85 0
+31
+R216
+!s107 C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv|
+!i113 1
+R11
+R12
+Xzeroriscy_tracer_sv_unit
+R1
+R211
+R281
+R282
+Vi`284Qj0GUgALc[oW;8Gb2
+r1
+!s85 0
+!i10b 1
+!s100 FPLFo>jgi_^KzZk2E;45;2
+Ii`284Qj0GUgALc[oW;8Gb2
+!i103 1
+S1
+R0
+R283
+R284
+R285
+R220
+!i122 506
+R264
+R7
+31
+R280
+R286
+R287
+!i113 1
+R11
+R12

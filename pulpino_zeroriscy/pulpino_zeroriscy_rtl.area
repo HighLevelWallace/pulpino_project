@@ -1,0 +1,42 @@
+standard
+***Report Model: pulp_soc***
+
+IO Statistics
+#IO                        31
+  #input                    4
+  #output                  19
+  #inout                    8
+
+Gate Statistics
+#Basic gates            15517
+  #and                   2354
+  #nand                     0
+  #or                    1152
+  #nor                      0
+  #xor                    118
+  #xnor                     0
+  #buf                      0
+  #not                    944
+  #bufif1                   8
+  #MX21                  2927
+  #FADD                     0
+  #DFF                   8006
+  #LATCH                    8
+#MACRO_ADD                268
+#MACRO_EQ                 360
+#MACRO_MULT                 1
+#MACRO_MUX               7611
+
+Report Hierarchy Area:
++-------------------------------------------------------------------+
+|Instance               |Module             |gates  |seq    |macros |
++-------------------------------------------------------------------+
+|top                    |pulp_soc           |7503   |8014   |647    |
+|  pulpino_i            |pulpino_top        |7411   |7970   |646    |
+|    axi_interconnect_i |axi_node_intf_wrap |1039   |349    |139    |
+|      axi_node_i       |axi_node           |1039   |349    |139    |
+|    core_region_i      |core_region        |3998   |3644   |289    |
+|      CORE$RISCV_CORE  |zeroriscy_core     |2575   |1540   |137    |
+|    peripherals_i      |peripherals        |2369   |3967   |218    |
+|      apb_gpio_i       |apb_gpio           |311    |352    |1      |
++-------------------------------------------------------------------+

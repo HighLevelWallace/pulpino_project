@@ -1,0 +1,71 @@
+C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OSC
+
+Top level modules:
+	OSC
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC_sim.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/OSC_sim.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OSC
+
+Top level modules:
+	OSC
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bram
+
+Top level modules:
+	bram
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram_sim.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/bram_sim.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bram
+
+Top level modules:
+	bram
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/top.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/PLL.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/PLL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PLL
+
+Top level modules:
+	PLL
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/PLL_sim.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/al_ip/PLL_sim.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PLL
+
+Top level modules:
+	PLL
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/addr_gen.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/addr_gen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addr_gen
+
+Top level modules:
+	addr_gen
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/clk_div.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/clk_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clk_div
+
+Top level modules:
+	clk_div
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/top_tb.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/clk_test/simulation/top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}}

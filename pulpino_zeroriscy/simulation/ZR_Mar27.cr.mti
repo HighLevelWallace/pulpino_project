@@ -1,0 +1,1465 @@
+C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_compressed_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_compressed_decoder_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_compressed_decoder
+
+Top level modules:
+	zeroriscy_compressed_decoder
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_alu_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_alu
+
+Top level modules:
+	zeroriscy_alu
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/generic_fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module generic_fifo
+
+Top level modules:
+	generic_fifo
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice_dc_master
+
+Top level modules:
+	axi_slice_dc_master
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_aw_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_aw_buffer
+
+Top level modules:
+	axi_aw_buffer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/debug_bus.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/debug_bus.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface DEBUG_BUS
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_address_decoder_AW
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv(64): (vlog-13314) Defaulting port 'START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv(65): (vlog-13314) Defaulting port 'END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AW.sv(66): (vlog-13314) Defaulting port 'enable_region_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_address_decoder_AW
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_cdc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_cdc
+
+Top level modules:
+	axi_cdc
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zeroriscy_register_file
+
+Top level modules:
+	zeroriscy_register_file
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_8to256.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_8to256
+
+Top level modules:
+	decoder_8to256
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/generic_service_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module generic_service_unit
+
+Top level modules:
+	generic_service_unit
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo_v3
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv(144): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv(148): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v3.sv(13): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	fifo_v3
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen_sim.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OSC0
+
+Top level modules:
+	OSC0
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_multiplexer
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_multiplexer.sv(49): (vlog-13314) Defaulting port 'IN_DATA' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_multiplexer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rstgen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rstgen
+
+Top level modules:
+	rstgen
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_mem_if_SP_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling module axi_mem_if_SP_wrap
+
+Top level modules:
+	axi_mem_if_SP_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_address_decoder_AR
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv(59): (vlog-13314) Defaulting port 'START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv(60): (vlog-13314) Defaulting port 'END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_AR.sv(61): (vlog-13314) Defaulting port 'enable_region_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_address_decoder_AR
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_blk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_blk
+
+Top level modules:
+	mem_blk
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/onehot_to_bin.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module onehot_to_bin
+
+Top level modules:
+	onehot_to_bin
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2apb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi2apb32
+
+Top level modules:
+	axi2apb32
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/s25fl256s.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module s25fl256s
+
+Top level modules:
+	s25fl256s
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_gating.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cluster_clock_gating
+
+Top level modules:
+	cluster_clock_gating
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_ArbitrationTree
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv(57): (vlog-13314) Defaulting port 'data_AUX_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ArbitrationTree.sv(58): (vlog-13314) Defaulting port 'data_ID_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_ArbitrationTree
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_mem_if_SP
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_mem_if_SP.sv(48): (vlog-13314) Defaulting port 'WDATA_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_mem_if_SP
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_w_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_w_buffer
+
+Top level modules:
+	axi_w_buffer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/rbl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rbl
+
+Top level modules:
+	rbl
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_mv_filter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_mv_filter
+-- Compiling architecture rtl of slib_mv_filter
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_counter
+-- Compiling architecture rtl of slib_counter
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_master_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice_dc_master_wrap
+
+Top level modules:
+	axi_slice_dc_master_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_DW_allocator
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv(60): (vlog-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv(61): (vlog-13314) Defaulting port 'wstrb_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_DW_allocator.sv(63): (vlog-13314) Defaulting port 'wuser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_DW_allocator
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_spi_slave_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_spi_slave_wrap
+
+Top level modules:
+	axi_spi_slave_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/ssram.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/ssram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ssram
+
+Top level modules:
+	ssram
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_regs_top
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv(92): (vlog-13314) Defaulting port 'init_START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv(93): (vlog-13314) Defaulting port 'init_END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv(94): (vlog-13314) Defaulting port 'init_valid_rule_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_regs_top.sv(95): (vlog-13314) Defaulting port 'init_connectivity_map_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	apb_regs_top
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ram_mux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram_mux
+
+Top level modules:
+	ram_mux
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulpino_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling interface DEBUG_BUS
+-- Compiling module pulpino_top
+
+Top level modules:
+	pulpino_top
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pulp_soc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulp_soc
+
+Top level modules:
+	pulp_soc
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_rom_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module boot_rom_wrap
+
+Top level modules:
+	boot_rom_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_rx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_rx
+
+Top level modules:
+	spi_slave_rx
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_full_detector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dc_full_detector
+
+Top level modules:
+	dc_full_detector
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_id_stage_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_id_stage
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv(775): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv(784): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_id_stage.sv(788): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	zeroriscy_id_stage
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_sender.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_sender
+
+Top level modules:
+	spi_sender
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core_region.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling module core_region
+
+Top level modules:
+	core_region
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulp_clock_mux2
+
+Top level modules:
+	pulp_clock_mux2
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_tx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_tx
+
+Top level modules:
+	spi_slave_tx
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_write_only_ctrl.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_write_only_ctrl
+
+Top level modules:
+	axi_write_only_ctrl
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice
+
+Top level modules:
+	axi_slice
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_gpio.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_gpio.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_gpio
+
+Top level modules:
+	apb_gpio
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_spi_master.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_spi_master
+
+Top level modules:
+	apb_spi_master
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master_fifo
+
+Top level modules:
+	spi_master_fifo
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_response_block
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(62): (vlog-13314) Defaulting port 'rid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(63): (vlog-13314) Defaulting port 'rdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(64): (vlog-13314) Defaulting port 'rresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(66): (vlog-13314) Defaulting port 'ruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(71): (vlog-13314) Defaulting port 'bid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(72): (vlog-13314) Defaulting port 'bresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(73): (vlog-13314) Defaulting port 'buser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(123): (vlog-13314) Defaulting port 'START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(124): (vlog-13314) Defaulting port 'END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_response_block.sv(125): (vlog-13314) Defaulting port 'enable_region_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_response_block
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_event_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_event_unit
+
+Top level modules:
+	apb_event_unit
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/instr_ram_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instr_ram_wrap
+
+Top level modules:
+	instr_ram_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/axi_bus.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/axi_bus.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_sync.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_input_sync
+-- Compiling architecture rtl of slib_input_sync
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/periph_bus_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface APB_BUS
+-- Compiling module periph_bus_wrap
+
+Top level modules:
+	periph_bus_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_slice_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice_wrap
+
+Top level modules:
+	axi_slice_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rbl.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/rbl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rbl
+
+Top level modules:
+	rbl
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_apb_if.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master_apb_if
+
+Top level modules:
+	spi_master_apb_if
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_rx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master_rx
+
+Top level modules:
+	spi_master_rx
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_node_wrap
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv(32): (vlog-13314) Defaulting port 'start_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node_wrap.sv(33): (vlog-13314) Defaulting port 'end_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	apb_node_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_pulpino.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_pulpino
+
+Top level modules:
+	apb_pulpino
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_fast.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_multdiv_fast_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_multdiv_fast
+
+Top level modules:
+	zeroriscy_multdiv_fast
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_baudgen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_baudgen
+-- Compiling architecture rtl of uart_baudgen
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_tx.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master_tx
+
+Top level modules:
+	spi_master_tx
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice_dc_slave_wrap
+
+Top level modules:
+	axi_slice_dc_slave_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/core2axi_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling module core2axi_wrap
+
+Top level modules:
+	core2axi_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi2mem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi2mem
+
+Top level modules:
+	axi2mem
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_timer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_timer
+
+Top level modules:
+	apb_timer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/peripherals.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling interface APB_BUS
+-- Compiling interface DEBUG_BUS
+-- Compiling module peripherals
+
+Top level modules:
+	peripherals
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/core2axi.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module core2axi
+
+Top level modules:
+	core2axi
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(56): (vlog-13314) Defaulting port 'rid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(57): (vlog-13314) Defaulting port 'rdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(58): (vlog-13314) Defaulting port 'rresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(60): (vlog-13314) Defaulting port 'ruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package axi_BR_allocator_sv_unit
+-- Importing package axi_pkg
+-- Compiling module axi_BR_allocator
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(56): (vlog-13314) Defaulting port 'rid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(57): (vlog-13314) Defaulting port 'rdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(58): (vlog-13314) Defaulting port 'rresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BR_allocator.sv(60): (vlog-13314) Defaulting port 'ruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_BR_allocator
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_FanInPrimitive_Req.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_FanInPrimitive_Req
+
+Top level modules:
+	axi_FanInPrimitive_Req
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_int_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_int_controller_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_int_controller
+
+Top level modules:
+	zeroriscy_int_controller
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_decoder_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_decoder
+
+Top level modules:
+	zeroriscy_decoder
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/seconds_clk_div.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seconds_clk_div
+
+Top level modules:
+	seconds_clk_div
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_register_file_ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zeroriscy_register_file
+
+Top level modules:
+	zeroriscy_register_file
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/nominal_voltage_region.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nominal_voltage_region
+
+Top level modules:
+	nominal_voltage_region
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_gating.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulp_clock_gating
+
+Top level modules:
+	pulp_clock_gating
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/sp_ram_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sp_ram_wrap
+
+Top level modules:
+	sp_ram_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_node
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv(41): (vlog-13314) Defaulting port 'prdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv(46): (vlog-13314) Defaulting port 'START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_node.sv(47): (vlog-13314) Defaulting port 'END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	apb_node
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_multdiv_slow.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_multdiv_slow_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_multdiv_slow
+
+Top level modules:
+	zeroriscy_multdiv_slow
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_core.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_core_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_core
+
+Top level modules:
+	zeroriscy_core
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_tracer_defines.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_tracer_defines
+-- Importing package zeroriscy_defines
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_transmitter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_transmitter
+-- Compiling architecture rtl of uart_transmitter
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_data_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dc_data_buffer
+
+Top level modules:
+	dc_data_buffer
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulp_soc_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulp_soc_tb
+
+Top level modules:
+	pulp_soc_tb
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_prefetch_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zeroriscy_prefetch_buffer
+
+Top level modules:
+	zeroriscy_prefetch_buffer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_if_stage_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_if_stage
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv(273): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_if_stage.sv(32): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	zeroriscy_if_stage
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zeroriscy_load_store_unit
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv(487): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv(491): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_load_store_unit.sv(494): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	zeroriscy_load_store_unit
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/boot_code.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module boot_code
+
+Top level modules:
+	boot_code
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package axi_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/timing_test.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module timing_test
+-- Compiling module dff
+-- Compiling module inv
+-- Compiling module inv_chain
+
+Top level modules:
+	timing_test
+	inv
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BW.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_address_decoder_BW
+
+Top level modules:
+	axi_address_decoder_BW
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_b_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_b_buffer
+
+Top level modules:
+	axi_b_buffer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_regs.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_regs
+
+Top level modules:
+	spi_slave_regs
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fll_intf.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface FLL_BUS
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/scan_led_hex_display.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module scan_led_hex_disp
+
+Top level modules:
+	scan_led_hex_disp
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_DW.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_address_decoder_DW
+
+Top level modules:
+	axi_address_decoder_DW
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v {2 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v(12): (vlog-2263) Redefinition of macro: 'TOUTVCOMAX' (previously defined near C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v(10), old value '10000*1E-12 / `TSTEP', new value '100000*1E-12 / `TSTEP') .
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v(15): (vlog-2263) Redefinition of macro: 'FVCOMIN' (previously defined near C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v(14), old value '625e6', new value '2.5e9') .
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v(19): (vlog-2263) Redefinition of macro: 'FBDIVMIN' (previously defined near C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/TSMC28_PLL.v(18), old value '16', new value '`FVCOMAX / `FPFDMIN') .
+-- Compiling module TSMC28_PLL
+
+Top level modules:
+	TSMC28_PLL
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_dc_fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_dc_fifo
+
+Top level modules:
+	spi_slave_dc_fifo
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_address_decoder_BR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_address_decoder_BR
+
+Top level modules:
+	axi_address_decoder_BR
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/sleep_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sleep_unit
+
+Top level modules:
+	sleep_unit
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pll0
+
+Top level modules:
+	pll0
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_config.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_config.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_interface.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_interface
+
+Top level modules:
+	spi_interface
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/config.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/config.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_interrupt.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_interrupt
+-- Compiling architecture rtl of uart_interrupt
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_controller
+
+Top level modules:
+	spi_slave_controller
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/decoder_3to8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_3to8
+
+Top level modules:
+	decoder_3to8
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cluster_clock_mux2
+
+Top level modules:
+	cluster_clock_mux2
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv(54): (vlog-13314) Defaulting port 'bid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv(55): (vlog-13314) Defaulting port 'bresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv(56): (vlog-13314) Defaulting port 'buser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling package axi_BW_allocator_sv_unit
+-- Importing package axi_pkg
+-- Compiling module axi_BW_allocator
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv(54): (vlog-13314) Defaulting port 'bid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv(55): (vlog-13314) Defaulting port 'bresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_BW_allocator.sv(56): (vlog-13314) Defaulting port 'buser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_BW_allocator
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/fifo_v2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo_v2
+
+Top level modules:
+	fifo_v2
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dc_token_ring
+
+Top level modules:
+	dc_token_ring
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_controller_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_controller
+
+Top level modules:
+	zeroriscy_controller
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_AR_allocator
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(56): (vlog-13314) Defaulting port 'arid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(57): (vlog-13314) Defaulting port 'araddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(58): (vlog-13314) Defaulting port 'arlen_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(59): (vlog-13314) Defaulting port 'arsize_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(60): (vlog-13314) Defaulting port 'arburst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(62): (vlog-13314) Defaulting port 'arcache_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(63): (vlog-13314) Defaulting port 'arprot_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(64): (vlog-13314) Defaulting port 'arregion_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(65): (vlog-13314) Defaulting port 'aruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AR_allocator.sv(66): (vlog-13314) Defaulting port 'arqos_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_AR_allocator
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_request_block
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(62): (vlog-13314) Defaulting port 'awid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(63): (vlog-13314) Defaulting port 'awaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(64): (vlog-13314) Defaulting port 'awlen_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(65): (vlog-13314) Defaulting port 'awsize_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(66): (vlog-13314) Defaulting port 'awburst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(68): (vlog-13314) Defaulting port 'awcache_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(69): (vlog-13314) Defaulting port 'awprot_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(70): (vlog-13314) Defaulting port 'awregion_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(71): (vlog-13314) Defaulting port 'awuser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(72): (vlog-13314) Defaulting port 'awqos_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(78): (vlog-13314) Defaulting port 'wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(79): (vlog-13314) Defaulting port 'wstrb_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(81): (vlog-13314) Defaulting port 'wuser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(88): (vlog-13314) Defaulting port 'arid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(89): (vlog-13314) Defaulting port 'araddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(90): (vlog-13314) Defaulting port 'arlen_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(91): (vlog-13314) Defaulting port 'arsize_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(92): (vlog-13314) Defaulting port 'arburst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(94): (vlog-13314) Defaulting port 'arcache_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(95): (vlog-13314) Defaulting port 'arprot_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(96): (vlog-13314) Defaulting port 'arregion_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(97): (vlog-13314) Defaulting port 'aruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_request_block.sv(98): (vlog-13314) Defaulting port 'arqos_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_request_block
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi2apb_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling module axi2apb_wrap
+
+Top level modules:
+	axi2apb_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/cluster_clock_inverter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cluster_clock_inverter
+
+Top level modules:
+	cluster_clock_inverter
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_ar_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_ar_buffer
+
+Top level modules:
+	axi_ar_buffer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_node_wrap_with_slices
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv(38): (vlog-13314) Defaulting port 'start_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node_wrap_with_slices.sv(39): (vlog-13314) Defaulting port 'end_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_node_wrap_with_slices
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/apu_defines.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/apu_defines.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/simulation/pulpino_top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulpino_top_tb
+
+Top level modules:
+	pulpino_top_tb
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_fll_if.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_pll_if
+
+Top level modules:
+	apb_pll_if
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_test
+
+Top level modules:
+	spi_test
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_node
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(70): (vlog-13314) Defaulting port 'slave_awid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(71): (vlog-13314) Defaulting port 'slave_awaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(72): (vlog-13314) Defaulting port 'slave_awlen_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(73): (vlog-13314) Defaulting port 'slave_awsize_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(74): (vlog-13314) Defaulting port 'slave_awburst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(76): (vlog-13314) Defaulting port 'slave_awcache_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(77): (vlog-13314) Defaulting port 'slave_awprot_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(78): (vlog-13314) Defaulting port 'slave_awregion_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(79): (vlog-13314) Defaulting port 'slave_awuser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(80): (vlog-13314) Defaulting port 'slave_awqos_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(84): (vlog-13314) Defaulting port 'slave_wdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(85): (vlog-13314) Defaulting port 'slave_wstrb_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(87): (vlog-13314) Defaulting port 'slave_wuser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(97): (vlog-13314) Defaulting port 'slave_arid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(98): (vlog-13314) Defaulting port 'slave_araddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(99): (vlog-13314) Defaulting port 'slave_arlen_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(100): (vlog-13314) Defaulting port 'slave_arsize_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(101): (vlog-13314) Defaulting port 'slave_arburst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(103): (vlog-13314) Defaulting port 'slave_arcache_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(104): (vlog-13314) Defaulting port 'slave_arprot_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(105): (vlog-13314) Defaulting port 'slave_arregion_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(106): (vlog-13314) Defaulting port 'slave_aruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(107): (vlog-13314) Defaulting port 'slave_arqos_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(147): (vlog-13314) Defaulting port 'master_bid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(148): (vlog-13314) Defaulting port 'master_bresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(149): (vlog-13314) Defaulting port 'master_buser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(171): (vlog-13314) Defaulting port 'master_rid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(172): (vlog-13314) Defaulting port 'master_rdata_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(173): (vlog-13314) Defaulting port 'master_rresp_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(175): (vlog-13314) Defaulting port 'master_ruser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(213): (vlog-13314) Defaulting port 'cfg_START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(214): (vlog-13314) Defaulting port 'cfg_END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(215): (vlog-13314) Defaulting port 'cfg_valid_rule_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_node.sv(216): (vlog-13314) Defaulting port 'cfg_connectivity_map_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_node
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/PLLCORELAINT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PLLCORELAINT
+
+Top level modules:
+	PLLCORELAINT
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_clock_div.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_clock_div
+-- Compiling architecture rtl of slib_clock_div
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/pll0_sim.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pll0
+
+Top level modules:
+	pll0
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_tracer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_tracer_sv_unit
+-- Importing package zeroriscy_defines
+-- Importing package zeroriscy_tracer_defines
+-- Compiling module zeroriscy_tracer
+
+Top level modules:
+	zeroriscy_tracer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master_controller
+
+Top level modules:
+	spi_master_controller
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_wrap.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice_wrap
+
+Top level modules:
+	axi_slice_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_read_only_ctrl.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_read_only_ctrl
+
+Top level modules:
+	axi_read_only_ctrl
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/apb_mock_uart.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb_mock_uart
+
+Top level modules:
+	apb_mock_uart
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/pulp_clock_inverter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pulp_clock_inverter
+
+Top level modules:
+	pulp_clock_inverter
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_r_buffer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_r_buffer
+
+Top level modules:
+	axi_r_buffer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_cmd_parser.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_cmd_parser
+
+Top level modules:
+	spi_slave_cmd_parser
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_RR_Flag_Req.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_RR_Flag_Req
+
+Top level modules:
+	axi_RR_Flag_Req
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_debug_unit_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_debug_unit
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv(482): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv(487): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_debug_unit.sv(30): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	zeroriscy_debug_unit
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_edge_detect.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_edge_detect
+-- Compiling architecture rtl of slib_edge_detect
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_spi_slave.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_spi_slave
+
+Top level modules:
+	axi_spi_slave
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb_uart.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity apb_uart
+-- Compiling architecture rtl of apb_uart
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/spi_reciver.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_reciver
+
+Top level modules:
+	spi_reciver
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pll_controller
+
+Top level modules:
+	pll_controller
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/clk_rst_gen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clk_rst_gen
+
+Top level modules:
+	clk_rst_gen
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/include/zeroriscy_defines.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_defines
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_dout.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dc_token_ring_fifo_dout
+
+Top level modules:
+	dc_token_ring_fifo_dout
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_slice_dc_slave.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_slice_dc_slave
+
+Top level modules:
+	axi_slice_dc_slave
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_AW_allocator
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(56): (vlog-13314) Defaulting port 'awid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(57): (vlog-13314) Defaulting port 'awaddr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(58): (vlog-13314) Defaulting port 'awlen_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(59): (vlog-13314) Defaulting port 'awsize_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(60): (vlog-13314) Defaulting port 'awburst_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(62): (vlog-13314) Defaulting port 'awcache_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(63): (vlog-13314) Defaulting port 'awprot_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(64): (vlog-13314) Defaulting port 'awregion_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(65): (vlog-13314) Defaulting port 'awuser_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_AW_allocator.sv(66): (vlog-13314) Defaulting port 'awqos_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_AW_allocator
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/pll_config_arbiter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pll_config_arbiter
+
+Top level modules:
+	pll_config_arbiter
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_master_clkgen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master_clkgen
+
+Top level modules:
+	spi_master_clkgen
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_single_slice.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_single_slice
+
+Top level modules:
+	axi_single_slice
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/ssram.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ssram
+
+Top level modules:
+	ssram
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_syncro.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_syncro
+
+Top level modules:
+	spi_slave_syncro
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/virtual_spi_programmer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module virtual_spi_programmer
+
+Top level modules:
+	virtual_spi_programmer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/components/sp_ram.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sp_ram
+
+Top level modules:
+	sp_ram
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/clkgen.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OSC0
+
+Top level modules:
+	OSC0
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/apb2per.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module apb2per
+
+Top level modules:
+	apb2per
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_regs_top
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv(132): (vlog-13314) Defaulting port 'init_START_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv(133): (vlog-13314) Defaulting port 'init_END_ADDR_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv(134): (vlog-13314) Defaulting port 'init_valid_rule_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/axi_regs_top.sv(135): (vlog-13314) Defaulting port 'init_connectivity_map_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_regs_top
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zeroriscy_fetch_fifo
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv(228): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_fetch_fifo.sv(26): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	zeroriscy_fetch_fifo
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_cs_registers.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_cs_registers_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_cs_registers
+
+Top level modules:
+	zeroriscy_cs_registers
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv {2 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface AXI_BUS
+-- Compiling module axi_node_intf_wrap
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv(34): (vlog-13314) Defaulting port 'start_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/axi_node_intf_wrap.sv(35): (vlog-13314) Defaulting port 'end_addr_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	axi_node_intf_wrap
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/testbench/spi_master.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_master
+
+Top level modules:
+	spi_master
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/spi_slave_axi_plug.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module spi_slave_axi_plug
+
+Top level modules:
+	spi_slave_axi_plug
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_fifo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_fifo
+-- Compiling architecture rtl of slib_fifo
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/zero-riscy/zeroriscy_ex_block.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package zeroriscy_ex_block_sv_unit
+-- Importing package zeroriscy_defines
+-- Compiling module zeroriscy_ex_block
+
+Top level modules:
+	zeroriscy_ex_block
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/apb_bus.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/soc/includes/apb_bus.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling interface APB_BUS
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/slib_input_filter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity slib_input_filter
+-- Compiling architecture rtl of slib_input_filter
+
+} {} {}} C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/AnlogicProjects/pulpino_zeroriscy/al_ip/mem_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mem_tb
+
+Top level modules:
+	mem_tb
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_token_ring_fifo_din.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dc_token_ring_fifo_din
+
+Top level modules:
+	dc_token_ring_fifo_din
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/uart_receiver.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uart_receiver
+-- Compiling architecture rtl of uart_receiver
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/timer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v {1 {vlog -work work -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/dc_synchronizer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dc_synchronizer
+
+Top level modules:
+	dc_synchronizer
+
+} {} {}} C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/include/defines_event_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/10128/Documents/GitHub/AnLogic_core/RTL/periphery/include/defines_event_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}
