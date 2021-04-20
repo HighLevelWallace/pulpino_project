@@ -17,28 +17,36 @@ if(sys.platform[0] == 'w'):
 else:
     clrstr = "clear"
     sername = "/dev/ttyUSB0"
-    filelocation = "../flash_read_write/ext_mem.dat"
-ser = serial.Serial(sername, 115200, timeout = 0.01)
+    filelocation = "/media/barneyzhu/570A48D089F2FF71/flash_read_write/ext_mem.dat"
+ser = serial.Serial(sername, 115200, timeout = 0.001)
 
-print(ser.isOpen())
-
+# First read the number of lines in the file
+f = open(filelocation, "r")
+line_cnt = 0
+for line in f.readlines():
+    line_cnt = line_cnt + 1
+f.close()
 f = open(filelocation, "r")
 
+current_line = 0
 while 1:
     instr = ser.readline()
     while instr:
-        print((instr.decode() + "\r"))
+        # print((instr.decode() + "\r"))
         if instr[0:4].decode() == 'Done':
+            sys.stdout.write((instr.decode() + "\r"))
             ser.close()
             while 1:
-                pass
+                exit()
         instr = ser.readline()
     outstr = f.readline()
     if outstr:
-        print(outstr)
+        sys.stdout.write(outstr[0:8] + " {:.2%}\r".format((current_line + 1) / line_cnt))
         ser.write(outstr.encode())
+        current_line = current_line + 1
     else:
         ser.write('q'.encode())
-    time.sleep(0.001)
+        sys.stdout.write('\n')
+    # time.sleep(0.001)
     #os.system(clrstr)
 ser.close()
