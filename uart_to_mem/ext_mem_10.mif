@@ -1,0 +1,7 @@
+DEPTH = 256;                    --The size of data in bits
+WIDTH = 32;                     --The size of memory in words
+ADDRESS_RADIX = HEX;            --The radix for address values
+DATA_RADIX = HEX;
+
+CONTENT	BEGIN
+END;
