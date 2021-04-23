@@ -1,3 +1,5 @@
 *.db
 *.log
 /pulpino_zeroriscy/simulation
+*.mif
+*.dat

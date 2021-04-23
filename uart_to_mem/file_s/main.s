@@ -126,19 +126,20 @@ main:
 	call	uart_set_cfg
 	sw	zero,-20(s0)
 	sw	zero,-24(s0)
+	sw	zero,-28(s0)
 	j	.L14
 .L15:
 	li	a1,1
-	lw	a0,-24(s0)
+	lw	a0,-28(s0)
 	call	set_gpio_pin_direction
 	li	a1,1
-	lw	a0,-24(s0)
+	lw	a0,-28(s0)
 	call	set_gpio_pin_value
-	lw	a5,-24(s0)
+	lw	a5,-28(s0)
 	addi	a5,a5,1
-	sw	a5,-24(s0)
+	sw	a5,-28(s0)
 .L14:
-	lw	a4,-24(s0)
+	lw	a4,-28(s0)
 	li	a5,7
 	ble	a4,a5,.L15
 	lui	a5,%hi(.LC0)
@@ -148,60 +149,86 @@ main:
 	addi	a0,a5,%lo(.LC1)
 	call	puts
 	call	uart_wait_tx_done
-.L22:
-	sw	zero,-28(s0)
-.L19:
-	lw	s1,-28(s0)
+.L25:
+	sw	zero,-32(s0)
+.L20:
+	lw	s1,-32(s0)
 	addi	a5,s1,1
-	sw	a5,-28(s0)
+	sw	a5,-32(s0)
 	call	uart_getchar
 	mv	a5,a0
 	mv	a4,a5
 	addi	a5,s0,-16
 	add	a5,a5,s1
-	sb	a4,-28(a5)
+	sb	a4,-32(a5)
 	addi	a5,s0,-16
 	add	a5,a5,s1
-	lbu	a5,-28(a5)
+	lbu	a5,-32(a5)
 	mv	a0,a5
 	call	is_hex
 	mv	a5,a0
-	beq	a5,zero,.L25
-	lw	a4,-28(s0)
-	li	a5,19
-	bgt	a4,a5,.L26
-	j	.L19
-.L25:
-	nop
-	j	.L17
-.L26:
-	nop
-.L17:
-	sb	zero,-36(s0)
-	lw	a5,-28(s0)
+	bne	a5,zero,.L16
+	lw	a5,-32(s0)
 	addi	a5,a5,-1
 	addi	a4,s0,-16
 	add	a5,a4,a5
-	lbu	a4,-28(a5)
-	li	a5,113
-	beq	a4,a5,.L27
-	addi	a5,s0,-44
+	lbu	a4,-32(a5)
+	li	a5,64
+	bne	a4,a5,.L28
+	li	a5,1
+	sw	a5,-24(s0)
+	lw	a5,-32(s0)
+	addi	a5,a5,-1
+	sw	a5,-32(s0)
+	j	.L18
+.L16:
+	lw	a4,-32(s0)
+	li	a5,19
+	bgt	a4,a5,.L29
+.L18:
+	j	.L20
+.L28:
+	nop
+	j	.L19
+.L29:
+	nop
+.L19:
+	lw	a5,-24(s0)
+	beq	a5,zero,.L21
+	addi	a5,s0,-48
 	mv	a0,a5
 	call	str_to_int
 	mv	a5,a0
-	sw	a5,-32(s0)
+	sw	a5,-20(s0)
+	sw	zero,-24(s0)
+	j	.L22
+.L21:
+	sb	zero,-40(s0)
+	lw	a5,-32(s0)
+	addi	a5,a5,-1
+	addi	a4,s0,-16
+	add	a5,a4,a5
+	lbu	a4,-32(a5)
+	li	a5,113
+	beq	a4,a5,.L30
+	addi	a5,s0,-48
+	mv	a0,a5
+	call	str_to_int
+	mv	a5,a0
+	sw	a5,-36(s0)
 	lw	a5,-20(s0)
 	addi	a4,a5,4
 	sw	a4,-20(s0)
-	lw	a4,-32(s0)
+	lw	a4,-36(s0)
 	sw	a4,0(a5)
-	lw	a0,-32(s0)
+	lw	a0,-36(s0)
 	call	one_count
 	mv	a5,a0
 	mv	a0,a5
 	call	uart_sendchar
-	j	.L22
-.L27:
+.L22:
+	j	.L25
+.L30:
 	nop
 	li	a1,34
 	lui	a5,%hi(.LC2)
@@ -213,11 +240,11 @@ main:
 	sw	zero,0(a5)
 	li	a0,128
 	call	jump_and_start
-.L23:
+.L26:
 	lui	a5,%hi(.LC3)
 	addi	a0,a5,%lo(.LC3)
 	call	puts
-	j	.L23
+	j	.L26
 	.size	main, .-main
 	.section	.rodata
 	.align	2
@@ -244,8 +271,8 @@ hex_to_string:
 	sw	a4,-28(s0)
 	sw	a5,-24(s0)
 	sw	zero,-20(s0)
-	j	.L29
-.L30:
+	j	.L32
+.L33:
 	li	a4,7
 	lw	a5,-20(s0)
 	sub	a5,a4,a5
@@ -263,10 +290,10 @@ hex_to_string:
 	lw	a5,-20(s0)
 	addi	a5,a5,1
 	sw	a5,-20(s0)
-.L29:
+.L32:
 	lw	a4,-20(s0)
 	li	a5,7
-	ble	a4,a5,.L30
+	ble	a4,a5,.L33
 	lw	a5,-52(s0)
 	addi	a5,a5,8
 	sb	zero,0(a5)
@@ -285,20 +312,20 @@ str_to_int:
 	sw	a0,-36(s0)
 	sw	zero,-20(s0)
 	sw	zero,-24(s0)
-	j	.L33
-.L37:
+	j	.L36
+.L40:
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
 	lbu	a4,0(a5)
 	li	a5,57
-	bgtu	a4,a5,.L34
+	bgtu	a4,a5,.L37
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
 	lbu	a4,0(a5)
 	li	a5,47
-	bleu	a4,a5,.L34
+	bleu	a4,a5,.L37
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
@@ -312,20 +339,20 @@ str_to_int:
 	lw	a4,-20(s0)
 	or	a5,a4,a5
 	sw	a5,-20(s0)
-	j	.L35
-.L34:
+	j	.L38
+.L37:
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
 	lbu	a4,0(a5)
 	li	a5,70
-	bgtu	a4,a5,.L36
+	bgtu	a4,a5,.L39
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
 	lbu	a4,0(a5)
 	li	a5,64
-	bleu	a4,a5,.L36
+	bleu	a4,a5,.L39
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
@@ -339,20 +366,20 @@ str_to_int:
 	lw	a4,-20(s0)
 	or	a5,a4,a5
 	sw	a5,-20(s0)
-	j	.L35
-.L36:
+	j	.L38
+.L39:
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
 	lbu	a4,0(a5)
 	li	a5,102
-	bgtu	a4,a5,.L35
+	bgtu	a4,a5,.L38
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
 	lbu	a4,0(a5)
 	li	a5,96
-	bleu	a4,a5,.L35
+	bleu	a4,a5,.L38
 	lw	a5,-24(s0)
 	lw	a4,-36(s0)
 	add	a5,a4,a5
@@ -366,14 +393,14 @@ str_to_int:
 	lw	a4,-20(s0)
 	or	a5,a4,a5
 	sw	a5,-20(s0)
-.L35:
+.L38:
 	lw	a5,-24(s0)
 	addi	a5,a5,1
 	sw	a5,-24(s0)
-.L33:
+.L36:
 	lw	a4,-24(s0)
 	li	a5,7
-	ble	a4,a5,.L37
+	ble	a4,a5,.L40
 	lw	a5,-20(s0)
 	mv	a0,a5
 	lw	s0,44(sp)

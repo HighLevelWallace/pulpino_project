@@ -26,22 +26,22 @@ module mem_blk
 	localparam WRITEMODE_A  = "NORMAL";
 
 	localparam string FILE_LOCATION [15:0] = {
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_15.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_14.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_13.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_12.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_11.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_10.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_9.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_8.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_7.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_6.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_5.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_4.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_3.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_2.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_1.mif",
-		"/media/barneyzhu/570A48D089F2FF71/uart_to_mem/ext_mem_0.mif"
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_15.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_14.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_13.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_12.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_11.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_10.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_9.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_8.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_7.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_6.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_5.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_4.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_3.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_2.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_1.mif",
+		"/media/barneyzhu/570A48D089F2FF71/pulpino_project/uart_to_mem/ext_mem_0.mif"
 	};
 
 	output [DATA_WIDTH_A-1:0] doa;
