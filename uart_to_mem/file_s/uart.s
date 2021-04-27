@@ -1,10 +1,10 @@
 	.file	"uart.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.globl	uart_set_cfg
 	.type	uart_set_cfg, @function
 uart_set_cfg:
@@ -59,7 +59,7 @@ uart_set_cfg:
 	addi	sp,sp,32
 	jr	ra
 	.size	uart_set_cfg, .-uart_set_cfg
-	.align	2
+	.align	1
 	.globl	uart_send
 	.type	uart_send, @function
 uart_send:
@@ -107,7 +107,7 @@ uart_send:
 	addi	sp,sp,48
 	jr	ra
 	.size	uart_send, .-uart_send
-	.align	2
+	.align	1
 	.globl	uart_getchar
 	.type	uart_getchar, @function
 uart_getchar:
@@ -130,7 +130,7 @@ uart_getchar:
 	addi	sp,sp,16
 	jr	ra
 	.size	uart_getchar, .-uart_getchar
-	.align	2
+	.align	1
 	.globl	uart_sendchar
 	.type	uart_sendchar, @function
 uart_sendchar:
@@ -154,7 +154,7 @@ uart_sendchar:
 	addi	sp,sp,32
 	jr	ra
 	.size	uart_sendchar, .-uart_sendchar
-	.align	2
+	.align	1
 	.globl	uart_wait_tx_done
 	.type	uart_wait_tx_done, @function
 uart_wait_tx_done:

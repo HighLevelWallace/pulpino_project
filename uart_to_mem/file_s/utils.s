@@ -1,10 +1,10 @@
 	.file	"utils.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.globl	exit
 	.type	exit, @function
 exit:
@@ -18,7 +18,7 @@ exit:
 .L2:
 	j	.L2
 	.size	exit, .-exit
-	.align	2
+	.align	1
 	.globl	eoc
 	.type	eoc, @function
 eoc:
@@ -50,7 +50,7 @@ eoc:
 	addi	sp,sp,32
 	jr	ra
 	.size	eoc, .-eoc
-	.align	2
+	.align	1
 	.globl	sleep_busy
 	.type	sleep_busy, @function
 sleep_busy:
@@ -84,7 +84,7 @@ sleep_busy:
 .LC0:
 	.string	"cpu_perf_set: not implemented yet"
 	.text
-	.align	2
+	.align	1
 	.globl	cpu_perf_set
 	.type	cpu_perf_set, @function
 cpu_perf_set:
@@ -108,7 +108,7 @@ cpu_perf_set:
 .LC1:
 	.string	"CSR %d not yet supported\n"
 	.text
-	.align	2
+	.align	1
 	.globl	cpu_perf_get
 	.type	cpu_perf_get, @function
 cpu_perf_get:

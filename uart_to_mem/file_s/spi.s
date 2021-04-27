@@ -1,10 +1,10 @@
 	.file	"spi.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.globl	spi_setup_slave
 	.type	spi_setup_slave, @function
 spi_setup_slave:
@@ -33,7 +33,7 @@ spi_setup_slave:
 	addi	sp,sp,16
 	jr	ra
 	.size	spi_setup_slave, .-spi_setup_slave
-	.align	2
+	.align	1
 	.globl	spi_setup_master
 	.type	spi_setup_master, @function
 spi_setup_master:
@@ -87,7 +87,7 @@ spi_setup_master:
 	addi	sp,sp,32
 	jr	ra
 	.size	spi_setup_master, .-spi_setup_master
-	.align	2
+	.align	1
 	.globl	spi_setup_cmd_addr
 	.type	spi_setup_cmd_addr, @function
 spi_setup_cmd_addr:
@@ -128,7 +128,7 @@ spi_setup_cmd_addr:
 	addi	sp,sp,48
 	jr	ra
 	.size	spi_setup_cmd_addr, .-spi_setup_cmd_addr
-	.align	2
+	.align	1
 	.globl	spi_setup_dummy
 	.type	spi_setup_dummy, @function
 spi_setup_dummy:
@@ -153,7 +153,7 @@ spi_setup_dummy:
 	addi	sp,sp,32
 	jr	ra
 	.size	spi_setup_dummy, .-spi_setup_dummy
-	.align	2
+	.align	1
 	.globl	spi_set_datalen
 	.type	spi_set_datalen, @function
 spi_set_datalen:
@@ -184,7 +184,7 @@ spi_set_datalen:
 	addi	sp,sp,48
 	jr	ra
 	.size	spi_set_datalen, .-spi_set_datalen
-	.align	2
+	.align	1
 	.globl	spi_start_transaction
 	.type	spi_start_transaction, @function
 spi_start_transaction:
@@ -212,7 +212,7 @@ spi_start_transaction:
 	addi	sp,sp,32
 	jr	ra
 	.size	spi_start_transaction, .-spi_start_transaction
-	.align	2
+	.align	1
 	.globl	spi_get_status
 	.type	spi_get_status, @function
 spi_get_status:
@@ -228,7 +228,7 @@ spi_get_status:
 	addi	sp,sp,32
 	jr	ra
 	.size	spi_get_status, .-spi_get_status
-	.align	2
+	.align	1
 	.globl	spi_write_fifo
 	.type	spi_write_fifo, @function
 spi_write_fifo:
@@ -279,7 +279,7 @@ spi_write_fifo:
 	addi	sp,sp,48
 	jr	ra
 	.size	spi_write_fifo, .-spi_write_fifo
-	.align	2
+	.align	1
 	.globl	spi_read_fifo
 	.type	spi_read_fifo, @function
 spi_read_fifo:

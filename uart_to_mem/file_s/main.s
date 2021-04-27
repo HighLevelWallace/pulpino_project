@@ -1,10 +1,10 @@
 	.file	"main.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.globl	is_hex
 	.type	is_hex, @function
 is_hex:
@@ -44,7 +44,7 @@ is_hex:
 	addi	sp,sp,32
 	jr	ra
 	.size	is_hex, .-is_hex
-	.align	2
+	.align	1
 	.globl	one_count
 	.type	one_count, @function
 one_count:
@@ -75,7 +75,7 @@ one_count:
 	addi	sp,sp,48
 	jr	ra
 	.size	one_count, .-one_count
-	.align	2
+	.align	1
 	.globl	jump_and_start
 	.type	jump_and_start, @function
 jump_and_start:
@@ -112,7 +112,7 @@ nop
 .LC3:
 	.string	"This isn't supposed to be shown. "
 	.text
-	.align	2
+	.align	1
 	.globl	main
 	.type	main, @function
 main:
@@ -251,7 +251,7 @@ main:
 .LC4:
 	.ascii	"0123456789ABCDEF"
 	.text
-	.align	2
+	.align	1
 	.globl	hex_to_string
 	.type	hex_to_string, @function
 hex_to_string:
@@ -302,7 +302,7 @@ hex_to_string:
 	addi	sp,sp,64
 	jr	ra
 	.size	hex_to_string, .-hex_to_string
-	.align	2
+	.align	1
 	.globl	str_to_int
 	.type	str_to_int, @function
 str_to_int:

@@ -1,10 +1,10 @@
 	.file	"gpio.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.globl	set_pin_function
 	.type	set_pin_function, @function
 set_pin_function:
@@ -37,7 +37,7 @@ set_pin_function:
 	addi	sp,sp,48
 	jr	ra
 	.size	set_pin_function, .-set_pin_function
-	.align	2
+	.align	1
 	.globl	get_pin_function
 	.type	get_pin_function, @function
 get_pin_function:
@@ -59,7 +59,7 @@ get_pin_function:
 	addi	sp,sp,48
 	jr	ra
 	.size	get_pin_function, .-get_pin_function
-	.align	2
+	.align	1
 	.globl	set_gpio_pin_direction
 	.type	set_gpio_pin_direction, @function
 set_gpio_pin_direction:
@@ -97,7 +97,7 @@ set_gpio_pin_direction:
 	addi	sp,sp,48
 	jr	ra
 	.size	set_gpio_pin_direction, .-set_gpio_pin_direction
-	.align	2
+	.align	1
 	.globl	get_gpio_pin_direction
 	.type	get_gpio_pin_direction, @function
 get_gpio_pin_direction:
@@ -120,7 +120,7 @@ get_gpio_pin_direction:
 	addi	sp,sp,48
 	jr	ra
 	.size	get_gpio_pin_direction, .-get_gpio_pin_direction
-	.align	2
+	.align	1
 	.globl	set_gpio_pin_value
 	.type	set_gpio_pin_value, @function
 set_gpio_pin_value:
@@ -160,7 +160,7 @@ set_gpio_pin_value:
 	addi	sp,sp,48
 	jr	ra
 	.size	set_gpio_pin_value, .-set_gpio_pin_value
-	.align	2
+	.align	1
 	.globl	get_gpio_pin_value
 	.type	get_gpio_pin_value, @function
 get_gpio_pin_value:
@@ -183,7 +183,7 @@ get_gpio_pin_value:
 	addi	sp,sp,48
 	jr	ra
 	.size	get_gpio_pin_value, .-get_gpio_pin_value
-	.align	2
+	.align	1
 	.globl	set_gpio_pin_irq_en
 	.type	set_gpio_pin_irq_en, @function
 set_gpio_pin_irq_en:
@@ -223,7 +223,7 @@ set_gpio_pin_irq_en:
 	addi	sp,sp,48
 	jr	ra
 	.size	set_gpio_pin_irq_en, .-set_gpio_pin_irq_en
-	.align	2
+	.align	1
 	.globl	set_gpio_pin_irq_type
 	.type	set_gpio_pin_irq_type, @function
 set_gpio_pin_irq_type:
@@ -291,7 +291,7 @@ set_gpio_pin_irq_type:
 	addi	sp,sp,48
 	jr	ra
 	.size	set_gpio_pin_irq_type, .-set_gpio_pin_irq_type
-	.align	2
+	.align	1
 	.globl	get_gpio_irq_status
 	.type	get_gpio_irq_status, @function
 get_gpio_irq_status:

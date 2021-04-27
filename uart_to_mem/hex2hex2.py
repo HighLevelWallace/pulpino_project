@@ -15,6 +15,12 @@ with open("helloworld.hex", "r") as f1 :
 			num_byte = h2d(line[1:3])
 			if line[7:9] == "02" :
 				f2.write("@" + line[9:(9 + num_byte*2)] + "00\n")
+				byte_i = 0
+				continue
+			if line[7:9]=="04":
+				f2.write("@" + line[9:(9 + num_byte*2)] + "0000\n")
+				byte_i = 0
+				continue
 			elif line[7:9] == "00" :
 				for i in range(num_byte) :
 					if  byte_i == 3 :

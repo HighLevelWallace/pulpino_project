@@ -1,10 +1,10 @@
 	.file	"qprintf.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.type	divu10, @function
 divu10:
 	addi	sp,sp,-48
@@ -63,7 +63,7 @@ remu10_table:
 	.string	""
 	.string	"\001\002\002\003\003\004\005\005\006\007\007\b\b\t"
 	.text
-	.align	2
+	.align	1
 	.type	remu10, @function
 remu10:
 	addi	sp,sp,-32
@@ -92,7 +92,7 @@ remu10:
 	addi	sp,sp,32
 	jr	ra
 	.size	remu10, .-remu10
-	.align	2
+	.align	1
 	.globl	putchar
 	.type	putchar, @function
 putchar:
@@ -112,7 +112,7 @@ putchar:
 	addi	sp,sp,32
 	jr	ra
 	.size	putchar, .-putchar
-	.align	2
+	.align	1
 	.type	qprintchar, @function
 qprintchar:
 	addi	sp,sp,-32
@@ -146,7 +146,7 @@ qprintchar:
 	addi	sp,sp,32
 	jr	ra
 	.size	qprintchar, .-qprintchar
-	.align	2
+	.align	1
 	.type	qprints, @function
 qprints:
 	addi	sp,sp,-48
@@ -241,7 +241,7 @@ qprints:
 	addi	sp,sp,48
 	jr	ra
 	.size	qprints, .-qprints
-	.align	2
+	.align	1
 	.type	qprinti, @function
 qprinti:
 	addi	sp,sp,-112
@@ -379,7 +379,7 @@ qprinti:
 .LC0:
 	.string	"(null)"
 	.text
-	.align	2
+	.align	1
 	.type	qprint, @function
 qprint:
 	addi	sp,sp,-64
@@ -617,7 +617,7 @@ qprint:
 	addi	sp,sp,64
 	jr	ra
 	.size	qprint, .-qprint
-	.align	2
+	.align	1
 	.globl	printf
 	.type	printf, @function
 printf:
@@ -651,7 +651,7 @@ printf:
 	addi	sp,sp,80
 	jr	ra
 	.size	printf, .-printf
-	.align	2
+	.align	1
 	.globl	puts
 	.type	puts, @function
 puts:
@@ -687,7 +687,7 @@ puts:
 	addi	sp,sp,48
 	jr	ra
 	.size	puts, .-puts
-	.align	2
+	.align	1
 	.globl	strcmp
 	.type	strcmp, @function
 strcmp:
@@ -769,7 +769,7 @@ strcmp:
 	addi	sp,sp,48
 	jr	ra
 	.size	strcmp, .-strcmp
-	.align	2
+	.align	1
 	.globl	memset
 	.type	memset, @function
 memset:
@@ -801,7 +801,7 @@ memset:
 	addi	sp,sp,48
 	jr	ra
 	.size	memset, .-memset
-	.align	2
+	.align	1
 	.globl	strcpy
 	.type	strcpy, @function
 strcpy:
@@ -836,7 +836,7 @@ strcpy:
 	addi	sp,sp,48
 	jr	ra
 	.size	strcpy, .-strcpy
-	.align	2
+	.align	1
 	.globl	strlen
 	.type	strlen, @function
 strlen:

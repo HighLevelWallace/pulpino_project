@@ -17,7 +17,7 @@ if(sys.platform[0] == 'w'):
 else:
     clrstr = "clear"
     sername = "/dev/ttyUSB0"
-    filelocation = "/media/barneyzhu/570A48D089F2FF71/flash_read_write/ext_mem.dat"
+    filelocation = "/media/barneyzhu/570A48D089F2FF71/mybeebs/ext_mem.dat"
     os.system("sudo chmod 777 " + sername)
 ser = serial.Serial(sername, 115200, timeout = 0.001)
 

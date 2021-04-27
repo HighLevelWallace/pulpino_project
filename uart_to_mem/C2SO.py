@@ -18,7 +18,7 @@ def C2I():
 		if(len(tmp) == 1):
 			pass
 		elif(tmp[1].lower() == 'c'):
-			os.system('riscv32-unknown-elf-gcc -march=rv32im -mabi=ilp32 -E -o ' './file_i/' + tmp[0] + '.i ' + './file_c/' + file)
+			os.system('riscv32-unknown-elf-gcc -march=rv32imc -mabi=ilp32 -E -o ' './file_i/' + tmp[0] + '.i ' + './file_c/' + file)
 			#print('riscv32-unknown-elf-gcc -march=rv32i -mabi=ilp32 -E -o ' + './file_i/' + tmp[0] + '.i ' + tmp[0] + '.c')
 
 
@@ -36,7 +36,7 @@ def I2S():
 		if(len(tmp) == 1):
 			pass
 		elif(tmp[1].lower() == 'i'):
-			os.system('riscv32-unknown-elf-gcc -march=rv32im -mabi=ilp32 -S -o ' + './file_s/' + tmp[0] + '.s ' + path_files_i + '/' + file)
+			os.system('riscv32-unknown-elf-gcc -march=rv32imc -mabi=ilp32 -S -o ' + './file_s/' + tmp[0] + '.s ' + path_files_i + '/' + file)
 
 
 def S2O():
@@ -52,7 +52,7 @@ def S2O():
 		if(len(tmp) == 1):
 			pass
 		elif(tmp[1].lower() == 's'):
-			os.system('riscv32-unknown-elf-gcc -march=rv32im -mabi=ilp32 -c -o ' + './file_o/' + tmp[0] + '.o ' + path_files_s  + '/' + file)
+			os.system('riscv32-unknown-elf-gcc -march=rv32imc -mabi=ilp32 -c -o ' + './file_o/' + tmp[0] + '.o ' + path_files_s  + '/' + file)
 
 
 def Ld():

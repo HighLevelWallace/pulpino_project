@@ -1,10 +1,10 @@
 	.file	"timer.c"
 	.option nopic
-	.attribute arch, "rv32i2p0_m2p0"
+	.attribute arch, "rv32i2p0_m2p0_c2p0"
 	.attribute unaligned_access, 0
 	.attribute stack_align, 16
 	.text
-	.align	2
+	.align	1
 	.globl	reset_timer
 	.type	reset_timer, @function
 reset_timer:
@@ -18,7 +18,7 @@ reset_timer:
 	addi	sp,sp,16
 	jr	ra
 	.size	reset_timer, .-reset_timer
-	.align	2
+	.align	1
 	.globl	start_timer
 	.type	start_timer, @function
 start_timer:
@@ -34,7 +34,7 @@ start_timer:
 	addi	sp,sp,16
 	jr	ra
 	.size	start_timer, .-start_timer
-	.align	2
+	.align	1
 	.globl	stop_timer
 	.type	stop_timer, @function
 stop_timer:
@@ -49,7 +49,7 @@ stop_timer:
 	addi	sp,sp,16
 	jr	ra
 	.size	stop_timer, .-stop_timer
-	.align	2
+	.align	1
 	.globl	get_time
 	.type	get_time, @function
 get_time:
